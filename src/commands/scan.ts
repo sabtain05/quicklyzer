@@ -85,8 +85,8 @@ export function scanCommand() {
 
 
     title("Architecture Score");
-    console.log(`Score                    : ${project.architecture.score.score}/100`);
-    console.log(`Rating                   : ${project.architecture.score.rating}`);
+    console.log(`Score            : ${project.architecture.score.score}/100`);
+    console.log(`Rating           : ${project.architecture.score.rating}`);
 
 
     title("Architecture Recommendations");
