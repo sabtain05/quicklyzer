@@ -179,7 +179,7 @@ dependencyAnalysis: {
     }[];
     importHotspots: {
       file: string;
-      imports: string;
+      imports: number;
     }[];
     recommendations: string[];
   };
