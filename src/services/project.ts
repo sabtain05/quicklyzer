@@ -172,7 +172,7 @@ dependencyAnalysis: {
     score:{
       score: number;
       rating: string;
-    }[];
+    };
     layerSummary: {
       name: string;
       modules: number;
