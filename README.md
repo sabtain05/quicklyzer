@@ -1,20 +1,18 @@
 # Quicklyzer
 
-Quicklyzer is an intelligent CLI that analyzes software projects in seconds.
+Quicklyzer is a fast & intelligent CLI that analyzes software projects in seconds.
 
-It inspects your project's architecture, dependencies, documentation, Git repository, source code, exports professional reports, and performs security analysis to help developers better understand and maintain their projects.
+It scans your project structure, architecture, dependencies, source code, documentation, Git repository, security posture, and overall project health to provide actionable insights for developers.
 
 ---
 
 # Installation
 
-## Global
-
 ```bash
 npm install -g quicklyzer
 ```
 
-## Using npx
+or
 
 ```bash
 npx quicklyzer scan
@@ -24,7 +22,7 @@ npx quicklyzer scan
 
 # Commands
 
-## Scan Project
+## Analyze Project
 
 ```bash
 quicklyzer scan
@@ -56,7 +54,7 @@ quicklyzer scan --ignore coverage
 quicklyzer scan --ignore uploads
 ```
 
-Multiple ignores:
+Multiple directories:
 
 ```bash
 quicklyzer scan --ignore dist --ignore coverage
@@ -84,19 +82,19 @@ HTML
 quicklyzer export --format html
 ```
 
-Export all formats
+All Formats
 
 ```bash
 quicklyzer export --all
 ```
 
-Custom directory
+Custom Output Folder
 
 ```bash
 quicklyzer export --all --output reports
 ```
 
-Custom filename
+Custom Filename
 
 ```bash
 quicklyzer export --all --output reports --name project-report
@@ -109,20 +107,44 @@ quicklyzer export --all --output reports --name project-report
 ## Project Intelligence
 
 - Project information
-- Framework detection
-- Framework version detection
-- Build tool detection
-- Build tool version detection
-- Programming language detection
-- Technology stack detection
+- Project type detection
 - Entry point detection
-- Node.js requirement detection
+- Project structure analysis
+- Folder discovery
+- File discovery
 - Configuration file detection
+- Technology stack detection
+
+---
+
+## Architecture Intelligence
+
+- Module discovery
+- Import graph analysis
+- Total module count
+- Total import count
+- Circular dependency detection
+- Dependency depth analysis
+- Layer detection
+- Layer summary
+- Public API detection
+- Dead module detection
+- Import hotspots
+- Architecture score
+- Architecture recommendations
+- Architecture health summary
 
 ---
 
 ## Environment Intelligence
 
+- Package manager detection
+- Programming language detection
+- Framework detection
+- Framework version detection
+- Build tool detection
+- Build tool version detection
+- Required Node.js version
 - Docker detection
 - CI/CD detection
 - ESLint detection
@@ -135,67 +157,87 @@ quicklyzer export --all --output reports --name project-report
 
 - Production dependencies
 - Development dependencies
-- Dependency statistics
 - Installed package count
-- Largest packages
-- Dependency health insights
-- Package manager detection
+- Installed package size
+- Largest installed packages
+- Unused dependency detection
+- Missing dependency detection
+- Duplicate version detection
+- Dependency risk analysis
+- Dependency summary
+
+---
+
+## Package Health
+
+- Package health score
+- Package metadata validation
+- Repository validation
+- Homepage validation
+- Author validation
+- License validation
+- Engines validation
+- Keywords validation
+- Bugs validation
+- Missing package metadata
 
 ---
 
 ## Code Intelligence
 
-- Project statistics
 - Source file analysis
-- Lines of code
+- Project statistics
 - Largest files
 - Largest directories
+- Empty source files
 - Hidden files
-- Empty directories
-- Project size
+- Extension statistics
 - TODO detection
 - FIXME detection
 - NOTE detection
 - HACK detection
+- Duplicate filename detection
+- Recent file activity
+
+---
+
+## Git Intelligence
+
+- Repository detection
+- Current branch
+- Local branch count
+- Remote repository detection
+- Last commit
+- Recent commits
+- Top contributors
+- Recent tags
+- Working tree status
+- Modified files
+- Staged files
+- Untracked files
+- Ahead/Behind status
+- .gitignore analysis
+- Repository health score
+- Git recommendations
 
 ---
 
 ## Documentation Intelligence
 
 - README detection
-- README section analysis
-- README statistics
-- Badge detection
-- External link detection
 - CHANGELOG detection
 - CONTRIBUTING detection
 - CODE_OF_CONDUCT detection
 - SECURITY detection
 - LICENSE detection
+- README section analysis
+- README statistics
+- Badge detection
+- Link detection
 - License type detection
 - Documentation score
 - Documentation recommendations
 - Documentation health summary
-
----
-
-## Git Intelligence
-
-- Git repository detection
-- Current branch
-- Local branch count
-- Remote repository
-- Last commit
-- Recent commits
-- Top contributors
-- Recent tags
-- Modified files
-- Staged files
-- Untracked files
-- Ahead / Behind status
-- Repository health score
-- .gitignore analysis
-- Git recommendations
 
 ---
 
@@ -206,35 +248,42 @@ quicklyzer export --all --output reports --name project-report
 - Sensitive file detection
 - Secret pattern detection
 - Security score
-- Security rating
 - Security recommendations
 - Security health summary
 
 ---
 
-## Report Export
+## Export Engine
 
-- JSON reports
-- Markdown reports
-- HTML reports
+- JSON export
+- Markdown export
+- HTML export
 - Export all formats
-- Custom filenames
 - Custom output directory
-- Export manifest
+- Custom report filename
 
 ---
 
 ## Developer Experience
 
+- Fast project scanning
 - Colored terminal output
 - Progress spinner
 - Verbose mode
 - Quiet mode
 - Performance timing
 - Scan duration
-- Custom ignored directories
+- Ignore directories
 - Friendly error handling
 - Professional CLI output
+
+---
+
+# Example
+
+```bash
+quicklyzer scan
+```
 
 ---
 
@@ -245,22 +294,10 @@ quicklyzer export --all --output reports --name project-report
 
 ---
 
-# Roadmap
-
-- Project architecture visualization
-- Dependency graph generation
-- Plugin system
-- AI-powered project insights
-- Performance profiling
-- Cloud project reports
-
----
-
 # License
 
-MIT License
+MIT
 
 ---
 
 **A Sabtain Ali production**
-
