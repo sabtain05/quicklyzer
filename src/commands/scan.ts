@@ -96,7 +96,7 @@ export function scanCommand() {
 
 
     title("Architecture Health");
-    console.log(`Health Score             : ${project.architecture.score.score}/100`);
+    console.log(`Health Score      : ${project.architecture.score.score}/100`);
 
 
     title("Import Hotspots");
