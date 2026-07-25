@@ -131,6 +131,7 @@ export function scanCommand() {
 
 
     title("Performance Health");
+    console.log(`Health Score          : ${project.performance.score.score}/100`);
 
 
 
