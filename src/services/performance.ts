@@ -8,5 +8,5 @@ export interface PerformanceAnalysis{
     heavyFiles: {
         file: string;
         size: number;
-    }
+    }[];
 }
