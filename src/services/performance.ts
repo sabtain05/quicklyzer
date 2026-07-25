@@ -33,6 +33,11 @@ export interface PerformanceAnalysis{
         file: string;
         score: number;
     }[];
+
+    optimizationSummary: {
+        optimized: number;
+        needsAttention: number;
+    };
 }
 
 
