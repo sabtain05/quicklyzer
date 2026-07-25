@@ -87,7 +87,7 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
 
     const largestModules = detectLargestModules(modules);
 
-    
+    const startupCost = estimateStartupCost(modules);
 
     return{
         heavyFiles,
