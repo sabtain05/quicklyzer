@@ -32,7 +32,7 @@ export interface PerformanceAnalysis{
     moduleComplexity:{
         file: string;
         score: number;
-    }
+    }[];
 }
 
 
