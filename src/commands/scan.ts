@@ -112,8 +112,8 @@ export function scanCommand() {
 
 
     title("Performance");
-    console.log(`Heavy Files      : ${project.performance.totalHeavyFiles}`);
-    console.log(`Largest Modules  : ${project.performance.largestModules.length}`);
+    console.log(`Heavy Files       : ${project.performance.totalHeavyFiles}`);
+    console.log(`Largest Modules   : ${project.performance.largestModules.length}`);
 
 
 
