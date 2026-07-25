@@ -194,6 +194,7 @@ dependencyAnalysis: {
       imports: number;
     }[];
     totalHeavyFiles: number;
+    startupCost: number;
   }
   scripts: string[];
   nodeVersion: string;
