@@ -30,5 +30,5 @@ function detectLargestModules(modules: ModuleInfo[]){
 
 
 export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
-    
+    const heavyFiles = detectHeavyFiles(modules);
 }
