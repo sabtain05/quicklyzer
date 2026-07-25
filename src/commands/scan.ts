@@ -6,6 +6,7 @@ import { performance } from "node:perf_hooks";
 import ora from "ora";
 import {title, error} from "../utils/ui.js";
 import { checkForUpdates } from "../services/update.js";
+import { getProjectTree } from "../services/architecture.js";
 
 function shouldShow(options: any) {
   return !options.quiet;
@@ -114,6 +115,8 @@ export function scanCommand() {
     title("Performance");
     console.log(`Heavy Files       : ${project.performance.totalHeavyFiles}`);
     console.log(`Largest Modules   : ${project.performance.largestModules.length}`);
+    console.log(`Startup Cost      : ${project.performance.startupCost}`);
+    console.log(`Heavy Dependencies: ${project.performance.heavydependencies}`);
 
 
 
