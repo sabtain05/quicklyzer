@@ -19,5 +19,5 @@ export interface PerformanceAnalysis{
 
 
 function detectHeavyFiles(modules: ModuleInfo[]){
-    return modules.map(module=>({file: module.file, size: statSync(module.file).size}))
+    return modules.map(module=>({file: module.file, size: statSync(module.file).size})).sort((a,b)=>b.size-a.size).slice(0,5);
 }
