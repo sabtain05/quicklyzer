@@ -17,6 +17,10 @@ export interface PerformanceAnalysis{
     totalHeavyFiles: number;
 
     startupCost: number;
+
+    heavyDependencies: number;
+
+    
 }
 
 
