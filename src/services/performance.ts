@@ -120,6 +120,7 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
         largestModules,
         totalHeavyFiles: heavyFiles.length,
         startupCost,
+        heavyDependencies,
         
     };
 }
