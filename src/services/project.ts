@@ -188,7 +188,7 @@ dependencyAnalysis: {
     heavyFiles: {
       file: string;
       size: number;
-    }
+    }[];
   }
   scripts: string[];
   nodeVersion: string;
