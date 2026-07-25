@@ -125,7 +125,9 @@ export function scanCommand() {
 
 
     title("Performance Recommendations");
-    for(const recommendation of project.performance.recommendations)
+    for(const recommendation of project.performance.recommendations){
+      console.log(`• ${recommendation}`);
+    }
 
 
 
