@@ -54,6 +54,8 @@ function detectHeavyDependencies(modules: ModuleInfo[]){
     for(const module of modules){
         total+=module.imports.length;
     }
+
+    return cost;
 }
 
 
