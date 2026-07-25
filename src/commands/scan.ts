@@ -131,7 +131,7 @@ export function scanCommand() {
 
 
     title("Import Density");
-    console.log(`Average Imports / Module         : ${project.performance.importDensity}`);
+    console.log(`Average Imports / Module    : ${project.performance.importDensity}`);
 
 
     title("Optimization Summary");
