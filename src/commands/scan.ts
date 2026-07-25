@@ -119,6 +119,9 @@ export function scanCommand() {
     console.log(`Heavy Dependencies: ${project.performance.heavydependencies}`);
 
 
+    title("Performance Score");
+
+
 
     // ============================================================
     // Configuration Files
