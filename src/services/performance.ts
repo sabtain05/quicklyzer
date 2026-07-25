@@ -61,6 +61,10 @@ function detectHeavyDependencies(modules: ModuleInfo[]){
 
 function buildRecommendations(heavyFiles: number, startup: number, dependencies: number){
     const recommendations: string[] = [];
+    if(heavyFiles>5){
+        recommendations.push("Reduce large source files.");
+    }
+
     
 }
 
