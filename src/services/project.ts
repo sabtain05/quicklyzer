@@ -17,6 +17,7 @@ import { analyzeDocumentation } from "./documentation.js";
 import { analyzeGit, GitAnalysis } from "./git.js";
 import { analyzeSecurity } from "./security.js";
 import { analyzeArchitecture } from "./architecture-intelligence.js";
+import { analyzePerformance } from "./performance.js";
 
 
 export interface ProjectInfo {
