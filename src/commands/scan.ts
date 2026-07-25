@@ -130,6 +130,9 @@ export function scanCommand() {
     }
 
 
+    title("Performance Hotspots");
+
+
 
     // ============================================================
     // Configuration Files
