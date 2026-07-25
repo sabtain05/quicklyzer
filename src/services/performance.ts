@@ -18,8 +18,5 @@ export interface PerformanceAnalysis{
 }
 
 
-function detectHeavyFiles(
-    modules: ModuleInfo[]
-){
-    
+function detectHeavyFiles(modules: ModuleInfo[]){
 }
