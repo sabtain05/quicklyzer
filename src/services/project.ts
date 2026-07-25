@@ -189,6 +189,9 @@ dependencyAnalysis: {
       file: string;
       size: number;
     }[];
+    largestModules:{
+      file: string;
+    }
   }
   scripts: string[];
   nodeVersion: string;
