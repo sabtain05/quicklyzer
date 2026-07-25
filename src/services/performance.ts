@@ -44,6 +44,8 @@ function estimateStartupCost(modules: ModuleInfo[]){
     for(const module of modules){
         const+=module.imports.length;
     }
+
+    return cost;
 }
 
 
