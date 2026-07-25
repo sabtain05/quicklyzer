@@ -103,6 +103,11 @@ function calculateImportDensity(modules: ModuleInfo[]){
 }
 
 
+function buildModuleComplexity(modules: ModuleInfo[]){
+    
+}
+
+
 
 export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
     const heavyFiles = detectHeavyFiles(modules);
