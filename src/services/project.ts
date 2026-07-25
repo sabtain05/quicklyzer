@@ -208,7 +208,8 @@ dependencyAnalysis: {
     }[];
     optimizationSummary:{
       optimized: number;
-    }
+      needsAttention: number;
+    };
   };
   scripts: string[];
   nodeVersion: string;
