@@ -536,6 +536,7 @@ export function analyzeProject(
   const gitAnalysis= analyzeGit(projectPath);
   const security = analyzeSecurity(projectPath);
   const architecture= analyzeArchitecture(projectPath);
+  const performance = analyzePerformance(architecture.modules);
 
   return {
     name: pkg.name ?? "Unknown",
