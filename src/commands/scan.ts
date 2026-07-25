@@ -588,7 +588,7 @@ export function scanCommand() {
 
     if (shouldShow(options)) {
       console.log();
-      title("Performance");
+      title("Execution Time");
 
       console.log(
         `Started     : ${formatTime(started)}`
