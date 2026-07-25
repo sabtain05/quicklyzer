@@ -124,6 +124,9 @@ export function scanCommand() {
     console.log(`Rating         : ${project.performance.score.rating}`);
 
 
+    title("Performance Recommendations");
+
+
 
     // ============================================================
     // Configuration Files
