@@ -96,6 +96,9 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
     performanceScore-=heavyFiles.length*2;
     performanceScore-=Math.floor(startupCost/20);
     performanceScore-=Math.floor(heavyDependencies/10);
+    if(performanceScore<0){
+        performanceScore = 0;
+    }
 
     return{
         heavyFiles,
