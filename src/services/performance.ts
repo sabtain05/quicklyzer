@@ -104,7 +104,7 @@ function calculateImportDensity(modules: ModuleInfo[]){
 
 
 function buildModuleComplexity(modules: ModuleInfo[]){
-    return modules.map(module=>({file:module.file, score:module.imports.length})).sort((a,b)=>b.score-a.score)
+    return modules.map(module=>({file:module.file, score:module.imports.length})).sort((a,b)=>b.score-a.score).slice(0,5);
 }
 
 
