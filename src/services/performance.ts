@@ -93,6 +93,16 @@ function buildRecommendations(heavyFiles: number, startup: number, dependencies:
 }
 
 
+function calculateImportDensity(modules: ModuleInfo[]){
+    if(modules.length===0)
+        return 0;
+
+    const imports = modules.reduce((sum,module)=>sum+module.imports.length,0);
+
+    return Number((imports/modules.length).toFixed(2));
+}
+
+
 
 export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
     const heavyFiles = detectHeavyFiles(modules);
