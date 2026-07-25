@@ -5,5 +5,7 @@ import { ModuleInfo } from "./architecture-intelligence.js"
 
 
 export interface PerformanceAnalysis{
-    
+    heavyFiles: {
+        
+    }
 }
