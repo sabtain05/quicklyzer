@@ -165,6 +165,8 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
             heavyFiles.length,
             startupCost,
             heavyDependencies
-        )
+        ),
+        importDensity,
+        
     };
 }
