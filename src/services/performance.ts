@@ -68,6 +68,10 @@ function buildRecommendations(heavyFiles: number, startup: number, dependencies:
     if(startup>150){
         recommendations.push("Reduce startup imports.");
     }
+
+    if(dependencies>50){
+        recommendations.push("Review external dependencies.");
+    }
 }
 
 
