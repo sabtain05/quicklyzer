@@ -20,7 +20,9 @@ export interface PerformanceAnalysis{
 
     heavyDependencies: number;
 
-    
+    score: {
+        
+    }
 }
 
 
