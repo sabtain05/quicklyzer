@@ -77,7 +77,7 @@ function buildRecommendations(heavyFiles: number, startup: number, dependencies:
         recommendations.push("Performance looks healthy.");
     }
 
-    
+    return recommendations;
 }
 
 
