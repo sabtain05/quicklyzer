@@ -39,6 +39,11 @@ function detectLargestModules(modules: ModuleInfo[]){
 }
 
 
+function estimateStartupCost(modules: ModuleInfo[]){
+    
+}
+
+
 
 export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
     const heavyFiles = detectHeavyFiles(modules);
