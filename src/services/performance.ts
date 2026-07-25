@@ -30,7 +30,7 @@ export interface PerformanceAnalysis{
     importDensity: number;
 
     moduleComplexity:{
-        
+        file: string;
     }
 }
 
