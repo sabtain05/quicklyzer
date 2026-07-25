@@ -60,6 +60,7 @@ function detectHeavyDependencies(modules: ModuleInfo[]){
 
 
 function buildRecommendations(heavyFiles: number, startup: number, dependencies: number){
+    const recommendations: string[] = [];
     
 }
 
