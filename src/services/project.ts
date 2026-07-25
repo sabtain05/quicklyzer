@@ -187,6 +187,7 @@ dependencyAnalysis: {
   performance: {
     heavyFiles: {
       file: string;
+      size: number;
     }
   }
   scripts: string[];
