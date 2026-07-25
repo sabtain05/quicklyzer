@@ -14,4 +14,5 @@ export interface PerformanceAnalysis{
         file: string;
         imports: number;
     }[];
+    totalHeavyFiles: number;
 }
