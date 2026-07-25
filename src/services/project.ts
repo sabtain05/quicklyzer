@@ -587,6 +587,7 @@ export function analyzeProject(
       recommendations: security.recommendations ?? []
     },
     architecture,
+    performance,
     scripts: scripts,
     nodeVersion: nodeVersion,
     docker: docker,
