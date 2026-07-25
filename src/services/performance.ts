@@ -49,6 +49,11 @@ function estimateStartupCost(modules: ModuleInfo[]){
 }
 
 
+function detectHeavyDependencies(modules: ModuleInfo[]){
+    
+}
+
+
 
 export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
     const heavyFiles = detectHeavyFiles(modules);
