@@ -121,6 +121,10 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
         totalHeavyFiles: heavyFiles.length,
         startupCost,
         heavyDependencies,
+        score:{
+            score: performanceScore,
+            rating
+        },
         
     };
 }
