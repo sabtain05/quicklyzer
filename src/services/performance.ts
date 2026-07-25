@@ -13,5 +13,5 @@ export interface PerformanceAnalysis{
     largestModules: {
         file: string;
         imports: number;
-    }
+    }[];
 }
