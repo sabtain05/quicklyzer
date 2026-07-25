@@ -125,6 +125,10 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
             score: performanceScore,
             rating
         },
-        
+        recommendations: buildRecommendations(
+            heavyFiles.length,
+            startupCost,
+            heavyDependencies
+        )
     };
 }
