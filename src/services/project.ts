@@ -184,6 +184,11 @@ dependencyAnalysis: {
     }[];
     recommendations: string[];
   };
+  performance: {
+    heavyFiles: {
+      file: string;
+    }
+  }
   scripts: string[];
   nodeVersion: string;
   docker: boolean;
