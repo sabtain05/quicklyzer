@@ -100,6 +100,8 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
         performanceScore = 0;
     }
 
+    
+
     return{
         heavyFiles,
         largestModules,
