@@ -42,7 +42,7 @@ function detectLargestModules(modules: ModuleInfo[]){
 function estimateStartupCost(modules: ModuleInfo[]){
     let cost = 0;
     for(const module of modules){
-        
+        const+=module.imports.length;
     }
 }
 
