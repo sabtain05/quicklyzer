@@ -120,6 +120,7 @@ export function scanCommand() {
 
 
     title("Performance Score");
+    console.log(`Score          : ${project.performance.score.score}/100`);
 
 
 
