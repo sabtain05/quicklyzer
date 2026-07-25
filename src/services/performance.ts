@@ -9,4 +9,9 @@ export interface PerformanceAnalysis{
         file: string;
         size: number;
     }[];
+
+    largestModules: {
+        file: string;
+        imports: number;
+    }
 }
