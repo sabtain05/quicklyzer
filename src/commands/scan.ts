@@ -142,6 +142,7 @@ export function scanCommand() {
 
     title("Optimization Summary");
     console.log(`Optimized Modules           : ${project.performance.optimizationSummary.optimized}`);
+    console.log(`Needs Attention             : ${project.performance.optimizationSummary.needsAttention}`);
 
 
 
