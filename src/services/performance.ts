@@ -167,6 +167,6 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
             heavyDependencies
         ),
         importDensity,
-        
+        moduleComplexity,
     };
 }
