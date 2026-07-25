@@ -122,6 +122,10 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
 
     const moduleComplexity = buildModuleComplexity(modules);
 
+    const optimizationSummary = {
+        optimized:modules.length-heavyFiles.length,
+    }
+
 
     let performanceScore = 100;
     performanceScore-=heavyFiles.length*2;
