@@ -118,6 +118,8 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
 
     const heavyDependencies = detectHeavyDependencies(modules);
 
+    const importDensity = calculateImportDensity(modules);
+
 
     let performanceScore = 100;
     performanceScore-=heavyFiles.length*2;
