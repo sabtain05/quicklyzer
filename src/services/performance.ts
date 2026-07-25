@@ -51,7 +51,9 @@ function estimateStartupCost(modules: ModuleInfo[]){
 
 function detectHeavyDependencies(modules: ModuleInfo[]){
     let total = 0;
-    
+    for(const module of modules){
+        
+    }
 }
 
 
