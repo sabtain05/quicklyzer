@@ -130,7 +130,7 @@ export function scanCommand() {
     }
 
 
-    
+    title("Performance Health");
 
 
 
