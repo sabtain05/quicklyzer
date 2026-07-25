@@ -40,6 +40,7 @@ function detectLargestModules(modules: ModuleInfo[]){
 
 
 function estimateStartupCost(modules: ModuleInfo[]){
+    let cost = 0;
     
 }
 
