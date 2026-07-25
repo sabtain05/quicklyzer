@@ -105,6 +105,9 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
     if(performanceScore<90)
         rating = "Good";
 
+    if(performanceScore<75)
+        rating = "Fair";
+
     return{
         heavyFiles,
         largestModules,
