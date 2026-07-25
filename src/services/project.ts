@@ -205,7 +205,7 @@ dependencyAnalysis: {
     moduleComplexity:{
       file: string;
       score: number;
-    };
+    }[];
   };
   scripts: string[];
   nodeVersion: string;
