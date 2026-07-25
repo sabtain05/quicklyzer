@@ -201,7 +201,7 @@ dependencyAnalysis: {
       rating: string;
     };
     recommendations: string[];
-  }
+  };
   scripts: string[];
   nodeVersion: string;
   docker: boolean;
