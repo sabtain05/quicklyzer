@@ -140,6 +140,9 @@ export function scanCommand() {
     console.log(`Average Imports / Module         : ${project.performance.importDensity}`);
 
 
+    title("Optimization Summary");
+
+
 
     // ============================================================
     // Configuration Files
