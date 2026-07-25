@@ -201,6 +201,7 @@ dependencyAnalysis: {
       rating: string;
     };
     recommendations: string[];
+    importDensity:number;
   };
   scripts: string[];
   nodeVersion: string;
