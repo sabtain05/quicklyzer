@@ -72,6 +72,10 @@ function buildRecommendations(heavyFiles: number, startup: number, dependencies:
     if(dependencies>50){
         recommendations.push("Review external dependencies.");
     }
+
+    if(recommendations.length===0){
+        
+    }
 }
 
 
