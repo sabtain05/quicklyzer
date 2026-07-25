@@ -52,10 +52,8 @@ function estimateStartupCost(modules: ModuleInfo[]){
 function detectHeavyDependencies(modules: ModuleInfo[]){
     let total = 0;
     for(const module of modules){
-        total+=module.imports.length;
+        total+=module.imports.filter(imported=>!imported.startsWith(".") && !imported.startsWith("/")).length;
     }
-
-    return cost;
 }
 
 
