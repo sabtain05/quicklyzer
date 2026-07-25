@@ -27,7 +27,7 @@ export interface PerformanceAnalysis{
 
     recommendations: string[];
 
-    
+    importDensity: number;
 }
 
 
