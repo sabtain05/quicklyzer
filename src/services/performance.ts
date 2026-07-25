@@ -91,6 +91,8 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
 
     const heavyDependencies = detectHeavyDependencies(modules);
 
+    
+
     return{
         heavyFiles,
         largestModules,
