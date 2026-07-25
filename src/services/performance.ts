@@ -24,6 +24,8 @@ export interface PerformanceAnalysis{
         score: number;
         rating: string;
     };
+
+    recommendations: string[];
 }
 
 
