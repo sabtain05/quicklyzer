@@ -111,6 +111,10 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
     if(performanceScore<60)
         rating = "Poor";
 
+    
+    
+    
+    
     return{
         heavyFiles,
         largestModules,
