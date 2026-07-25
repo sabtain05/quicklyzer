@@ -112,6 +112,8 @@ export function scanCommand() {
 
 
     title("Performance");
+    console.log(`Heavy Files      : ${project.performance.totalHeavyFiles}`);
+    
 
 
 
