@@ -168,5 +168,6 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
         ),
         importDensity,
         moduleComplexity,
+        optimizationSummary
     };
 }
