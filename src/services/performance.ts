@@ -65,7 +65,9 @@ function buildRecommendations(heavyFiles: number, startup: number, dependencies:
         recommendations.push("Reduce large source files.");
     }
 
-    
+    if(startup>150){
+        recommendations.push("Reduce startup imports.");
+    }
 }
 
 
