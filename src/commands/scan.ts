@@ -132,7 +132,7 @@ export function scanCommand() {
 
     title("Performance Hotspots");
     for(const hotspot of project.performance.moduleComplexity){
-
+      console.log(`${basename(hotspot.file)} (${hotspot.score} imports)`);
     }
 
 
