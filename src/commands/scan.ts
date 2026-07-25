@@ -145,6 +145,9 @@ export function scanCommand() {
     console.log(`Needs Attention             : ${project.performance.optimizationSummary.needsAttention}`);
 
 
+    title("Performance Insights");
+
+
 
     // ============================================================
     // Configuration Files
