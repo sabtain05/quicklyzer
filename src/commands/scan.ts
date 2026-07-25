@@ -116,7 +116,7 @@ export function scanCommand() {
     console.log(`Heavy Files       : ${project.performance.totalHeavyFiles}`);
     console.log(`Largest Modules   : ${project.performance.largestModules.length}`);
     console.log(`Startup Cost      : ${project.performance.startupCost}`);
-    console.log(`Heavy Dependencies: ${project.performance.heavydependencies}`);
+    console.log(`Heavy Dependencies: ${project.performance.heavyDependencies}`);
 
 
     title("Performance Score");
