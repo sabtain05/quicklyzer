@@ -192,7 +192,7 @@ dependencyAnalysis: {
     largestModules:{
       file: string;
       imports: number;
-    }
+    }[];
   }
   scripts: string[];
   nodeVersion: string;
