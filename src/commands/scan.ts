@@ -131,6 +131,7 @@ export function scanCommand() {
 
 
     title("Performance Hotspots");
+    for(const hotspots of project.performance.moduleComplexity)
 
 
 
