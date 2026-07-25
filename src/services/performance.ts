@@ -118,6 +118,8 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
     return{
         heavyFiles,
         largestModules,
-        totalHeavyFiles: heavyFiles.length
+        totalHeavyFiles: heavyFiles.length,
+        startupCost,
+        
     };
 }
