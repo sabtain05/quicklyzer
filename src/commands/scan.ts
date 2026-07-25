@@ -111,7 +111,7 @@ export function scanCommand() {
     }
 
 
-    
+    title("Performance");
 
 
 
