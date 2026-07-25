@@ -150,6 +150,8 @@ export function scanCommand() {
       console.log("Project performance is excellent.");
     }else if(project.performance.score.score>=75){
       console.log("Minor optimization opportunities detected.");
+    }else{
+      console.log("Performance improvements are recommended.");
     }
 
 
