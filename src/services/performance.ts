@@ -93,7 +93,7 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
 
 
     let performanceScore = 100;
-    
+    performanceScore-=heavyFiles.length*2;
 
     return{
         heavyFiles,
