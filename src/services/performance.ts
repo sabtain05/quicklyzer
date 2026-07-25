@@ -124,7 +124,8 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
 
     const optimizationSummary = {
         optimized:modules.length-heavyFiles.length,
-    }
+        needsAttention: heavyFiles.length
+    };
 
 
     let performanceScore = 100;
