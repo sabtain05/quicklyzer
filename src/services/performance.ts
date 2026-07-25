@@ -24,5 +24,5 @@ function detectHeavyFiles(modules: ModuleInfo[]){
 
 
 function detectLargestModules(modules: ModuleInfo[]){
-    
+    return [...modules]
 }
