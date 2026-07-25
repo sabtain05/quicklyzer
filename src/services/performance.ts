@@ -29,4 +29,6 @@ function detectLargestModules(modules: ModuleInfo[]){
 
 
 
-export function analyzePerformance(modules: ModuleInfo[])
+export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
+    
+}
