@@ -206,6 +206,9 @@ dependencyAnalysis: {
       file: string;
       score: number;
     }[];
+    optimizationSummary:{
+      optimized: number;
+    }
   };
   scripts: string[];
   nodeVersion: string;
