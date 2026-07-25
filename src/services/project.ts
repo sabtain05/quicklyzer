@@ -200,7 +200,7 @@ dependencyAnalysis: {
       score: number;
       rating: string;
     };
-    
+    recommendations: string[];
   }
   scripts: string[];
   nodeVersion: string;
