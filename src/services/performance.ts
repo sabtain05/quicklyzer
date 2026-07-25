@@ -100,7 +100,10 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
         performanceScore = 0;
     }
 
-    
+    let rating = "Excellent";
+
+    if(performanceScore<90)
+        rating = "Good";
 
     return{
         heavyFiles,
