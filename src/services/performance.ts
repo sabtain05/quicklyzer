@@ -74,8 +74,10 @@ function buildRecommendations(heavyFiles: number, startup: number, dependencies:
     }
 
     if(recommendations.length===0){
-        
+        recommendations.push("Performance looks healthy.");
     }
+
+    
 }
 
 
