@@ -59,6 +59,11 @@ function detectHeavyDependencies(modules: ModuleInfo[]){
 }
 
 
+function buildRecommendations(heavyFiles: number, startup: number, dependencies: number){
+    
+}
+
+
 
 export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
     const heavyFiles = detectHeavyFiles(modules);
