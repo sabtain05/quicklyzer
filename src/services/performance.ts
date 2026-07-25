@@ -120,6 +120,8 @@ export function analyzePerformance(modules: ModuleInfo[]):PerformanceAnalysis{
 
     const importDensity = calculateImportDensity(modules);
 
+    const moduleComplexity = buildModuleComplexity(modules);
+
 
     let performanceScore = 100;
     performanceScore-=heavyFiles.length*2;
