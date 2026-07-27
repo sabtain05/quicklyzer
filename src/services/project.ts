@@ -221,7 +221,7 @@ dependencyAnalysis: {
     snapshots: number;
     mocks: number;
     coverage: boolean;
-  }
+  };
   scripts: string[];
   nodeVersion: string;
   docker: boolean;
