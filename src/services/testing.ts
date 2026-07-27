@@ -6,4 +6,6 @@ export interface TestingAnalysis{
     framework: string;
 
     testFiles: string[];
+
+    unitTests: number;
 }
