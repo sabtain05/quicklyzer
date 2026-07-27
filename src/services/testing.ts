@@ -78,6 +78,6 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
     });
 
     return{
-        
+        framework: detectFramework(packageJson),
     }
 }
