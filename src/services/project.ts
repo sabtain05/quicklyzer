@@ -221,6 +221,17 @@ dependencyAnalysis: {
     snapshots: number;
     mocks: number;
     coverage: boolean;
+    untestedFiles: number;
+    testRatio: number;
+    largestSuites:{
+        file: string;
+        size: number;
+    }[];
+    score: {
+        score: number;
+        rating: string;
+    };
+    recommendations: string[];
   };
   scripts: string[];
   nodeVersion: string;
