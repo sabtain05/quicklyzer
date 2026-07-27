@@ -100,6 +100,8 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
 
     const sourceFiles = files.filter(file=>file.endsWith(".ts") && !testFiles.includes(file));
 
+    const testRatio = sourceFiles.length===0?0:Number((testFiles.length/sourceFiles.length).toFixed(2));
+
     return{
         framework: detectFramework(packageJson),
         testFiles,
