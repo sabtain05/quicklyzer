@@ -172,7 +172,9 @@ export function scanCommand() {
 
     title("Largest Test Suites");
     if(project.testing.largestSuites.length){
-      for(const suite of project.testing.largestSuites){}
+      for(const suite of project.testing.largestSuites){
+        console.log(`${basename(suite.file)} (${suite.size} lines)`);
+      }
     }
 
 
