@@ -19,3 +19,9 @@ export interface TestingAnalysis{
 
     coverage: boolean;
 }
+
+
+
+function walk(dir: string, files: string[]){
+    
+}
