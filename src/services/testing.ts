@@ -16,4 +16,6 @@ export interface TestingAnalysis{
     snapshots: number;
 
     mocks: number;
+
+    coverage: number;
 }
