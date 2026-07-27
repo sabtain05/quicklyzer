@@ -124,6 +124,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         rating = "Fair";
 
     if (score<60)
+        rating = "Poor";
 
     return{
         framework: detectFramework(packageJson),
