@@ -153,6 +153,7 @@ export function scanCommand() {
     console.log(`Framework        : ${project.testing.framework}`);
     console.log(`Test Files       : ${project.testing.testFiles.length}`);
     console.log(`Unit Tests       : ${project.testing.unitTests}`);
+    console.log(`Integration Tests: ${project.testing.integrationTests}`);
 
 
 
