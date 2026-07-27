@@ -54,4 +54,6 @@ function detectFramework(packageJson:any){
 
     if(deps.mocha)
         return "Mocha";
+
+    if(deps.playwright)
 }
