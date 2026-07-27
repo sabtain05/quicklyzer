@@ -133,6 +133,10 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         recommendations.push("Increase test coverage.");
     }
 
+    if(!files.some(f=>f.includes("coverage"))){
+        
+    }
+
     return{
         framework: detectFramework(packageJson),
         testFiles,
