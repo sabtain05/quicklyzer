@@ -83,6 +83,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         unitTests: testFiles.filter(f=>f.includes("unit")).length,
         integrationTests: testFiles.filter(f=>f.includes("integration")).length,
         e2eTests: testFiles.filter(f=>f.includes("e2e")).length,
+        snapshots: files.filter(f=>f.endsWith(".snap")).length,
         mocks: files.filter(f=>f.includes("__mocks__")).length,
         coverage: files.some(f=>f.includes("coverage"))
     };
