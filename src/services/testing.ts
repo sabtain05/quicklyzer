@@ -105,6 +105,9 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
     const untestedFiles = Math.max(0, sourceFiles.length-testFiles.length);
 
     let score = 100;
+    score-=untestedFiles;
+
+    
 
     return{
         framework: detectFramework(packageJson),
