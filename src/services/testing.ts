@@ -18,6 +18,8 @@ export interface TestingAnalysis{
     mocks: number;
 
     coverage: boolean;
+
+    untestedFiles: number;
 }
 
 
