@@ -129,6 +129,10 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
 
     const recommendations: string[] = [];
 
+    if(untestedFiles>0){
+        
+    }
+
     return{
         framework: detectFramework(packageJson),
         testFiles,
