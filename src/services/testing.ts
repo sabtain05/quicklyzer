@@ -81,7 +81,9 @@ function detectFramework(packageJson:any){
 }
 
 
-
+function buildlargestSuites(testFiles: string[]){
+    
+}
 
 
 
