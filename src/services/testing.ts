@@ -17,5 +17,5 @@ export interface TestingAnalysis{
 
     mocks: number;
 
-    coverage: number;
+    coverage: boolean;
 }
