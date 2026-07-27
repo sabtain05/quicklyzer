@@ -1,4 +1,4 @@
-import { readdirSync, statSync } from "fs";
+import { readdirSync, statSync, readFileSync } from "fs";
 import { join, basename } from "path";
 
 
