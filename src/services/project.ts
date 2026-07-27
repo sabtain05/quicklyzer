@@ -217,6 +217,7 @@ dependencyAnalysis: {
     testFiles: string[];
     unitTests: number;
     integrationTests: number;
+    e2eTests: number;
   }
   scripts: string[];
   nodeVersion: string;
