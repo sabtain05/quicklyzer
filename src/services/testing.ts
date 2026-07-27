@@ -127,7 +127,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         rating = "Poor";
 
 
-    
+    const recommendations: string[] = [];
 
     return{
         framework: detectFramework(packageJson),
