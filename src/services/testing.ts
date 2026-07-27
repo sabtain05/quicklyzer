@@ -72,6 +72,6 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
     walk(projectPath, files);
 
     const testFiles=files.filter(file=>{
-        
+        const name = basename(file);
     })
 }
