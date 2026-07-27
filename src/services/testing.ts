@@ -3,5 +3,5 @@ import { join, basename } from "path";
 
 
 export interface TestingAnalysis{
-    
+    framework: string;
 }
