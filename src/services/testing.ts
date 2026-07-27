@@ -32,7 +32,7 @@ function walk(dir: string, files: string[]){
 
         if(stats.isDirectory()){
             walk(full, files);
-            
+            continue;
         }
     }
 }
