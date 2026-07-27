@@ -111,6 +111,10 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         score-=15;
     }
 
+    if(score<0) {
+        
+    }
+
     return{
         framework: detectFramework(packageJson),
         testFiles,
