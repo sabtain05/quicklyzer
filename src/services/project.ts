@@ -213,6 +213,7 @@ dependencyAnalysis: {
     };
   };
   testing:{
+    framework: string;
     
   }
   scripts: string[];
