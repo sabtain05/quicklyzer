@@ -14,4 +14,6 @@ export interface TestingAnalysis{
     e2eTests: number;
 
     snapshots: number;
+
+    mocks: number;
 }
