@@ -79,5 +79,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
 
     return{
         framework: detectFramework(packageJson),
+        testFiles,
+        unitTests: testFiles.filter(f=>f.includes("unit")).length,
     }
 }
