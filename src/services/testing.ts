@@ -134,7 +134,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
     }
 
     if(!files.some(f=>f.includes("coverage"))){
-        
+        recommendations.push("Generate a coverage report.");
     }
 
     return{
