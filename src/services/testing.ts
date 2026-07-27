@@ -20,6 +20,8 @@ export interface TestingAnalysis{
     coverage: boolean;
 
     untestedFiles: number;
+
+    testRatio: number;
 }
 
 
