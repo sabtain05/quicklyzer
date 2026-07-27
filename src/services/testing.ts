@@ -102,6 +102,8 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
 
     const testRatio = sourceFiles.length===0?0:Number((testFiles.length/sourceFiles.length).toFixed(2));
 
+    const untestedFiles = Math.max(0, sourceFiles.length-testFiles.length);
+
     return{
         framework: detectFramework(packageJson),
         testFiles,
