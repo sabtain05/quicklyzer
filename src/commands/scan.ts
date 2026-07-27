@@ -161,6 +161,7 @@ export function scanCommand() {
 
 
     title("Testing score");
+    console.log(`Score             : ${project.testing.score.score}/100`);
 
 
 
