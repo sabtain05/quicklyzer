@@ -180,6 +180,12 @@ export function scanCommand() {
     }
 
 
+    title("Testing Recommendations");
+    for(const recommendation of project.testing.recommendations){
+      console.log(`• ${recommendation}`);
+    }
+
+
 
     // ============================================================
     // Configuration Files
