@@ -107,7 +107,9 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
     let score = 100;
     score-=untestedFiles;
 
-    
+    if(!files.some(f=>f.includes("coverage"))){
+        
+    }
 
     return{
         framework: detectFramework(packageJson),
