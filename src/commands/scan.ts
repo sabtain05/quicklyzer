@@ -151,6 +151,7 @@ export function scanCommand() {
 
     title("Testing");
     console.log(`Framework        : ${project.testing.framework}`);
+    console.log(`Test Files       : ${project.testing.testFiles.length}`);
 
 
 
