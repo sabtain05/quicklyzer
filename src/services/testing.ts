@@ -115,6 +115,10 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         score = 0;
     }
 
+    let rating = "Excellent";
+
+    if(score<90)
+
     return{
         framework: detectFramework(packageJson),
         testFiles,
