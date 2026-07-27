@@ -32,6 +32,8 @@ export interface TestingAnalysis{
         score: number;
         rating: string;
     };
+
+    recommendations: string[];
 }
 
 
