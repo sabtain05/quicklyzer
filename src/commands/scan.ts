@@ -149,6 +149,9 @@ export function scanCommand() {
     }
 
 
+    title("Testing");
+
+
 
     // ============================================================
     // Configuration Files
