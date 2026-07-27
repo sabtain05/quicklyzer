@@ -214,6 +214,7 @@ dependencyAnalysis: {
   };
   testing:{
     framework: string;
+    testFiles: string[];
     
   }
   scripts: string[];
