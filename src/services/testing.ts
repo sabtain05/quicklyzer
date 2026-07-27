@@ -24,7 +24,7 @@ export interface TestingAnalysis{
     testRatio: number;
 
     largestSuites:{
-        
+        file: string;
     }
 }
 
