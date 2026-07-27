@@ -60,4 +60,6 @@ function detectFramework(packageJson:any){
 
     if(deps.cypress)
         return "Cypress";
+
+    return "Unknown";
 }
