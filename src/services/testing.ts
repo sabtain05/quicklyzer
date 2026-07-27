@@ -130,7 +130,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
     const recommendations: string[] = [];
 
     if(untestedFiles>0){
-        
+        recommendations.push("Increase test coverage.");
     }
 
     return{
