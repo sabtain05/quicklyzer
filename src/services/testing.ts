@@ -138,7 +138,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
     }
 
     if(recommendations.length===0){
-        
+        recommendations.push("Testing setup looks healthy.");
     }
 
     return{
