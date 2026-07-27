@@ -22,6 +22,10 @@ export interface TestingAnalysis{
     untestedFiles: number;
 
     testRatio: number;
+
+    largestSuites:{
+        
+    }
 }
 
 
