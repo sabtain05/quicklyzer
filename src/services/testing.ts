@@ -56,4 +56,5 @@ function detectFramework(packageJson:any){
         return "Mocha";
 
     if(deps.playwright)
+        return "Playwright";
 }
