@@ -175,6 +175,8 @@ export function scanCommand() {
       for(const suite of project.testing.largestSuites){
         console.log(`${basename(suite.file)} (${suite.size} lines)`);
       }
+    }else {
+      console.log(" No test suites found.");
     }
 
 
