@@ -26,7 +26,7 @@ export interface TestingAnalysis{
     largestSuites:{
         file: string;
         size: number;
-    }
+    }[];
 }
 
 
