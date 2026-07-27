@@ -10,4 +10,6 @@ export interface TestingAnalysis{
     unitTests: number;
 
     integrationTests: number;
+
+    e2eTests: number;
 }
