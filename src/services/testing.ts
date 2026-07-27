@@ -44,5 +44,5 @@ function detectFramework(packageJson:any){
     const deps = {
         ...packageJson.dependencies,
         ...packageJson.devDependencies
-    }
+    };
 }
