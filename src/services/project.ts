@@ -565,7 +565,7 @@ export function analyzeProject(
   const security = analyzeSecurity(projectPath);
   const architecture= analyzeArchitecture(projectPath);
   const performance = analyzePerformance(architecture.modules);
-  
+  const testing = analyzeTesting(projectPath, pkg);
 
 
 
