@@ -215,7 +215,7 @@ dependencyAnalysis: {
   testing:{
     framework: string;
     testFiles: string[];
-    
+    unitTests: number;
   }
   scripts: string[];
   nodeVersion: string;
