@@ -112,7 +112,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
     }
 
     if(score<0) {
-        
+        score = 0;
     }
 
     return{
