@@ -41,5 +41,7 @@ function walk(dir: string, files: string[]){
 
 
 function detectFramework(packageJson:any){
-    
+    const deps = {
+        
+    }
 }
