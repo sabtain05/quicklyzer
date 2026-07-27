@@ -220,6 +220,7 @@ dependencyAnalysis: {
     e2eTests: number;
     snapshots: number;
     mocks: number;
+    coverage: boolean;
   }
   scripts: string[];
   nodeVersion: string;
