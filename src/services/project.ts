@@ -219,6 +219,7 @@ dependencyAnalysis: {
     integrationTests: number;
     e2eTests: number;
     snapshots: number;
+    mocks: number;
   }
   scripts: string[];
   nodeVersion: string;
