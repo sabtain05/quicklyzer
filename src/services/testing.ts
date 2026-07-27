@@ -76,4 +76,8 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
 
         return(name.includes(".test.") || name.includes(".spec.") || file.includes("__tests__"));
     });
+
+    return{
+        
+    }
 }
