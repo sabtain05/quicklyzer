@@ -45,4 +45,7 @@ function detectFramework(packageJson:any){
         ...packageJson.dependencies,
         ...packageJson.devDependencies
     };
+
+    if(deps.vitest)
+        return "Vitest";
 }
