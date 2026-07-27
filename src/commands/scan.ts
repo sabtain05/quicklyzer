@@ -160,6 +160,9 @@ export function scanCommand() {
     console.log(`Coverage          : ${project.testing.coverage ? "Yes" : "No"}`);
 
 
+    title("Testing score");
+
+
 
     // ============================================================
     // Configuration Files
