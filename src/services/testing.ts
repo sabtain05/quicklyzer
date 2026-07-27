@@ -51,4 +51,6 @@ function detectFramework(packageJson:any){
 
     if (deps.jest)
         return "Jest";
+
+    if(deps.mocha)
 }
