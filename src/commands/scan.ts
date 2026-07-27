@@ -6,7 +6,6 @@ import { performance } from "node:perf_hooks";
 import ora from "ora";
 import {title, error} from "../utils/ui.js";
 import { checkForUpdates } from "../services/update.js";
-import { getProjectTree } from "../services/architecture.js";
 
 function shouldShow(options: any) {
   return !options.quiet;
