@@ -81,6 +81,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         framework: detectFramework(packageJson),
         testFiles,
         unitTests: testFiles.filter(f=>f.includes("unit")).length,
+        integrationTests: testFiles.filter(f=>f.includes("integration")).length,
         e2eTests: testFiles.filter(f=>f.includes("e2e")).length,
         mocks: files.filter(f=>f.includes("__mocks__")).length,
         coverage: files.some(f=>f.includes("coverage"))
