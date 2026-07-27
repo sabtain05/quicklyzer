@@ -137,6 +137,10 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         recommendations.push("Generate a coverage report.");
     }
 
+    if(recommendations.length===0){
+        
+    }
+
     return{
         framework: detectFramework(packageJson),
         testFiles,
