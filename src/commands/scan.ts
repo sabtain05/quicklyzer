@@ -157,6 +157,7 @@ export function scanCommand() {
     console.log(`E2E Tests         : ${project.testing.e2eTests}`);
     console.log(`Snapshots         : ${project.testing.snapshots}`);
     console.log(`Mocks             : ${project.testing.mocks}`);
+    console.log(`Coverage          : ${project.testing.coverage ? "Yes" : "No"}`);
 
 
 
