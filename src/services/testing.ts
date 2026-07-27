@@ -48,4 +48,7 @@ function detectFramework(packageJson:any){
 
     if(deps.vitest)
         return "Vitest";
+
+    if (deps.jest)
+        return "Jest";
 }
