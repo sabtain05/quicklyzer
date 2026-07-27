@@ -150,6 +150,7 @@ export function scanCommand() {
 
 
     title("Testing");
+    console.log(`Framework        : ${project.testing.framework}`);
 
 
 
