@@ -162,6 +162,7 @@ export function scanCommand() {
 
     title("Testing score");
     console.log(`Score             : ${project.testing.score.score}/100`);
+    console.log(`Rating            : ${project.testing.score.rating}`);
 
 
 
