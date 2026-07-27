@@ -27,6 +27,10 @@ export interface TestingAnalysis{
         file: string;
         size: number;
     }[];
+
+    score: {
+        
+    }
 }
 
 
