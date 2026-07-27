@@ -82,7 +82,7 @@ function detectFramework(packageJson:any){
 
 
 function buildlargestSuites(testFiles: string[]){
-    return testFiles
+    return testFiles.map(file=>({file,size:readFileSync(file,"utf8").split("\n").length}))
 }
 
 
