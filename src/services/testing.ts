@@ -68,4 +68,6 @@ function detectFramework(packageJson:any){
 
 export function analyzeTesting(projectPath: string, packageJson: any): TestingAnalysis{
     const files: string[] =[];
+
+    walk(projectPath, files);
 }
