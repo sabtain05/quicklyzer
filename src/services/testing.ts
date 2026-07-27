@@ -108,7 +108,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
     score-=untestedFiles;
 
     if(!files.some(f=>f.includes("coverage"))){
-        
+        score-=15;
     }
 
     return{
