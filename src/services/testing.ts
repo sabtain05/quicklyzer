@@ -73,5 +73,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
 
     const testFiles=files.filter(file=>{
         const name = basename(file);
+
+        return(name.includes(".test.") || name.includes(".spec.") || file.includes("__tests__"));
     })
 }
