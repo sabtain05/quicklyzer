@@ -29,6 +29,7 @@ export interface TestingAnalysis{
     }[];
 
     score: {
+        score: number;
         
     }
 }
