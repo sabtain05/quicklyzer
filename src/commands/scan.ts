@@ -170,6 +170,12 @@ export function scanCommand() {
     console.log(`Test Ratio        : ${project.testing.testRatio}`);
 
 
+    title("Largest Test Suites");
+    if(project.testing.largestSuites.length){
+      for(const suite of project.testing.largestSuites){}
+    }
+
+
 
     // ============================================================
     // Configuration Files
