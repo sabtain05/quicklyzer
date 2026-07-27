@@ -165,6 +165,10 @@ export function scanCommand() {
     console.log(`Rating            : ${project.testing.score.rating}`);
 
 
+    title("Testing Statistics");
+    
+
+
 
     // ============================================================
     // Configuration Files
