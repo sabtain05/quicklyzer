@@ -156,6 +156,7 @@ export function scanCommand() {
     console.log(`Integration Tests : ${project.testing.integrationTests}`);
     console.log(`E2E Tests         : ${project.testing.e2eTests}`);
     console.log(`Snapshots         : ${project.testing.snapshots}`);
+    console.log(`Mocks             : ${project.testing.mocks}`);
 
 
 
