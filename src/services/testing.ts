@@ -38,3 +38,8 @@ function walk(dir: string, files: string[]){
         files.push(full);
     }
 }
+
+
+function detectFramework(packageJson:any){
+    
+}
