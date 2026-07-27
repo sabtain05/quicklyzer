@@ -212,6 +212,9 @@ dependencyAnalysis: {
       needsAttention: number;
     };
   };
+  testing:{
+    
+  }
   scripts: string[];
   nodeVersion: string;
   docker: boolean;
