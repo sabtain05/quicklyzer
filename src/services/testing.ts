@@ -59,4 +59,5 @@ function detectFramework(packageJson:any){
         return "Playwright";
 
     if(deps.cypress)
+        return "Cypress";
 }
