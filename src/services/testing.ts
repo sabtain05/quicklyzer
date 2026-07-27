@@ -70,4 +70,8 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
     const files: string[] =[];
 
     walk(projectPath, files);
+
+    const testFiles=files.filter(file=>{
+        
+    })
 }
