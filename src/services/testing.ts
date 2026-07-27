@@ -63,3 +63,9 @@ function detectFramework(packageJson:any){
 
     return "Unknown";
 }
+
+
+
+export function analyzeTesting(projectPath: string, packageJson: any): TestingAnalysis{
+    
+}
