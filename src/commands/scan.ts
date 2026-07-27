@@ -166,7 +166,7 @@ export function scanCommand() {
 
 
     title("Testing Statistics");
-    
+    console.log(`Untested Files    : ${project.testing.untestedFiles}`);
 
 
 
