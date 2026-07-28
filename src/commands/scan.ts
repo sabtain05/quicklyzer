@@ -185,6 +185,9 @@ export function scanCommand() {
     }
 
 
+    title("Test Distribution");
+
+
 
     // ============================================================
     // Configuration Files
