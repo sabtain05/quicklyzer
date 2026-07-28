@@ -147,7 +147,7 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
 
     const swagger = "swagger-ui-express" in dependencies || "swagger-jsdoc" in dependencies || "@nestjs/swagger" in dependencies;
 
-    
+    let middleware = 0;
 
     return{
         endpoints,
