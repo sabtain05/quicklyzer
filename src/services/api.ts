@@ -23,7 +23,9 @@ export interface ApiAnalysis{
 
     swagger: boolean;
 
-    
+    methods:{
+        GET: number;
+    }
 }
 
 
