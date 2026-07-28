@@ -27,6 +27,7 @@ export interface ApiAnalysis{
         GET: number;
         POST: number;
         PUT: number;
+        PATCH: number;
     }
 }
 
