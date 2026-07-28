@@ -37,5 +37,9 @@ function walk(dir:string, files: string[]){
             walk(full, files);
             continue;
         }
+
+        if(full.endsWith(".ts") || full.endsWith(".js")){
+            
+        }
     }
 }
