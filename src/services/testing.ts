@@ -183,6 +183,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
     let organization = "Well Organized";
 
     if(unitTests===0)
+        organization = "Missing Unit Tests";
 
     return{
         framework: detectFramework(packageJson),
