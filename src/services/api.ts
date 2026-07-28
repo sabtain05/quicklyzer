@@ -81,5 +81,6 @@ export function analyzeApi(projectPath: string): ApiAnalysis{
         endpoints.push(...discoverEndpoints(content, file));
 
         if(content.includes("graphql"))
+            graphql = true;
     }
 }
