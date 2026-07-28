@@ -80,6 +80,8 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
         endpoints.push(...discoverEndpoints(content, file));
     }
 
+    
+
     return{
         endpoints,
         totalEndpoints: endpoints.length,
