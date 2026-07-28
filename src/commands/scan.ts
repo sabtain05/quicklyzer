@@ -197,6 +197,7 @@ export function scanCommand() {
 
 
     title("Test Organization");
+    console.log(project.testing.organization);
 
 
 
