@@ -149,6 +149,8 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
 
     let middleware = 0;
 
+    let version = "Unknown";
+
     return{
         endpoints,
         totalEndpoints: endpoints.length,
