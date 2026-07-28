@@ -174,6 +174,8 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
     if(testFiles.length>=5)
         maturity = "Intermediate";
 
+    if(testFiles.length>=15)
+
     return{
         framework: detectFramework(packageJson),
         testFiles,
