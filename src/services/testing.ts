@@ -159,6 +159,8 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
     }
 
     const unitTests = testFiles.filter(file => file.includes("unit")).length;
+    
+    
 
     const distribution={
         unit: unitTests,
