@@ -104,7 +104,7 @@ function buildMethodStatistics(endpoints: Endpoint[]){
 
 
 function buildRouteGroups(endpoints: Endpoint[]){
-    
+    const map=new Map<string, number>();
 }
 
 
