@@ -46,5 +46,7 @@ function walk(dir:string, files: string[]){
 
 
 function discoverEndpoints(content: string, file: string){
+    const endpoints: Endpoint[] = [];
+
     
 }
