@@ -161,8 +161,9 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
 
     const distribution={
         unit: unitTests,
-        
-    }
+        integration: integrationTests,
+        e2e: e2eTests
+    };
 
     return{
         framework: detectFramework(packageJson),
