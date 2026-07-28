@@ -87,5 +87,6 @@ export function analyzeApi(projectPath: string): ApiAnalysis{
             websocket = true;
 
         if(content.includes("swagger") || content.includes("openapi"))
+            swagger = true;
     }
 }
