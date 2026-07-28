@@ -72,5 +72,7 @@ export function analyzeApi(projectPath: string): ApiAnalysis{
 
     let graphql = false;
 
+    let websocket = false;
+
     
 }
