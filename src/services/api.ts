@@ -25,6 +25,7 @@ export interface ApiAnalysis{
 
     methods:{
         GET: number;
+        POST: number;
     }
 }
 
