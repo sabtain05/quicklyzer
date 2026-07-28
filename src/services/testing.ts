@@ -158,12 +158,13 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         recommendations.push("Testing setup looks healthy.");
     }
 
-
     const distribution={
         unit: unitTests,
         integration: integrationTests,
         e2e: e2eTests
     };
+
+    
 
     return{
         framework: detectFramework(packageJson),
