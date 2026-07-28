@@ -112,7 +112,8 @@ function buildRouteGroups(endpoints: Endpoint[]){
 
         map.set(
             group,
-        )
+            (map.get(group) ?? 0)+1
+        );
     }
 }
 
