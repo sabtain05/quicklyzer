@@ -232,6 +232,22 @@ dependencyAnalysis: {
         rating: string;
     };
     recommendations: string[];
+    distribution: {
+        unit: number;
+        integration: number;
+        e2e: number;
+    };
+
+    coverageReadiness: {
+        ready: boolean;
+        reason: string;
+    };
+
+    maturity: {
+        level: string;
+    };
+
+    organization: string;
   };
   scripts: string[];
   nodeVersion: string;
