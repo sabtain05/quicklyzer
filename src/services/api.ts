@@ -158,7 +158,7 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
     const match = content.match(/\/v(\d+)/);
 
     if(match){
-        
+        version = `v${match[1]}`;
     }
 
     return{
