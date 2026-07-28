@@ -252,7 +252,7 @@ dependencyAnalysis: {
   };
   api:{
     endpoints:{
-      
+      method: string;
     }
   }
   scripts: string[];
