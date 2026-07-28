@@ -164,7 +164,9 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         e2e: e2eTests
     };
 
-    
+    const coverageReadiness={
+        
+    }
 
     return{
         framework: detectFramework(packageJson),
