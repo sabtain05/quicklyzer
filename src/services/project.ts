@@ -253,6 +253,7 @@ dependencyAnalysis: {
       path: string;
       file: string;
     }[];
+    totalEndpoints: number;
   }
   scripts: string[];
   nodeVersion: string;
