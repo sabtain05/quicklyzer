@@ -92,6 +92,8 @@ export function analyzeApi(projectPath: string): ApiAnalysis{
 
     return{
         endpoints,
+        totalEndpoints: endpoints.length,
+        graphql,
         
     }
 }
