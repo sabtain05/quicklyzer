@@ -251,7 +251,9 @@ dependencyAnalysis: {
     organization: string;
   };
   api:{
-    
+    endpoints:{
+      
+    }
   }
   scripts: string[];
   nodeVersion: string;
