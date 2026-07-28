@@ -257,7 +257,7 @@ dependencyAnalysis: {
     graphql: boolean;
     websocket: boolean;
     swagger: boolean;
-  }
+  };
   scripts: string[];
   nodeVersion: string;
   docker: boolean;
