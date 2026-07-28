@@ -36,7 +36,7 @@ export interface ApiAnalysis{
         count: number;
     }[];
 
-    updating api analysis interface
+    
 }
 
 
