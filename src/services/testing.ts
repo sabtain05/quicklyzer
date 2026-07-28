@@ -180,6 +180,8 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
     if(testFiles.length>=30)
         maturity = "Enterprise";
 
+    let organization = "Well Organized";
+
     return{
         framework: detectFramework(packageJson),
         testFiles,
