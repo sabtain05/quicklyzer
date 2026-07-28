@@ -254,6 +254,7 @@ dependencyAnalysis: {
     endpoints:{
       method: string;
       path: string;
+      file: string;
     }
   }
   scripts: string[];
