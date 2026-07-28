@@ -16,4 +16,8 @@ export interface ApiAnalysis{
     endpoints: Endpoint[];
 
     totalEndpoints: number;
+
+    graphql: boolean;
+
+    
 }
