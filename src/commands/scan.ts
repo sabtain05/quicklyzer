@@ -188,6 +188,7 @@ export function scanCommand() {
     title("Test Distribution");
     console.log(`Unit          : ${project.testing.distribution.unit}`);
     console.log(`Integration   : ${project.testing.distribution.integration}`);
+    console.log(`E2E           : ${project.testing.distribution.e2e}`);
 
 
 
