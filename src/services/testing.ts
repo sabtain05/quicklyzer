@@ -36,7 +36,7 @@ export interface TestingAnalysis{
     recommendations: string[];
 
     distribution: {
-        
+        unit: number;
     }
 }
 
