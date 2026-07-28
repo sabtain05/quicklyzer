@@ -26,5 +26,7 @@ export interface ApiAnalysis{
 
 
 function walk(dir:string, files: string[]){
-    
+    for(const entry of readdirSync(dir)){
+        
+    }
 }
