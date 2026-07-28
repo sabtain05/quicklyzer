@@ -84,6 +84,8 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
 
     const websocket = "ws" in dependencies || "socket.io" in dependencies;
 
+    const swagger = "swagger-ui-express" in dependencies || "swagger-jsdoc" in dependencies || "@nestjs/swagger" in dependencies;
+
     return{
         endpoints,
         totalEndpoints: endpoints.length,
