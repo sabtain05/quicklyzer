@@ -165,6 +165,8 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
 
     const routeGroups = buildRouteGroups(endpoints);
 
+    let score = 100;
+
     
 
     return{
