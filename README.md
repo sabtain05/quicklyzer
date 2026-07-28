@@ -1,18 +1,20 @@
 # Quicklyzer
 
-Quicklyzer is a fast & intelligent CLI that analyzes software projects in seconds.
+Quicklyzer is a fast and intelligent CLI that analyzes software projects in seconds.
 
-It provides deep insights into project architecture, dependencies, documentation, Git repositories, security, performance, and overall project health—all from your terminal.
+It provides deep insights into your project's architecture, dependencies, documentation, Git repository, security, testing, performance, package health, and overall codebase quality.
 
 ---
 
-## Installation
+# Installation
+
+Global install
 
 ```bash
 npm install -g quicklyzer
 ```
 
-or
+Without installation
 
 ```bash
 npx quicklyzer scan
@@ -22,7 +24,7 @@ npx quicklyzer scan
 
 # Commands
 
-## Analyze Current Project
+## Scan Project
 
 ```bash
 quicklyzer scan
@@ -44,7 +46,13 @@ quicklyzer scan --quiet
 
 ```bash
 quicklyzer scan --ignore dist
+```
+
+```bash
 quicklyzer scan --ignore coverage
+```
+
+```bash
 quicklyzer scan --ignore uploads
 ```
 
@@ -76,19 +84,19 @@ HTML
 quicklyzer export --format html
 ```
 
-Export all
+Export Everything
 
 ```bash
 quicklyzer export --all
 ```
 
-Custom output
+Custom Output Folder
 
 ```bash
 quicklyzer export --all --output reports
 ```
 
-Custom filename
+Custom Filename
 
 ```bash
 quicklyzer export --all --output reports --name project-report
@@ -103,12 +111,9 @@ quicklyzer export --all --output reports --name project-report
 - Project information
 - Project type detection
 - Entry point detection
-- Project structure
-- Folder analysis
-- File analysis
+- Project structure analysis
 - Configuration file detection
 - Technology stack detection
-- Package health analysis
 - Project score
 - Project summary
 
@@ -137,10 +142,11 @@ quicklyzer export --all --output reports --name project-report
 - Development dependencies
 - Installed packages
 - Installed package size
-- Largest installed packages
-- Unused dependencies
-- Missing dependencies
-- Duplicate package detection
+- Largest packages
+- Dependency statistics
+- Unused dependency detection
+- Missing dependency detection
+- Duplicate version detection
 - Dependency risk score
 - Dependency summary
 
@@ -148,17 +154,17 @@ quicklyzer export --all --output reports --name project-report
 
 ## Code Intelligence
 
-- Source file statistics
+- Source file analysis
 - Largest files
 - Largest directories
 - Extension statistics
-- Duplicate filenames
 - Empty source files
 - Hidden files
 - TODO detection
 - FIXME detection
 - HACK detection
 - NOTE detection
+- Duplicate filename detection
 - Recent activity
 
 ---
@@ -173,8 +179,8 @@ quicklyzer export --all --output reports --name project-report
 - LICENSE detection
 - README analysis
 - README statistics
-- Documentation score
 - Documentation recommendations
+- Documentation score
 - Documentation health
 
 ---
@@ -184,12 +190,11 @@ quicklyzer export --all --output reports --name project-report
 - Repository detection
 - Branch detection
 - Remote repository
-- Local branches
-- Git tags
+- Tags
 - Recent commits
 - Contributors
-- Working tree analysis
-- Ahead/Behind tracking
+- Working tree status
+- Ahead / Behind detection
 - Repository health
 - Git recommendations
 
@@ -200,9 +205,8 @@ quicklyzer export --all --output reports --name project-report
 - Environment file detection
 - Dangerous file detection
 - Sensitive file detection
-- Secret pattern detection
+- Secret detection
 - Security score
-- Security rating
 - Security recommendations
 - Security health
 
@@ -211,12 +215,12 @@ quicklyzer export --all --output reports --name project-report
 ## Architecture Intelligence
 
 - Module discovery
-- Import analysis
-- Layer detection
+- Import graph analysis
 - Circular dependency detection
-- Dead module detection
+- Layer detection
 - Public module detection
-- Dependency depth analysis
+- Dead module detection
+- Dependency depth
 - Import hotspots
 - Layer summary
 - Architecture score
@@ -228,17 +232,39 @@ quicklyzer export --all --output reports --name project-report
 ## Performance Intelligence
 
 - Heavy file detection
-- Largest modules
+- Largest module detection
 - Startup cost estimation
 - External dependency analysis
 - Import density
-- Module complexity analysis
+- Module complexity
 - Performance hotspots
+- Optimization summary
 - Performance score
 - Performance recommendations
-- Optimization summary
-- Performance insights
 - Performance health
+
+---
+
+## Testing Intelligence
+
+- Test framework detection
+- Test discovery
+- Unit test detection
+- Integration test detection
+- End-to-end test detection
+- Snapshot detection
+- Mock detection
+- Coverage detection
+- Untested file detection
+- Test ratio
+- Largest test suites
+- Test distribution
+- Coverage readiness
+- Testing organization
+- Testing maturity
+- Testing score
+- Testing recommendations
+- Testing health
 
 ---
 
@@ -248,31 +274,23 @@ quicklyzer export --all --output reports --name project-report
 - Markdown reports
 - HTML reports
 - Export all formats
-- Timestamped reports
 - Custom filenames
-- Export manifest
+- Custom output folders
+- Timestamped reports
 
 ---
 
 ## Developer Experience
 
-- Colored output
+- Colored terminal output
+- Professional report layout
 - Progress spinner
 - Verbose mode
 - Quiet mode
-- Scan timing
-- Performance metrics
+- Performance timing
+- Scan duration
 - Ignore directories
-- Professional terminal output
 - Friendly error handling
-
----
-
-# Example
-
-```bash
-quicklyzer scan
-```
 
 ---
 
