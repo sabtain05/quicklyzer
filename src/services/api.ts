@@ -74,5 +74,7 @@ export function analyzeApi(projectPath: string): ApiAnalysis{
 
     let websocket = false;
 
+    let swagger = false;
+
     
 }
