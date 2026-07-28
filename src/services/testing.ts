@@ -185,6 +185,8 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
     if(unitTests===0)
         organization = "Missing Unit Tests";
 
+    else if(integrationTests===0)
+
     return{
         framework: detectFramework(packageJson),
         testFiles,
