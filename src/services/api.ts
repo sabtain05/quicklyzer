@@ -97,7 +97,9 @@ function buildMethodStatistics(endpoints: Endpoint[]){
         PUT: endpoints.filter(e=>e.method==="PUT").length,
 
         PATCH: endpoints.filter(e=>e.method==="PATCH").length,
-    }
+
+        DELETE: endpoints.filter(e=>e.method==="DELETE").length
+    };
 }
 
 
