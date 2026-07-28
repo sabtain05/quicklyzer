@@ -254,6 +254,7 @@ dependencyAnalysis: {
       file: string;
     }[];
     totalEndpoints: number;
+    graphql: boolean;
   }
   scripts: string[];
   nodeVersion: string;
