@@ -7,4 +7,6 @@ export interface Endpoint {
     method: string;
 
     path: string;
+
+    file: string;
 }
