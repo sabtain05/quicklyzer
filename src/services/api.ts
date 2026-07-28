@@ -84,5 +84,6 @@ export function analyzeApi(projectPath: string): ApiAnalysis{
             graphql = true;
 
         if(content.includes("webSocket") || content.includes("socket.io"))
+            websocket = true;
     }
 }
