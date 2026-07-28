@@ -121,7 +121,7 @@ function buildRouteGroups(endpoints: Endpoint[]){
         group,
         count
     }))
-    
+    .sort((a,b)=>b.count-a.count);
 }
 
 
