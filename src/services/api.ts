@@ -89,4 +89,8 @@ export function analyzeApi(projectPath: string): ApiAnalysis{
         if(content.includes("swagger") || content.includes("openapi"))
             swagger = true;
     }
+
+    return{
+        
+    }
 }
