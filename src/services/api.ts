@@ -161,6 +161,8 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
         version = `v${match[1]}`;
     }
 
+    
+
     return{
         endpoints,
         totalEndpoints: endpoints.length,
