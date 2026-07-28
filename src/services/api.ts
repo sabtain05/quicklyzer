@@ -107,7 +107,7 @@ function buildRouteGroups(endpoints: Endpoint[]){
     const map=new Map<string, number>();
     
     for(const endpoint of endpoints){
-        
+        const parts = endpoint.path.split("/");
     }
 }
 
