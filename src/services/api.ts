@@ -116,6 +116,7 @@ function buildRouteGroups(endpoints: Endpoint[]){
         );
     }
 
+    return [...map.entries()]
     
 }
 
