@@ -206,6 +206,8 @@ export function scanCommand() {
 
 
     title("API");
+    console.log(`Endpoints     : ${project.api.totalEndpoints}`);
+    
 
 
 
