@@ -191,6 +191,10 @@ export function scanCommand() {
     console.log(`E2E           : ${project.testing.distribution.e2e}`);
 
 
+    title("Coverage Readiness");
+    console.log(`Ready         : ${project.testing.coverageReadiness.ready ? "Yes" : "No"}`);
+
+
 
     // ============================================================
     // Configuration Files
