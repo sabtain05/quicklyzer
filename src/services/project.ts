@@ -256,7 +256,7 @@ dependencyAnalysis: {
     totalEndpoints: number;
     graphql: boolean;
     websocket: boolean;
-    
+    swagger: boolean;
   }
   scripts: string[];
   nodeVersion: string;
