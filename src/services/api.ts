@@ -55,6 +55,7 @@ function discoverEndpoints(content: string, file: string){
     while((match = regex.exec(content))){
         endpoints.push({
             method:match[1].toUpperCase(),
+            path: match[2],
             
         })
     }
