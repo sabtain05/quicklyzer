@@ -31,7 +31,7 @@ export interface ApiAnalysis{
         DELETE: number;
     };
     routeGroups: {
-        
+        group: string;
     }
 }
 
