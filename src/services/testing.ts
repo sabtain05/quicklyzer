@@ -206,5 +206,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         score:{score, rating},
         recommendations,
         distribution,
+        coverageReadiness,
+        
     };
 }
