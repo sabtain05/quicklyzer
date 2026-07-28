@@ -82,6 +82,8 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
 
     const graphql = "graphql" in dependencies || "@apollo/server" in dependencies || "apollo-server" in dependencies;
 
+    const websocket = "ws" in dependencies || "socket.io" in dependencies;
+
     return{
         endpoints,
         totalEndpoints: endpoints.length,
