@@ -39,7 +39,7 @@ function walk(dir:string, files: string[]){
         }
 
         if(full.endsWith(".ts") || full.endsWith(".js")){
-            
+            files.push(full);
         }
     }
 }
