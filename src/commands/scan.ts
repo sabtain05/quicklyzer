@@ -193,6 +193,7 @@ export function scanCommand() {
 
     title("Coverage Readiness");
     console.log(`Ready         : ${project.testing.coverageReadiness.ready ? "Yes" : "No"}`);
+    console.log(`Reason        : ${project.testing.coverageReadiness.reason}`);
 
 
 
