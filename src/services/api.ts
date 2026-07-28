@@ -41,7 +41,7 @@ export interface ApiAnalysis{
     version: string;
 
     score:{
-        
+        score: number;
     }
 }
 
