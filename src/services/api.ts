@@ -59,4 +59,6 @@ function discoverEndpoints(content: string, file: string){
             file
         });
     }
+
+    return endpoints;
 }
