@@ -656,6 +656,7 @@ export function analyzeProject(
     architecture,
     performance,
     testing,
+    api,
     scripts: scripts,
     nodeVersion: nodeVersion,
     docker: docker,
