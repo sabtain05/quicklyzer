@@ -78,6 +78,8 @@ export function analyzeApi(projectPath: string): ApiAnalysis{
 
     for(const file of files){
         const content = readFileSync(file, "utf8");
+        endpoints.push(...discoverEndpoints(content, file));
+
         
     }
 }
