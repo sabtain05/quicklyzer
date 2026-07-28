@@ -53,6 +53,8 @@ function discoverEndpoints(content: string, file: string){
     let match;
 
     while((match = regex.exec(content))){
-        
+        endpoints.push({
+            
+        })
     }
 }
