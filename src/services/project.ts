@@ -238,16 +238,13 @@ dependencyAnalysis: {
         integration: number;
         e2e: number;
     };
-
     coverageReadiness: {
         ready: boolean;
         reason: string;
     };
-
     maturity: {
         level: string;
     };
-
     organization: string;
   };
   api:{
@@ -255,7 +252,7 @@ dependencyAnalysis: {
       method: string;
       path: string;
       file: string;
-    }
+    }[];
   }
   scripts: string[];
   nodeVersion: string;
