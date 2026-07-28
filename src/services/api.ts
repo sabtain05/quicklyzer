@@ -66,5 +66,6 @@ function discoverEndpoints(content: string, file: string){
 
 
 export function analyzeApi(projectPath: string): ApiAnalysis{
+    const files: string[] = [];
     
 }
