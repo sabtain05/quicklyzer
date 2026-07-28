@@ -169,6 +169,10 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         reason: testFiles.length>0 ? "Project is ready for coverage reporting." : "No tests available."
     };
 
+    let maturity = "Beginner";
+    
+    
+
     return{
         framework: detectFramework(packageJson),
         testFiles,
