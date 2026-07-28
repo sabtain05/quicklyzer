@@ -13,5 +13,6 @@ export interface Endpoint {
 
 
 export interface ApiAnalysis{
+    endpoints: Endpoint[];
     
 }
