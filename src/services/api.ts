@@ -30,11 +30,13 @@ export interface ApiAnalysis{
         PATCH: number;
         DELETE: number;
     };
-    
+
     routeGroups: {
         group: string;
         count: number;
     }[];
+
+    updating api analysis interface
 }
 
 
