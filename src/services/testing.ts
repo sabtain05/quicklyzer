@@ -207,6 +207,6 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         recommendations,
         distribution,
         coverageReadiness,
-        
+        maturity: {level: maturity},
     };
 }
