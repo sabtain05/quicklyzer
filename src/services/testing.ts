@@ -166,7 +166,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
 
     const coverageReadiness={
         ready: testFiles.length>0,
-        
+        reason: testFiles.length>0 ? "Project is ready for coverage reporting." : "No tests available."
     }
 
     return{
