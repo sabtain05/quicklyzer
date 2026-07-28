@@ -34,6 +34,10 @@ export interface TestingAnalysis{
     };
 
     recommendations: string[];
+
+    distribution: {
+        
+    }
 }
 
 
