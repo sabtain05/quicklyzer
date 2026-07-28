@@ -255,6 +255,8 @@ dependencyAnalysis: {
     }[];
     totalEndpoints: number;
     graphql: boolean;
+    websocket: boolean;
+    
   }
   scripts: string[];
   nodeVersion: string;
