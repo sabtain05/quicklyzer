@@ -30,5 +30,7 @@ function walk(dir:string, files: string[]){
         if(["node_modules", ".git", "dist"].includes(entry))continue;
 
         const full = join(dir, entry);
+
+        const stats = statSync(full);
     }
 }
