@@ -171,6 +171,7 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
         score-=40;
 
     if(!swagger)
+        score-=10;
 
     return{
         endpoints,
