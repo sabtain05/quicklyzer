@@ -163,6 +163,8 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
 
     const methods = buildMethodStatistics(endpoints);
 
+    const routeGroups = buildRouteGroups(endpoints);
+
     return{
         endpoints,
         totalEndpoints: endpoints.length,
