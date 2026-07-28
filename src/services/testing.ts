@@ -160,6 +160,8 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
 
     const unitTests = testFiles.filter(file => file.includes("unit")).length;
     
+    const integrationTests = testFiles.filter(file => file.includes("integration")).length;
+
     
 
     const distribution={
