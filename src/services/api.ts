@@ -151,7 +151,9 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
 
     let version = "Unknown";
 
-    if(content.includes(".use") || content.includes("middleware")){}
+    if(content.includes(".use") || content.includes("middleware")){
+        middleware++;
+    }
 
     return{
         endpoints,
