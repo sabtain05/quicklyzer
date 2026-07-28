@@ -70,12 +70,6 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
     walk(projectPath, files);
     const endpoints: Endpoint[] = [];
 
-    let graphql = false;
-
-    let websocket = false;
-
-    let swagger = false;
-
     for(const file of files){
         const content = readFileSync(file, "utf8");
         endpoints.push(...discoverEndpoints(content, file));
