@@ -88,6 +88,11 @@ function discoverEndpoints(content: string, file: string){
 }
 
 
+function buildMethodStatistics(endpoints: Endpoint[]){
+    
+}
+
+
 
 export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
     const files: string[] = [];
