@@ -201,6 +201,7 @@ export function scanCommand() {
 
 
     title("Testing Maturity");
+    console.log(`Level         : ${project.testing.maturity.level}`);
 
 
 
