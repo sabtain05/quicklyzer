@@ -170,6 +170,8 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
     if(totalEndpoints===0)
         score-=40;
 
+    if(!swagger)
+
     return{
         endpoints,
         totalEndpoints: endpoints.length,
