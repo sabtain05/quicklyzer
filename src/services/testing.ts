@@ -39,7 +39,8 @@ export interface TestingAnalysis{
         unit: number;
         integration: number;
         e2e: number;
-    }
+    };
+    
 }
 
 
