@@ -44,6 +44,8 @@ export interface ApiAnalysis{
         score: number;
         rating: string;
     };
+
+    recommendations: string[];
 }
 
 
