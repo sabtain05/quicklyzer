@@ -204,6 +204,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         testRatio,
         largestSuites: buildlargestSuites(testFiles),
         score:{score, rating},
-        recommendations
+        recommendations,
+        distribution,
     };
 }
