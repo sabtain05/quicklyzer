@@ -77,6 +77,7 @@ export function analyzeApi(projectPath: string): ApiAnalysis{
     let swagger = false;
 
     for(const file of files){
+        const content = readFileSync(file, "utf8");
         
     }
 }
