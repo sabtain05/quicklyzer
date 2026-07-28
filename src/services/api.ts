@@ -10,3 +10,8 @@ export interface Endpoint {
 
     file: string;
 }
+
+
+export interface ApiAnalysis{
+    
+}
