@@ -56,7 +56,7 @@ function discoverEndpoints(content: string, file: string){
         endpoints.push({
             method:match[1].toUpperCase(),
             path: match[2],
-            
+            file
         })
     }
 }
