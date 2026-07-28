@@ -103,6 +103,11 @@ function buildMethodStatistics(endpoints: Endpoint[]){
 }
 
 
+function buildRouteGroups(endpoints: Endpoint[]){
+    
+}
+
+
 
 export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
     const files: string[] = [];
