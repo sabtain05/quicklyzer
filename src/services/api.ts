@@ -80,6 +80,6 @@ export function analyzeApi(projectPath: string): ApiAnalysis{
         const content = readFileSync(file, "utf8");
         endpoints.push(...discoverEndpoints(content, file));
 
-        
+        if(content.includes("graphql"))
     }
 }
