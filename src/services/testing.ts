@@ -47,7 +47,7 @@ export interface TestingAnalysis{
     };
 
     maturity: {
-        
+        level: string;
     }
 }
 
