@@ -186,6 +186,7 @@ export function scanCommand() {
 
 
     title("Test Distribution");
+    console.log(`Unit          : ${project.testing.distribution.unit}`);
 
 
 
