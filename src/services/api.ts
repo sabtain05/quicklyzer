@@ -95,6 +95,8 @@ function buildMethodStatistics(endpoints: Endpoint[]){
         POST: endpoints.filter(e=>e.method==="POST").length,
 
         PUT: endpoints.filter(e=>e.method==="PUT").length,
+
+        PATCH: endpoints.filter(e=>e.method==="PATCH").length,
     }
 }
 
