@@ -90,7 +90,7 @@ function discoverEndpoints(content: string, file: string){
 
 function buildMethodStatistics(endpoints: Endpoint[]){
     return{
-        
+        GET: endpoints.filter(e=>e.method==="GET").length,
     }
 }
 
