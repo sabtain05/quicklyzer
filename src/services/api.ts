@@ -65,7 +65,7 @@ function discoverEndpoints(content: string, file: string){
 
 
 
-export function analyzeApi(projectPath: string): ApiAnalysis{
+export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
     const files: string[] = [];
     walk(projectPath, files);
     const endpoints: Endpoint[] = [];
