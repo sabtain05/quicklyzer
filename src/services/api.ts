@@ -118,8 +118,10 @@ function buildRouteGroups(endpoints: Endpoint[]){
 
     return [...map.entries()]
     .map(([group,count])=>({
-        
+        group,
+        count
     }))
+    
 }
 
 
