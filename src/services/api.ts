@@ -70,5 +70,7 @@ export function analyzeApi(projectPath: string): ApiAnalysis{
     walk(projectPath, files);
     const endpoints: Endpoint[] = [];
 
+    let graphql = false;
+
     
 }
