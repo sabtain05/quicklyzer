@@ -158,6 +158,11 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         recommendations.push("Testing setup looks healthy.");
     }
 
+
+    const distribution={
+        
+    }
+
     return{
         framework: detectFramework(packageJson),
         testFiles,
