@@ -43,7 +43,7 @@ export interface ApiAnalysis{
     score:{
         score: number;
         rating: string;
-    }
+    };
 }
 
 
