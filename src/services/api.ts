@@ -91,6 +91,7 @@ export function analyzeApi(projectPath: string): ApiAnalysis{
     }
 
     return{
+        endpoints,
         
     }
 }
