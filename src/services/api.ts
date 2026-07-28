@@ -157,6 +157,10 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
 
     const match = content.match(/\/v(\d+)/);
 
+    if(match){
+        
+    }
+
     return{
         endpoints,
         totalEndpoints: endpoints.length,
