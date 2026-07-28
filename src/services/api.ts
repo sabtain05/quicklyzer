@@ -95,5 +95,6 @@ export function analyzeApi(projectPath: string): ApiAnalysis{
         totalEndpoints: endpoints.length,
         graphql,
         websocket,
-    }
+        swagger
+    };
 }
