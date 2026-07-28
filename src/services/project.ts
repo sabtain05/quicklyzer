@@ -612,7 +612,7 @@ export function analyzeProject(
   const architecture= analyzeArchitecture(projectPath);
   const performance = analyzePerformance(architecture.modules);
   const testing = analyzeTesting(projectPath, pkg);
-  const api = analyzeApi(projectPath);
+  const api = analyzeApi(projectPath, pkg);
 
 
 
