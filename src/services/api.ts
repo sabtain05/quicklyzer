@@ -94,6 +94,6 @@ export function analyzeApi(projectPath: string): ApiAnalysis{
         endpoints,
         totalEndpoints: endpoints.length,
         graphql,
-        
+        websocket,
     }
 }
