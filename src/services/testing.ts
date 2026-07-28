@@ -162,7 +162,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
     
     const integrationTests = testFiles.filter(file => file.includes("integration")).length;
 
-    
+    const e2eTests = testFiles.filter(file => file.includes("e2e")).length;
 
     const distribution={
         unit: unitTests,
