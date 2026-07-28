@@ -20,4 +20,6 @@ export interface ApiAnalysis{
     graphql: boolean;
 
     websocket: boolean;
+
+    swagger: boolean;
 }
