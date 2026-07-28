@@ -23,3 +23,8 @@ export interface ApiAnalysis{
 
     swagger: boolean;
 }
+
+
+function walk(dir:string, files: string[]){
+    
+}
