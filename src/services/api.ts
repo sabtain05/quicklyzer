@@ -34,7 +34,7 @@ function walk(dir:string, files: string[]){
         const stats = statSync(full);
 
         if(stats.isDirectory()){
-            
+            walk(full, files);
         }
     }
 }
