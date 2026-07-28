@@ -49,4 +49,8 @@ function discoverEndpoints(content: string, file: string){
     const endpoints: Endpoint[] = [];
 
     const regex = /\.(get|post|put|delete|patch)\(["'`](.*?)["'`]/gi;
+
+    let match;
+
+    
 }
