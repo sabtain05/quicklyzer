@@ -82,5 +82,7 @@ export function analyzeApi(projectPath: string): ApiAnalysis{
 
         if(content.includes("graphql"))
             graphql = true;
+
+        if(content.includes("webSocket") || content.includes("socket.io"))
     }
 }
