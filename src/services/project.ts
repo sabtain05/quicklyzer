@@ -250,6 +250,9 @@ dependencyAnalysis: {
 
     organization: string;
   };
+  api:{
+    
+  }
   scripts: string[];
   nodeVersion: string;
   docker: boolean;
