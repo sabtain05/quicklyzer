@@ -80,7 +80,7 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
         endpoints.push(...discoverEndpoints(content, file));
     }
 
-    
+    const graphql = "graphql" in dependencies || "@apollo/server" in dependencies || "apollo-server" in dependencies;
 
     return{
         endpoints,
