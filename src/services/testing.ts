@@ -189,6 +189,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         organization = "Missing Integration Tests";
 
     else if(e2eTests===0)
+        organization = "Missing E2E Tests";
 
     return{
         framework: detectFramework(packageJson),
