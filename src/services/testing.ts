@@ -178,6 +178,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
         maturity = "Advanced";
 
     if(testFiles.length>=30)
+        maturity = "Enterprise";
 
     return{
         framework: detectFramework(packageJson),
