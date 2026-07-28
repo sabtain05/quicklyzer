@@ -33,7 +33,7 @@ export interface ApiAnalysis{
     routeGroups: {
         group: string;
         count: number;
-    }
+    }[];
 }
 
 
