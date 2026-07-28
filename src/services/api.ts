@@ -29,7 +29,7 @@ export interface ApiAnalysis{
         PUT: number;
         PATCH: number;
         DELETE: number;
-    }
+    };
 }
 
 
