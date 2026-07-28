@@ -38,6 +38,7 @@ export interface TestingAnalysis{
     distribution: {
         unit: number;
         integration: number;
+        e2e: number;
     }
 }
 
