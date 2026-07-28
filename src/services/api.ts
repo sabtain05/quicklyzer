@@ -109,6 +109,10 @@ function buildRouteGroups(endpoints: Endpoint[]){
     for(const endpoint of endpoints){
         const parts = endpoint.path.split("/");
         const group=parts[1] || "root";
+
+        map.set(
+            group,
+        )
     }
 }
 
