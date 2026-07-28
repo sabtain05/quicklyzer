@@ -196,6 +196,9 @@ export function scanCommand() {
     console.log(`Reason        : ${project.testing.coverageReadiness.reason}`);
 
 
+    title("Test Organization");
+
+
 
     // ============================================================
     // Configuration Files
