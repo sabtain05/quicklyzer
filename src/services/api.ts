@@ -22,6 +22,8 @@ export interface ApiAnalysis{
     websocket: boolean;
 
     swagger: boolean;
+
+    
 }
 
 
