@@ -206,9 +206,9 @@ export function scanCommand() {
 
 
     title("API");
-    console.log(`Endpoints     : ${project.api.totalEndpoints}`);
-    console.log(`GraphQL       : ${project.api.graphql ? "Yes" : "No"}`);
-    console.log(`WebSocket     : ${project.api.websocket ? "Yes" : "No"}`);
+    console.log(`Endpoints        : ${project.api.totalEndpoints}`);
+    console.log(`GraphQL          : ${project.api.graphql ? "Yes" : "No"}`);
+    console.log(`WebSocket        : ${project.api.websocket ? "Yes" : "No"}`);
     console.log(`Swagger/OpenAPI  : ${project.api.swagger ? "Yes" : "No"}`);
 
 
