@@ -62,3 +62,9 @@ function discoverEndpoints(content: string, file: string){
 
     return endpoints;
 }
+
+
+
+export function analyzeApi(projectPath: string): ApiAnalysis{
+    
+}
