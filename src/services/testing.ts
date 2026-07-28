@@ -43,6 +43,7 @@ export interface TestingAnalysis{
 
     coverageReadiness: {
         ready: boolean;
+        reason: string;
     }
 }
 
