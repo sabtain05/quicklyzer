@@ -40,7 +40,10 @@ export interface TestingAnalysis{
         integration: number;
         e2e: number;
     };
-    
+
+    coverageReadiness: {
+        
+    }
 }
 
 
