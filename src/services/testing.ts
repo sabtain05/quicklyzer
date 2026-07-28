@@ -160,6 +160,7 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
 
 
     const distribution={
+        unit: unitTests,
         
     }
 
