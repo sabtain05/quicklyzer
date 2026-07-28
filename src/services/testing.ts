@@ -171,7 +171,8 @@ export function analyzeTesting(projectPath: string, packageJson: any): TestingAn
 
     let maturity = "Beginner";
     
-    
+    if(testFiles.length>=5)
+        
 
     return{
         framework: detectFramework(packageJson),
