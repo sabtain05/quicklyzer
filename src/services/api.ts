@@ -19,5 +19,5 @@ export interface ApiAnalysis{
 
     graphql: boolean;
 
-    
+    websocket: boolean;
 }
