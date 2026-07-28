@@ -28,6 +28,7 @@ export interface ApiAnalysis{
         POST: number;
         PUT: number;
         PATCH: number;
+        DELETE: number;
     }
 }
 
