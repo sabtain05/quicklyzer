@@ -45,6 +45,10 @@ export interface TestingAnalysis{
         ready: boolean;
         reason: string;
     };
+
+    maturity: {
+        
+    }
 }
 
 
