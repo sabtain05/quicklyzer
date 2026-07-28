@@ -207,7 +207,7 @@ export function scanCommand() {
 
     title("API");
     console.log(`Endpoints     : ${project.api.totalEndpoints}`);
-    
+    console.log(`GraphQL       : ${project.api.graphql ? "Yes" : "No"}`);
 
 
 
