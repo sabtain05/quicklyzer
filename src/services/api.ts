@@ -39,6 +39,10 @@ export interface ApiAnalysis{
     middleware: number;
 
     version: string;
+
+    score:{
+        
+    }
 }
 
 
