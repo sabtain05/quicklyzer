@@ -161,7 +161,7 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
         version = `v${match[1]}`;
     }
 
-    
+    const methods = buildMethodStatistics(endpoints);
 
     return{
         endpoints,
