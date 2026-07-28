@@ -70,18 +70,14 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
     walk(projectPath, files);
     const endpoints: Endpoint[] = [];
 
+    const dependencies = {
+        ...(packageJson.dependencies ?? {}),
+        ...(packageJson.devDependencies ?? {})
+    };
+
     for(const file of files){
         const content = readFileSync(file, "utf8");
         endpoints.push(...discoverEndpoints(content, file));
-
-        if(content.includes("graphql"))
-            graphql = true;
-
-        if(content.includes("webSocket") || content.includes("socket.io"))
-            websocket = true;
-
-        if(content.includes("swagger") || content.includes("openapi"))
-            swagger = true;
     }
 
     return{
