@@ -30,6 +30,9 @@ export interface ApiAnalysis{
         PATCH: number;
         DELETE: number;
     };
+    routeGroups: {
+        
+    }
 }
 
 
