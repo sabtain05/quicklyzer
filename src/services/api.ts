@@ -139,6 +139,16 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
     for(const file of files){
         const content = readFileSync(file, "utf8");
         endpoints.push(...discoverEndpoints(content, file));
+
+         if(content.includes(".use") || content.includes("middleware")){
+        middleware++;
+    }
+
+    const match = content.match(/\/v(\d+)/);
+
+    if(match){
+        version = `v${match[1]}`;
+    }
     }
 
     const graphql = "graphql" in dependencies || "@apollo/server" in dependencies || "apollo-server" in dependencies;
