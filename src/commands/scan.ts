@@ -227,6 +227,7 @@ export function scanCommand() {
 
     title("API Details");
     console.log(`Middleware   : ${project.api.middleware}`);
+    console.log(`Version      : ${project.api.version}`);
 
 
 
