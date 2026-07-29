@@ -230,6 +230,9 @@ export function scanCommand() {
     console.log(`Version      : ${project.api.version}`);
 
 
+    title("API Recommendations");
+
+
 
     // ============================================================
     // Configuration Files
