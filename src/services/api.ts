@@ -213,6 +213,15 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
         totalEndpoints: endpoints.length,
         graphql,
         websocket,
-        swagger
+        swagger,
+        methods,
+        routeGroups,
+        middleware,
+        version,
+        score:{
+            score,
+            rating
+        },
+        recommendations
     };
 }
