@@ -205,7 +205,7 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
     }
 
     if(recommendations.length===0){
-        
+        recommendations.push("API looks healthy.");
     }
 
     return{
