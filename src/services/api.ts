@@ -181,6 +181,9 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
 
     let rating = "Excellent";
 
+    if(score<90)
+        rating = "Good";
+
     return{
         endpoints,
         totalEndpoints: endpoints.length,
