@@ -192,7 +192,9 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
 
     const recommendations: string[]=[];
 
-    
+    if(totalEndpoints===0){
+        recommendations.push("No REST endpoints detected.");
+    }
 
     return{
         endpoints,
