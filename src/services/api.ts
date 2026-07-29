@@ -200,6 +200,10 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
         recommendations.push("Add OpenAPI/Swagger documentation.");
     }
 
+    if(middleware===0){
+        
+    }
+
     return{
         endpoints,
         totalEndpoints: endpoints.length,
