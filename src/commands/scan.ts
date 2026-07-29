@@ -216,6 +216,7 @@ export function scanCommand() {
     console.log(`GET          : ${project.api.methods.GET}`);
     console.log(`POST         : ${project.api.methods.POST}`);
     console.log(`PUT          : ${project.api.methods.PUT}`);
+    console.log(`PATCH        : ${project.api.methods.PATCH}`);
 
 
 
