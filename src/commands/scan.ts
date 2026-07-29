@@ -221,7 +221,7 @@ export function scanCommand() {
 
 
     title("API Score");
-    
+    console.log(`Score        : ${project.api.score.score}/100`);
 
 
 
