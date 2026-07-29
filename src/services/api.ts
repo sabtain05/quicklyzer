@@ -173,6 +173,9 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
     if(!swagger)
         score-=10;
 
+    if(middleware===0)
+        score-=10;
+
     return{
         endpoints,
         totalEndpoints: endpoints.length,
