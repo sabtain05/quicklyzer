@@ -190,6 +190,10 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
     if(score<60)
         rating = "Poor";
 
+    const recommendations: string[]=[];
+
+    
+
     return{
         endpoints,
         totalEndpoints: endpoints.length,
