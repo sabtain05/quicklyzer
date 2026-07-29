@@ -257,6 +257,24 @@ dependencyAnalysis: {
     graphql: boolean;
     websocket: boolean;
     swagger: boolean;
+    methods:{
+        GET: number;
+        POST: number;
+        PUT: number;
+        PATCH: number;
+        DELETE: number;
+    };
+    routeGroups: {
+        group: string;
+        count: number;
+    }[];
+    middleware: number;
+    version: string;
+    score:{
+        score: number;
+        rating: string;
+    };
+    recommendations: string[];
   };
   scripts: string[];
   nodeVersion: string;
