@@ -232,7 +232,7 @@ export function scanCommand() {
 
     title("API Recommendations");
     for(const recommendation of project.api.recommendations){
-      
+      console.log(`• ${recommendation}`);
     }
 
 
