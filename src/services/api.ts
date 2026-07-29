@@ -151,16 +151,6 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
 
     let version="Unknown";
 
-    if(content.includes(".use") || content.includes("middleware")){
-        middleware++;
-    }
-
-    const match = content.match(/\/v(\d+)/);
-
-    if(match){
-        version = `v${match[1]}`;
-    }
-
     const totalEndpoints = endpoints.length;
 
     const methods = buildMethodStatistics(endpoints);
