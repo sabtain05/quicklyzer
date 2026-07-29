@@ -220,6 +220,9 @@ export function scanCommand() {
     console.log(`DELETE       : ${project.api.methods.DELETE}`);
 
 
+    title("API Score");
+
+
 
     // ============================================================
     // Configuration Files
