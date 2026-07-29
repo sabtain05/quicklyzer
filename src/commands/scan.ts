@@ -212,6 +212,9 @@ export function scanCommand() {
     console.log(`Swagger/OpenAPI  : ${project.api.swagger ? "Yes" : "No"}`);
 
 
+    title("HTTP Methods");
+
+
 
     // ============================================================
     // Configuration Files
