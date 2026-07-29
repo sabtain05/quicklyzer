@@ -225,6 +225,9 @@ export function scanCommand() {
     console.log(`Rating       : ${project.api.score.rating}`);
 
 
+    title("API Details");
+
+
 
     // ============================================================
     // Configuration Files
