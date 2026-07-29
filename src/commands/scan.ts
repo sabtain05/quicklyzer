@@ -214,6 +214,7 @@ export function scanCommand() {
 
     title("HTTP Methods");
     console.log(`GET          : ${project.api.methods.GET}`);
+    console.log(`POST         : ${project.api.methods.POST}`);
 
 
 
