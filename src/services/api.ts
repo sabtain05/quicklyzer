@@ -136,6 +136,9 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
         ...(packageJson.devDependencies ?? {})
     };
 
+    let middleware = 0;
+    
+
     for(const file of files){
         const content = readFileSync(file, "utf8");
         endpoints.push(...discoverEndpoints(content, file));
