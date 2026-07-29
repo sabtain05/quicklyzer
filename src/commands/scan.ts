@@ -221,6 +221,7 @@ export function scanCommand() {
 
 
     title("API Score");
+    
 
 
 
