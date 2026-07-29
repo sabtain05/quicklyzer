@@ -137,7 +137,7 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
     };
 
     let middleware = 0;
-    
+    let version = "Unknown";
 
     for(const file of files){
         const content = readFileSync(file, "utf8");
