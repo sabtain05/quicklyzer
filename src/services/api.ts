@@ -204,6 +204,10 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
         recommendations.push("Review middleware configuration.");
     }
 
+    if(recommendations.length===0){
+        
+    }
+
     return{
         endpoints,
         totalEndpoints: endpoints.length,
