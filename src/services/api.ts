@@ -197,7 +197,7 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
     }
 
     if(!swagger){
-        
+        recommendations.push("Add OpenAPI/Swagger documentation.");
     }
 
     return{
