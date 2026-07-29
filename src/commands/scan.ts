@@ -222,6 +222,7 @@ export function scanCommand() {
 
     title("API Score");
     console.log(`Score        : ${project.api.score.score}/100`);
+    console.log(`Rating       : ${project.api.score.rating}`);
 
 
 
