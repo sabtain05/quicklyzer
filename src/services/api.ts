@@ -262,6 +262,8 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
             score,
             rating
         },
-        recommendations
+        recommendations,
+        complexity,
+        maturity
     };
 }
