@@ -147,10 +147,22 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
         middleware++;
     }
 
-    const match = content.match(/\/v(\d+)/);
+    const versionPatterns = [
+    /\/api\/v(\d+)/i,
+    /\/v(\d+)/i,
+    /version\s*:\s*["']?v?(\d+)["']?/i,
+    /version\s*=\s*["']?v?(\d+)["']?/i
+    ];
+
+   for (const pattern of versionPatterns) {
+
+    const match = content.match(pattern);
+
 
     if(match){
         version = `v${match[1]}`;
+        break;
+    }  
     }
     }
 
