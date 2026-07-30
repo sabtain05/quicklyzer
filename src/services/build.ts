@@ -77,6 +77,7 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
     return{
         system: detectBuildSystem(packageJson),
         outputFolders,
+        assets: files.filter(file=>/\.(png|jpg|svg|gif|webp|ico|woff2?|ttf)$/i.test(file)).length,
         
     }
 }
