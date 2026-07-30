@@ -35,5 +35,8 @@ function walk(dir:string, files: string[]){
 
 
 function detectBuildSystem(packageJson: any){
-    
+    const deps={
+        ...packageJson.dependencies,
+        ...packageJson.devDependecies
+    };
 }
