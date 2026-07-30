@@ -48,6 +48,8 @@ export interface ApiAnalysis{
     recommendations: string[];
 
     complexity: string;
+
+    maturity: string;
 }
 
 
