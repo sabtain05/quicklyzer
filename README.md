@@ -1,20 +1,27 @@
 # Quicklyzer
 
-Quicklyzer is a fast and intelligent CLI that analyzes software projects in seconds.
+<p align="center">
+  <img src="https://img.shields.io/npm/v/quicklyzer?style=for-the-badge" />
+  <img src="https://img.shields.io/npm/dm/quicklyzer?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/sabtain05/quicklyzer?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/sabtain05/quicklyzer?style=for-the-badge" />
+</p>
 
-It provides deep insights into your project's architecture, dependencies, documentation, Git repository, security, testing, performance, package health, and overall codebase quality.
+<p align="center">
+A fast & intelligent CLI that understands and analyzes software projects in seconds.
+</p>
 
 ---
 
-# Installation
+## Installation
 
-Global install
+### Using npm
 
 ```bash
 npm install -g quicklyzer
 ```
 
-Without installation
+### Using npx
 
 ```bash
 npx quicklyzer scan
@@ -24,273 +31,248 @@ npx quicklyzer scan
 
 # Commands
 
-## Scan Project
+## Analyze Project
 
 ```bash
 quicklyzer scan
 ```
 
-## Verbose Mode
+## About
 
 ```bash
-quicklyzer scan --verbose
+quicklyzer about
 ```
 
-## Quiet Mode
+## Version
 
 ```bash
-quicklyzer scan --quiet
+quicklyzer version
 ```
 
-## Ignore Directories
-
-```bash
-quicklyzer scan --ignore dist
-```
-
-```bash
-quicklyzer scan --ignore coverage
-```
-
-```bash
-quicklyzer scan --ignore uploads
-```
-
-Multiple directories
-
-```bash
-quicklyzer scan --ignore dist --ignore coverage
-```
-
----
-
-## Export Reports
-
-JSON
+## Export Report
 
 ```bash
 quicklyzer export
-```
-
-Markdown
-
-```bash
-quicklyzer export --format md
-```
-
-HTML
-
-```bash
-quicklyzer export --format html
-```
-
-Export Everything
-
-```bash
-quicklyzer export --all
-```
-
-Custom Output Folder
-
-```bash
-quicklyzer export --all --output reports
-```
-
-Custom Filename
-
-```bash
-quicklyzer export --all --output reports --name project-report
 ```
 
 ---
 
 # Features
 
-## Project Intelligence
+## Project Analysis
 
-- Project information
-- Project type detection
-- Entry point detection
-- Project structure analysis
-- Configuration file detection
-- Technology stack detection
-- Project score
-- Project summary
+- Project Information
+- Project Type Detection
+- Entry Point Detection
+- Project Structure
+- Configuration Files
+- Technology Stack
+
+---
+
+## Package Health
+
+- Package Score
+- Package Validation
+- Missing Metadata
+- Package Recommendations
 
 ---
 
 ## Environment Intelligence
 
-- Package manager detection
-- Language detection
-- Framework detection
-- Framework version detection
-- Build tool detection
-- Build tool version detection
-- Node.js version detection
-- Docker detection
-- CI/CD detection
-- ESLint detection
-- Prettier detection
-- Monorepo detection
+- Package Manager
+- Programming Language
+- Framework Detection
+- Framework Version
+- Build Tool Detection
+- Build Tool Version
+- Node.js Version
+- Docker Detection
+- CI/CD Detection
+- ESLint Detection
+- Prettier Detection
+- Monorepo Detection
 
 ---
 
 ## Dependency Intelligence
 
-- Production dependencies
-- Development dependencies
-- Installed packages
-- Installed package size
-- Largest packages
-- Dependency statistics
-- Unused dependency detection
-- Missing dependency detection
-- Duplicate version detection
-- Dependency risk score
-- Dependency summary
+- Dependency Count
+- Dev Dependency Count
+- Installed Packages
+- Installed Size
+- Largest Packages
+- Unused Dependencies
+- Missing Dependencies
+- Duplicate Versions
+- Dependency Score
+- Dependency Recommendations
+
+---
+
+## Project Statistics
+
+- Total Files
+- Source Files
+- Directories
+- Largest Directory
+- Largest File
+- Lines of Code
+- Hidden Files
+- Empty Directories
+- Project Size
+- Scan Duration
 
 ---
 
 ## Code Intelligence
 
-- Source file analysis
-- Largest files
-- Largest directories
-- Extension statistics
-- Empty source files
-- Hidden files
-- TODO detection
-- FIXME detection
-- HACK detection
-- NOTE detection
-- Duplicate filename detection
-- Recent activity
-
----
-
-## Documentation Intelligence
-
-- README detection
-- CHANGELOG detection
-- CONTRIBUTING detection
-- CODE_OF_CONDUCT detection
-- SECURITY detection
-- LICENSE detection
-- README analysis
-- README statistics
-- Documentation recommendations
-- Documentation score
-- Documentation health
+- File Extensions
+- Largest Files
+- Duplicate File Names
+- TODO Detection
+- FIXME Detection
+- NOTE Detection
+- HACK Detection
+- Recent Activity
 
 ---
 
 ## Git Intelligence
 
-- Repository detection
-- Branch detection
-- Remote repository
+- Repository Detection
+- Branch Information
+- Remote URL
 - Tags
-- Recent commits
+- Commit History
 - Contributors
-- Working tree status
-- Ahead / Behind detection
-- Repository health
-- Git recommendations
+- Working Tree Status
+- Repository Health
+- Git Recommendations
+
+---
+
+## Documentation Intelligence
+
+- README Analysis
+- Documentation Score
+- Documentation Health
+- README Statistics
+- Documentation Recommendations
+- License Detection
 
 ---
 
 ## Security Intelligence
 
-- Environment file detection
-- Dangerous file detection
-- Sensitive file detection
-- Secret detection
-- Security score
-- Security recommendations
-- Security health
+- Environment File Detection
+- Dangerous File Detection
+- Sensitive File Detection
+- Secret Detection
+- Security Score
+- Security Recommendations
+- Security Health
 
 ---
 
 ## Architecture Intelligence
 
-- Module discovery
-- Import graph analysis
-- Circular dependency detection
-- Layer detection
-- Public module detection
-- Dead module detection
-- Dependency depth
-- Import hotspots
-- Layer summary
-- Architecture score
-- Architecture recommendations
-- Architecture health
+- Module Discovery
+- Import Graph
+- Circular Dependency Detection
+- Layer Detection
+- Public Module Detection
+- Dead Module Detection
+- Dependency Depth
+- Architecture Score
+- Import Hotspots
+- Layer Summary
+- Architecture Recommendations
 
 ---
 
 ## Performance Intelligence
 
-- Heavy file detection
-- Largest module detection
-- Startup cost estimation
-- External dependency analysis
-- Import density
-- Module complexity
-- Performance hotspots
-- Optimization summary
-- Performance score
-- Performance recommendations
-- Performance health
+- Heavy File Detection
+- Startup Cost Estimation
+- Import Density
+- Largest Modules
+- Module Complexity
+- Performance Score
+- Performance Recommendations
+- Performance Insights
 
 ---
 
 ## Testing Intelligence
 
-- Test framework detection
-- Test discovery
-- Unit test detection
-- Integration test detection
-- End-to-end test detection
-- Snapshot detection
-- Mock detection
-- Coverage detection
-- Untested file detection
-- Test ratio
-- Largest test suites
-- Test distribution
-- Coverage readiness
-- Testing organization
-- Testing maturity
-- Testing score
-- Testing recommendations
-- Testing health
+- Test Framework Detection
+- Test Discovery
+- Unit Tests
+- Integration Tests
+- E2E Tests
+- Mock Detection
+- Snapshot Detection
+- Coverage Detection
+- Test Score
+- Test Distribution
+- Testing Maturity
+- Testing Health
 
 ---
 
-## Export Engine
+## API Intelligence
 
-- JSON reports
-- Markdown reports
-- HTML reports
-- Export all formats
-- Custom filenames
-- Custom output folders
-- Timestamped reports
+- REST Endpoint Discovery
+- HTTP Method Detection
+- Route Groups
+- Middleware Detection
+- API Version Detection
+- GraphQL Detection
+- WebSocket Detection
+- OpenAPI Detection
+- Endpoint Listing
+- API Complexity
+- API Maturity
+- API Score
+- API Health
 
 ---
 
-## Developer Experience
+# Export Formats
 
-- Colored terminal output
-- Professional report layout
-- Progress spinner
-- Verbose mode
-- Quiet mode
-- Performance timing
-- Scan duration
-- Ignore directories
-- Friendly error handling
+Quicklyzer can export reports in:
+
+- JSON
+- Markdown
+
+---
+
+# Example
+
+```bash
+quicklyzer scan
+```
+
+Produces a comprehensive report including:
+
+- Project
+- Structure
+- Technology Stack
+- Environment
+- Dependencies
+- Package Health
+- Statistics
+- Code Analysis
+- Git
+- Documentation
+- Security
+- Architecture
+- Performance
+- Testing
+- API
+- Overall Project Score
 
 ---
 
@@ -301,14 +283,48 @@ quicklyzer export --all --output reports --name project-report
 
 ---
 
-# License
+# Roadmap
 
-MIT
+- ✅ v0.1.0
+- ✅ v0.2.0
+- ✅ v0.3.0
+- ✅ v0.4.0
+- ✅ v0.5.0
+- ✅ v0.6.0
+- ✅ v0.7.0
+- ✅ v0.8.0
+- 🚀 v0.9.0 (Build Intelligence)
+- 🚀 v1.0.0 (AI Project Intelligence)
 
 ---
 
+# Contributing
+
+Contributions, bug reports, and feature requests are welcome.
+
+Feel free to open an issue or submit a pull request.
+
+---
+
+# License
+
+MIT License
+
+---
+
+# Author
+
+**Sabtain Ali**
+
 GitHub:
+https://github.com/sabtain05
+
+Repository:
 https://github.com/sabtain05/quicklyzer
+
+---
+
+⭐ If you find Quicklyzer useful, consider giving the repository a star.
 
 ---
 
