@@ -5,4 +5,6 @@ import { join } from "path";
 
 export interface BuildAnalysis{
     system: string;
+
+    outputFolders: string[];
 }
