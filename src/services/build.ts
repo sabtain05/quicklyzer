@@ -79,5 +79,6 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         outputFolders,
         assets: files.filter(file=>/\.(png|jpg|svg|gif|webp|ico|woff2?|ttf)$/i.test(file)).length,
         sourceMaps: files.filter(file=>file.endsWith(".map")).length,
-    }
+        minifiedFiles: files.filter(file=>file.endsWith(".min.js") || file.endsWith(".min.css")).length
+    };
 }
