@@ -61,5 +61,7 @@ function detectBuildSystem(packageJson: any){
 
 
 export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalysis{
-    
+    const files: string[] = [];
+
+    walk(projectPath, files);
 }
