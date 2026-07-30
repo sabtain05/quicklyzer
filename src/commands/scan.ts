@@ -235,6 +235,8 @@ export function scanCommand() {
       for(const group of project.api.routeGroups){
         console.log(`${group.group} (${group.count})`);
       }
+    }else{
+      console.log("No route groups found.");
     }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 
