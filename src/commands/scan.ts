@@ -228,6 +228,9 @@ export function scanCommand() {
     }else{
       console.log("No endpoints detected.");
     }
+
+
+    title("Route Groups");
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 
 
