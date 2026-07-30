@@ -14,3 +14,8 @@ export interface BuildAnalysis{
 
     minifiedFiles: number;
 }
+
+
+function walk(dir:string, files: string[]){
+    
+}
