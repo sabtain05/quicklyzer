@@ -212,6 +212,8 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
     if(totalEndpoints>=20)
         complexity = "Medium";
 
+    if(totalEndpoints>=50)
+        complexity= "Complex";
     const recommendations: string[]=[];
 
     if(totalEndpoints===0){
