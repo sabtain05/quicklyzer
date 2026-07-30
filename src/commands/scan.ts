@@ -223,7 +223,7 @@ export function scanCommand() {
     title("Endpoints");
     if(project.api.endpoints.length){
       for(const endpoint of project.api.endpoints.slice(0,10)){
-        
+        console.log(`${endpoint.method.padEnd(6)} ${endpoint.path}`);
       }
     }
 
