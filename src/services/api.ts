@@ -218,6 +218,8 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
     if(totalEndpoints>=100)
         complexity= "Enterprise";
 
+    let maturity = "Prototype";
+
 
 
     const recommendations: string[]=[];
