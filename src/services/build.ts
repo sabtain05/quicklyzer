@@ -51,4 +51,9 @@ function detectBuildSystem(packageJson: any){
 
     if(deps.parcel)
         return "Parcel";
+
+    if(deps.turbo)
+        return "Turborepo";
+
+    return "Unknown";
 }
