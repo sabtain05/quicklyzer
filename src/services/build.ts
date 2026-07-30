@@ -66,4 +66,8 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
     walk(projectPath, files);
 
     const outputFolders: string[] = [];
+
+    for(const folder of ["dist", "build", "out", ".next"]){
+        
+    }
 }
