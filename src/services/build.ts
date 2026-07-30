@@ -7,4 +7,6 @@ export interface BuildAnalysis{
     system: string;
 
     outputFolders: string[];
+
+    assets: number;
 }
