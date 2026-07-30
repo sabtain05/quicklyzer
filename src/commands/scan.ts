@@ -242,6 +242,10 @@ export function scanCommand() {
 
     title("API Complexity");
     console.log(`Level      : ${project.api.complexity}`);
+
+
+    title("API Maturity");
+    console.log(`Level      : ${project.api.maturity}`);
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 
 
