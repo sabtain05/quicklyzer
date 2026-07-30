@@ -72,4 +72,10 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
             outputFolders.push(folder);
         }
     }
+
+
+    return{
+        system: detectBuildSystem(packageJson),
+        
+    }
 }
