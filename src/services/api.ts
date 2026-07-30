@@ -219,6 +219,8 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
         complexity= "Enterprise";
 
     let maturity = "Prototype";
+    if(totalEndpoints>=10)
+        maturity = "Production";
 
 
 
