@@ -231,6 +231,11 @@ export function scanCommand() {
 
 
     title("Route Groups");
+    if(project.api.routeGroups.length){
+      for(const group of project.api.routeGroups){
+        
+      }
+    }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 
 
