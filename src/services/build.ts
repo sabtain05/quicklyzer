@@ -39,4 +39,9 @@ function detectBuildSystem(packageJson: any){
         ...packageJson.dependencies,
         ...packageJson.devDependecies
     };
+
+    if(deps.vite)
+        return "Vite";
+
+    
 }
