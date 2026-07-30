@@ -68,6 +68,8 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
     const outputFolders: string[] = [];
 
     for(const folder of ["dist", "build", "out", ".next"]){
-        
+        if(existsSync(join(projectPath,folder))){
+            outputFolders.push(folder);
+        }
     }
 }
