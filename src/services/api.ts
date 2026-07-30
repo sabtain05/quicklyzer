@@ -46,6 +46,8 @@ export interface ApiAnalysis{
     };
 
     recommendations: string[];
+
+    complexity: string;
 }
 
 
