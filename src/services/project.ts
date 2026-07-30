@@ -276,6 +276,7 @@ dependencyAnalysis: {
     };
     recommendations: string[];
     complexity: string;
+    maturity: string;
   };
   scripts: string[];
   nodeVersion: string;
