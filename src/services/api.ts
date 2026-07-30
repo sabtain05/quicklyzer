@@ -225,6 +225,9 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
     if (totalEndpoints>=30)
         maturity = "Advanced";
 
+    if(totalEndpoints>=75)
+        maturity = "Enterprise";
+
 
 
     const recommendations: string[]=[];
