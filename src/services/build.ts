@@ -57,3 +57,9 @@ function detectBuildSystem(packageJson: any){
 
     return "Unknown";
 }
+
+
+
+export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalysis{
+    
+}
