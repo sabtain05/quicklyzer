@@ -238,6 +238,10 @@ export function scanCommand() {
     }else{
       console.log("No route groups found.");
     }
+
+
+    title("API Complexity");
+    console.log(`Level      : ${project.api.complexity}`);
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 
 
