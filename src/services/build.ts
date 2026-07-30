@@ -48,4 +48,7 @@ function detectBuildSystem(packageJson: any){
 
     if(deps.rollup)
         return "Rollup";
+
+    if(deps.parcel)
+        return "Parcel";
 }
