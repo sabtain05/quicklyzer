@@ -225,7 +225,10 @@ export function scanCommand() {
       for(const endpoint of project.api.endpoints.slice(0,10)){
         console.log(`${endpoint.method.padEnd(6)} ${endpoint.path}`);
       }
+    }else{
+      console.log("No endpoints detected.");
     }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
 
     title("API Score");
