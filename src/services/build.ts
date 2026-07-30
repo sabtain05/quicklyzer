@@ -43,5 +43,9 @@ function detectBuildSystem(packageJson: any){
     if(deps.vite)
         return "Vite";
 
-    
+    if(deps.webpack)
+        return "Webpack";
+
+    if(deps.rollup)
+        return "Rollup";
 }
