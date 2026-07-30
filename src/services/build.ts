@@ -76,6 +76,7 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
 
     return{
         system: detectBuildSystem(packageJson),
+        outputFolders,
         
     }
 }
