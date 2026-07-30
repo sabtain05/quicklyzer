@@ -22,6 +22,6 @@ function walk(dir:string, files: string[]){
 
         const full = join(dir, entry);
 
-        
+        const stats = statSync(full);
     }
 }
