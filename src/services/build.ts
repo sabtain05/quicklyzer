@@ -11,4 +11,6 @@ export interface BuildAnalysis{
     assets: number;
 
     sourceMaps: number;
+
+    minifiedFiles: number;
 }
