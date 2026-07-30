@@ -64,4 +64,6 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
     const files: string[] = [];
 
     walk(projectPath, files);
+
+    const outputFolders: string[] = [];
 }
