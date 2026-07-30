@@ -72,7 +72,7 @@ function walk(dir:string, files: string[]){
 function discoverEndpoints(content: string, file: string){
     const endpoints: Endpoint[] = [];
 
-    const regex = /\.(get|post|put|delete|patch)\(["'`](.*?)["'`]/gi;
+    const regex = /(app|router)\.(get|post|put|patch|delete)\s*\(\s*["'`](.*?)["'`]/gi;
 
     let match;
 
