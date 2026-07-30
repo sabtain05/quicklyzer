@@ -17,5 +17,7 @@ export interface BuildAnalysis{
 
 
 function walk(dir:string, files: string[]){
-    
+    for(const entry of readdirSync(dir)){
+        
+    }
 }
