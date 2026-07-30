@@ -143,7 +143,7 @@ export function analyzeApi(projectPath: string, packageJson: any): ApiAnalysis{
         const content = readFileSync(file, "utf8");
         endpoints.push(...discoverEndpoints(content, file));
 
-         if(content.includes(".use") || content.includes("middleware")){
+         if(/(app|router)\.use\s*\(/.test(content) || content.includes("middleware")){
         middleware++;
     }
 
