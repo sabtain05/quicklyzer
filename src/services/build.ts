@@ -9,4 +9,6 @@ export interface BuildAnalysis{
     outputFolders: string[];
 
     assets: number;
+
+    sourceMaps: number;
 }
