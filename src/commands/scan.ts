@@ -221,6 +221,9 @@ export function scanCommand() {
 
 
     title("Endpoints");
+    if(project.api.endpoints.length){
+      
+    }
 
 
     title("API Score");
