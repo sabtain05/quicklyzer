@@ -145,6 +145,10 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         recommendations.push("Generate a production build.");
     }
 
+    if(recommendations.length===0){
+        recommendations.push("Build configuration looks healthy.");
+    }
+
 
     return{
         system: detectBuildSystem(packageJson),
