@@ -91,8 +91,10 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         if(existsSync(join(projectPath,folder))){
             outputFolders.push(folder);
         }
-
-        const content = readFileSync(file, "utf8");
+    }
+    
+    for(const file of files){
+    const content = readFileSync(file, "utf8");
         if(content.includes("treeshake") || content.includes("treeShaking")){
             treeShaking = true;
         }
@@ -102,6 +104,7 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         }
     }
 
+    
     bundles= files.filter(file=>file.endsWith(".js") || file.endsWith(".css")).length;
 
     let score = 100;
