@@ -20,6 +20,7 @@ import { analyzeArchitecture } from "./architecture-intelligence.js";
 import { analyzePerformance } from "./performance.js";
 import { analyzeTesting } from "./testing.js";
 import { analyzeApi } from "./api.js";
+import { analyzeBuild } from  "./build.js";
 
 
 export interface ProjectInfo {
