@@ -270,6 +270,7 @@ export function scanCommand() {
     console.log(`Output Folders  : ${project.build.system}`);
     console.log(`Assets          : ${project.build.assets}`);
     console.log(`Source Maps     : ${project.build.sourceMaps}`);
+    console.log(`Minified Files  : ${project.build.minifiedFiles}`);
 
 
 
