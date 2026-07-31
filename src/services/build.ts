@@ -134,6 +134,10 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
 
 
     const recommendations: string[]=[];
+    if(!treeShaking){recommendations.push("Enable tree Shaking.");        
+    }
+
+    
 
 
     return{
