@@ -15,6 +15,8 @@ export interface BuildAnalysis{
     minifiedFiles: number;
 
     treeShaking: boolean;
+
+    codeSplitting: boolean;
 }
 
 
