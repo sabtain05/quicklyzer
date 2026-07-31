@@ -634,6 +634,7 @@ export function analyzeProject(
   const performance = analyzePerformance(architecture.modules);
   const testing = analyzeTesting(projectPath, pkg);
   const api = analyzeApi(projectPath, pkg);
+  const build = analyzeBuild(projectPath, pkg);
 
 
 
