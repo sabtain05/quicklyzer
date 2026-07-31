@@ -118,6 +118,11 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
     if(sourceMaps===0)
         score-=5;
 
+    if(score<0)
+        score=0;
+
+    
+
 
     return{
         system: detectBuildSystem(packageJson),
