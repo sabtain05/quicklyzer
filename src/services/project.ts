@@ -284,6 +284,7 @@ dependencyAnalysis: {
     outputFolders: string[];
     assets: number;
     sourceMaps: number;
+    minifiedFiles: number;
   }
   scripts: string[];
   nodeVersion: string;
