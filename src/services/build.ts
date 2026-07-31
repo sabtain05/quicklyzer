@@ -36,6 +36,8 @@ export interface BuildAnalysis{
     };
 
     productionReady: boolean;
+
+    maturity: string;
 }
 
 
