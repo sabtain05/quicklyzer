@@ -78,7 +78,9 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
 
     let treeShaking = false;
 
-    
+    let codeSplitting = false;
+
+    let bundles = 0;
 
     walk(projectPath, files);
 
