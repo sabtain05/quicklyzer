@@ -137,7 +137,9 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
     if(!treeShaking){recommendations.push("Enable tree Shaking.");        
     }
 
-    
+    if(!codeSplitting){
+        recommendations.push("Use dynamic imports of code splitting.");
+    }
 
 
     return{
