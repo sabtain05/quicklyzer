@@ -129,6 +129,9 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
     if(score<75)
         rating="Fair";
 
+    if(score<60)
+        rating="Poor";
+
 
     return{
         system: detectBuildSystem(packageJson),
