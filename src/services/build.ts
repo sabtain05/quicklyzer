@@ -157,6 +157,6 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         sourceMaps: files.filter(file=>file.endsWith(".map")).length,
         minifiedFiles: files.filter(file=>file.endsWith(".min.js") || file.endsWith(".min.css")).length,
         treeShaking,
-        
+        codeSplitting,
     };
 }
