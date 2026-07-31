@@ -141,6 +141,10 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         recommendations.push("Use dynamic imports of code splitting.");
     }
 
+    if(outputFolders.length===0){
+        recommendations.push("Generate a production build.");
+    }
+
 
     return{
         system: detectBuildSystem(packageJson),
