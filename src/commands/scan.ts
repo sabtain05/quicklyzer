@@ -288,6 +288,9 @@ export function scanCommand() {
 
 
     title("Build Output");
+    if(project.build.outputFolders.length){
+      
+    }
 
 
 
