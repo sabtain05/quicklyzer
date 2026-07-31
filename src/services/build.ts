@@ -19,6 +19,11 @@ export interface BuildAnalysis{
     codeSplitting: boolean;
 
     bundles: number;
+
+    score:{
+        score: number;
+        rating: string;
+    };
 }
 
 
