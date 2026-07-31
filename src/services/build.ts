@@ -1,4 +1,4 @@
-import { existsSync, readdirSync, statSync } from "fs";
+import { existsSync, readdirSync, statSync, readFileSync } from "fs";
 import { join } from "path";
 
 
