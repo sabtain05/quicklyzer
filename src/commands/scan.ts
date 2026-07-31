@@ -287,6 +287,9 @@ export function scanCommand() {
     }
 
 
+    title("Build Output");
+
+
 
     // ============================================================
     // Configuration Files
