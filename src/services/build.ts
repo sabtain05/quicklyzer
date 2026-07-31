@@ -31,6 +31,7 @@ export interface BuildAnalysis{
     assetDistribution: {
         iamges: number;
         fonts: number;
+        styles: number;
     }
 }
 
