@@ -276,6 +276,9 @@ export function scanCommand() {
     console.log(`Bundles         : ${project.build.bundles}`);
 
 
+    title("build Score");
+
+
 
     // ============================================================
     // Configuration Files
