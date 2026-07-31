@@ -32,7 +32,8 @@ export interface BuildAnalysis{
         iamges: number;
         fonts: number;
         styles: number;
-    }
+        scripts: number;
+    };
 }
 
 
