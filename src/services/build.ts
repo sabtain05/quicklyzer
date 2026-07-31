@@ -17,6 +17,8 @@ export interface BuildAnalysis{
     treeShaking: boolean;
 
     codeSplitting: boolean;
+
+    bundles: number;
 }
 
 
