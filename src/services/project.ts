@@ -280,6 +280,7 @@ dependencyAnalysis: {
     maturity: string;
   };
   build:{
+    system: string;
     
   }
   scripts: string[];
