@@ -1,4 +1,5 @@
 import { existsSync, readdirSync, statSync, readFileSync } from "fs";
+import { SourceMap } from "module";
 import { join } from "path";
 
 
@@ -113,6 +114,9 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
 
     if(!codeSplitting)
         score-=10;
+
+    if(sourceMaps===0)
+        score-=5;
 
 
     return{
