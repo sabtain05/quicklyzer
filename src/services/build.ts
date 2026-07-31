@@ -133,6 +133,9 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
     if(score>=70)
         maturity="Production"
 
+    if(score>=90)
+        maturity="Optimized";
+
     let score = 100;
 
     if(outputFolders.length===0)
