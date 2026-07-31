@@ -268,6 +268,7 @@ export function scanCommand() {
     title("Build");
     console.log(`Build System    : ${project.build.system}`);
     console.log(`Output Folders  : ${project.build.system}`);
+    console.log(`Assets          : ${project.build.assets}`);
 
 
 
