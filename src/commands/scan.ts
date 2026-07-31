@@ -277,6 +277,7 @@ export function scanCommand() {
 
 
     title("build Score");
+    console.log(`Score      : ${project.build.score.score}/100`);
 
 
 
