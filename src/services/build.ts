@@ -160,5 +160,6 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         codeSplitting,
         bundles,
         score:{score, rating},
+        recommendations
     };
 }
