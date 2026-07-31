@@ -124,9 +124,10 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
     let rating = "Excellent";
     
     if(score<90)
-        rating="Good"
+        rating="Good";
 
-    
+    if(score<75)
+        rating="Fair";
 
 
     return{
