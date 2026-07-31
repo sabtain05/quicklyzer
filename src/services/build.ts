@@ -123,6 +123,7 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
     const assetDistribution={
         images:files.filter(file=>/\.(png|jpg|jpeg|gif|svg|webp|ico)$/i.test(file)).length,
         fonts:files.filter(file=>/\.(woff|woff2|ttf|otf)$/i.test(file)).length,
+        styles:files.filter(file=>file.endsWith(".css")).length,
     }
 
     let score = 100;
