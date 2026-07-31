@@ -279,6 +279,9 @@ dependencyAnalysis: {
     complexity: string;
     maturity: string;
   };
+  build:{
+    
+  }
   scripts: string[];
   nodeVersion: string;
   docker: boolean;
