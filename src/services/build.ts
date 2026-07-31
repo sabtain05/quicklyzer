@@ -90,6 +90,11 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         if(existsSync(join(projectPath,folder))){
             outputFolders.push(folder);
         }
+
+        const content = readFileSync(file, "utf8");
+        if(content.includes("treeshake") || content.includes("treeShaking")){
+            treeShaking = true;
+        }
     }
 
 
