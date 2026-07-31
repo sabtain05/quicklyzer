@@ -281,7 +281,7 @@ dependencyAnalysis: {
   };
   build:{
     system: string;
-    
+    outputFolders: string[];
   }
   scripts: string[];
   nodeVersion: string;
