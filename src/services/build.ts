@@ -13,6 +13,8 @@ export interface BuildAnalysis{
     sourceMaps: number;
 
     minifiedFiles: number;
+
+    treeShaking: boolean;
 }
 
 
