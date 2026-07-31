@@ -111,6 +111,9 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
     if(!treeShaking)
         score-=10;
 
+    if(!codeSplitting)
+        score-=10;
+
 
     return{
         system: detectBuildSystem(packageJson),
