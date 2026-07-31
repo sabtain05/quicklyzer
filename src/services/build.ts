@@ -104,8 +104,10 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         }
     }
 
-    
+
     bundles= files.filter(file=>file.endsWith(".js") || file.endsWith(".css")).length;
+
+    const sourceMaps= files.filter(file=>file.endsWith(".map")).length;
 
     let score = 100;
 
