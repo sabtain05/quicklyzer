@@ -278,6 +278,7 @@ export function scanCommand() {
 
     title("build Score");
     console.log(`Score      : ${project.build.score.score}/100`);
+    console.log(`Rating     : ${project.build.score.rating}`);
 
 
 
