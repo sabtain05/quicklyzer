@@ -158,5 +158,6 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         minifiedFiles: files.filter(file=>file.endsWith(".min.js") || file.endsWith(".min.css")).length,
         treeShaking,
         codeSplitting,
+        bundles,
     };
 }
