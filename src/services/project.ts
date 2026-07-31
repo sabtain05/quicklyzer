@@ -286,7 +286,6 @@ dependencyAnalysis: {
     sourceMaps: number;
     minifiedFiles: number;
     treeShaking: boolean;
-
     codeSplitting: boolean;
     bundles: number;
     score:{
