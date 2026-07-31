@@ -34,6 +34,8 @@ export interface BuildAnalysis{
         styles: number;
         scripts: number;
     };
+
+    productionReady: boolean;
 }
 
 
