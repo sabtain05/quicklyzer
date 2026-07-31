@@ -288,7 +288,6 @@ dependencyAnalysis: {
     treeShaking: boolean;
 
     codeSplitting: boolean;
-
     bundles: number;
     score:{
       score: number;
