@@ -265,6 +265,10 @@ export function scanCommand() {
     }
 
 
+    title("Build");
+    console.log(`Build System    : ${project.build.system}`);
+
+
 
     // ============================================================
     // Configuration Files
