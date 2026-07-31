@@ -289,7 +289,9 @@ export function scanCommand() {
 
     title("Build Output");
     if(project.build.outputFolders.length){
-      
+      for(const folder of project.build.outputFolders){
+        console.log(folder);
+      }
     }
 
 
