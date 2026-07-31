@@ -24,6 +24,8 @@ export interface BuildAnalysis{
         score: number;
         rating: string;
     };
+
+    recommendations: string[];
 }
 
 
