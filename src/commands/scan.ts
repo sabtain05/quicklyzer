@@ -304,6 +304,9 @@ export function scanCommand() {
     console.log(`Scripts     : ${project.build.assetDistribution.scripts}`);
 
 
+    title("Production Readiness");
+
+
 
     // ============================================================
     // Configuration Files
