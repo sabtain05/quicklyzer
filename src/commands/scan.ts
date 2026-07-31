@@ -301,6 +301,7 @@ export function scanCommand() {
     console.log(`Images      : ${project.build.assetDistribution.images}`);
     console.log(`Fonts       : ${project.build.assetDistribution.fonts}`);
     console.log(`Styles      : ${project.build.assetDistribution.styles}`);
+    console.log(`Scripts     : ${project.build.assetDistribution.scripts}`);
 
 
 
