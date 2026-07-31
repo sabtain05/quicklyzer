@@ -159,5 +159,6 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         treeShaking,
         codeSplitting,
         bundles,
+        score:{score, rating},
     };
 }
