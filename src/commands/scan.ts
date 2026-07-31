@@ -281,6 +281,10 @@ export function scanCommand() {
     console.log(`Rating     : ${project.build.score.rating}`);
 
 
+    title("Build Recommendations");
+    
+
+
 
     // ============================================================
     // Configuration Files
