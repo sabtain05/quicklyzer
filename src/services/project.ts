@@ -285,7 +285,7 @@ dependencyAnalysis: {
     assets: number;
     sourceMaps: number;
     minifiedFiles: number;
-  }
+  };
   scripts: string[];
   nodeVersion: string;
   docker: boolean;
