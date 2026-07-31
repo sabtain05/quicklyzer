@@ -29,7 +29,7 @@ export interface BuildAnalysis{
     recommendations: string[];
 
     assetDistribution: {
-        iamges: number;
+        images: number;
         fonts: number;
         styles: number;
         scripts: number;
@@ -195,6 +195,8 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         codeSplitting,
         bundles,
         score:{score, rating},
-        recommendations
+        recommendations,
+        assetDistribution,
+        
     };
 }
