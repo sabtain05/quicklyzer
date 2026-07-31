@@ -283,6 +283,7 @@ dependencyAnalysis: {
     system: string;
     outputFolders: string[];
     assets: number;
+    sourceMaps: number;
   }
   scripts: string[];
   nodeVersion: string;
