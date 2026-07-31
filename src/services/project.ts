@@ -290,10 +290,9 @@ dependencyAnalysis: {
     codeSplitting: boolean;
 
     bundles: number;
-
     score:{
-        score: number;
-        rating: string;
+      score: number;
+      rating: string;
     };
     recommendations: string[];
   };
