@@ -121,6 +121,7 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
     if(score<0)
         score=0;
 
+    let rating = "Excellent";
     
 
 
