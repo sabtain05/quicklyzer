@@ -133,6 +133,9 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         rating="Poor";
 
 
+    const recommendations: string[]=[];
+
+
     return{
         system: detectBuildSystem(packageJson),
         outputFolders,
