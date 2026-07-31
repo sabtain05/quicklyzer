@@ -285,6 +285,17 @@ dependencyAnalysis: {
     assets: number;
     sourceMaps: number;
     minifiedFiles: number;
+    treeShaking: boolean;
+
+    codeSplitting: boolean;
+
+    bundles: number;
+
+    score:{
+        score: number;
+        rating: string;
+    };
+    recommendations: string[];
   };
   scripts: string[];
   nodeVersion: string;
