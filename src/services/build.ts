@@ -27,6 +27,10 @@ export interface BuildAnalysis{
     };
 
     recommendations: string[];
+
+    assetDistribution: {
+        
+    }
 }
 
 
