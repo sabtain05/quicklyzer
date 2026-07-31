@@ -124,7 +124,8 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         images:files.filter(file=>/\.(png|jpg|jpeg|gif|svg|webp|ico)$/i.test(file)).length,
         fonts:files.filter(file=>/\.(woff|woff2|ttf|otf)$/i.test(file)).length,
         styles:files.filter(file=>file.endsWith(".css")).length,
-    }
+        scripts:files.filter(file=>file.endsWith(".js")).length
+    };
 
     let score = 100;
 
