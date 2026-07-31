@@ -97,7 +97,7 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         }
 
         if(content.includes("import(") || content.includes("dynamic import")){
-            
+            codeSplitting=true;
         }
     }
 
