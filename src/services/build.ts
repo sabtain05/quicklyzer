@@ -95,6 +95,10 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         if(content.includes("treeshake") || content.includes("treeShaking")){
             treeShaking = true;
         }
+
+        if(content.includes("import(") || content.includes("dynamic import")){
+            
+        }
     }
 
 
