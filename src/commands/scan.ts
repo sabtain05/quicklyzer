@@ -297,6 +297,10 @@ export function scanCommand() {
     }
 
 
+    title("Asset Distribution");
+    console.log(`Images      : ${project.build.assetDistribution.images}`);
+
+
 
     // ============================================================
     // Configuration Files
