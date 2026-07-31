@@ -299,7 +299,6 @@ dependencyAnalysis: {
         styles: number;
         scripts: number;
     };
-
     productionReady: boolean;
     maturity: string;
   };
