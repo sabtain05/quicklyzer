@@ -292,6 +292,8 @@ export function scanCommand() {
       for(const folder of project.build.outputFolders){
         console.log(folder);
       }
+    }else{
+      console.log("No build output found.");
     }
 
 
