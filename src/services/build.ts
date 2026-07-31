@@ -197,6 +197,6 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         score:{score, rating},
         recommendations,
         assetDistribution,
-        
+        productionReady,
     };
 }
