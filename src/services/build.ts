@@ -76,6 +76,10 @@ function detectBuildSystem(packageJson: any){
 export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalysis{
     const files: string[] = [];
 
+    let treeShaking = false;
+
+    
+
     walk(projectPath, files);
 
     const outputFolders: string[] = [];
