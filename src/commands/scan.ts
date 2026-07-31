@@ -300,6 +300,7 @@ export function scanCommand() {
     title("Asset Distribution");
     console.log(`Images      : ${project.build.assetDistribution.images}`);
     console.log(`Fonts       : ${project.build.assetDistribution.fonts}`);
+    console.log(`Styles      : ${project.build.assetDistribution.styles}`);
 
 
 
