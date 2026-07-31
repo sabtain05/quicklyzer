@@ -293,6 +293,15 @@ dependencyAnalysis: {
       rating: string;
     };
     recommendations: string[];
+    assetDistribution: {
+        images: number;
+        fonts: number;
+        styles: number;
+        scripts: number;
+    };
+
+    productionReady: boolean;
+    maturity: string;
   };
   scripts: string[];
   nodeVersion: string;
