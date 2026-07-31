@@ -198,5 +198,6 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         recommendations,
         assetDistribution,
         productionReady,
+        maturity
     };
 }
