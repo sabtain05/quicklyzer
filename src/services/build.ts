@@ -120,6 +120,10 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
 
     const sourceMaps= files.filter(file=>file.endsWith(".map")).length;
 
+    const assetDistribution={
+        images:files.filter(file=>/\.(png|jpg|jpeg|gif|svg|webp|ico)$/i.test(file)).length,
+    }
+
     let score = 100;
 
     if(outputFolders.length===0)
