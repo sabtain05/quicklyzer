@@ -282,7 +282,9 @@ export function scanCommand() {
 
 
     title("Build Recommendations");
-    
+    for(const recommendation of project.build.recommendations){
+      console.log(`• ${recommendation}`);
+    }
 
 
 
