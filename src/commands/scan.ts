@@ -272,6 +272,8 @@ export function scanCommand() {
     console.log(`Source Maps     : ${project.build.sourceMaps}`);
     console.log(`Minified Files  : ${project.build.minifiedFiles}`);
     console.log(`Tree Shaking    : ${project.build.treeShaking}`);
+    console.log(`Code Splitting  : ${project.build.codeSplitting}`);
+    console.log(`Bundles         : ${project.build.bundles}`);
 
 
 
