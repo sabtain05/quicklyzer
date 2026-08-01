@@ -167,7 +167,7 @@ Quicklyzer performs deep analysis of software projects and provides actionable i
 
 ---
 
-## 🔒 Security Intelligence
+## Security Intelligence
 
 - Environment file detection
 - Dangerous file detection
