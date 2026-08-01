@@ -75,7 +75,7 @@ Quicklyzer performs deep analysis of software projects and provides actionable i
 
 ---
 
-## 💻 Code Intelligence
+## Code Intelligence
 
 - Code analysis
 - File extensions
