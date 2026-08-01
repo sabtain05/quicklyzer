@@ -21,5 +21,7 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
 
     if(project.security.score.score>=90){
         strengths.push("Security configuration is excellent.");
+    }else{
+        
     }
 }
