@@ -127,6 +127,8 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
         scripts:files.filter(file=>file.endsWith(".js")).length
     };
 
+    const minifiedFiles= files.filter(file=>file.endsWith(".min.js") || file.endsWith(".min.css")).length;
+
     const productionReady = outputFolders.length>0 && minifiedFiles>0 && treeShaking;
 
     let maturity = "Development";
