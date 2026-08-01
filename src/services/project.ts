@@ -304,7 +304,7 @@ dependencyAnalysis: {
     maturity: string;
   };
   intelligence: {
-    
+    summary: string;
   }
   scripts: string[];
   nodeVersion: string;
