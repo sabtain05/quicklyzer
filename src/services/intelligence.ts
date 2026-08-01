@@ -18,4 +18,6 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     }else{
         weaknesses.push("Repository health needs improvement");
     }
+
+    if(project.security.score.score>=90){}
 }
