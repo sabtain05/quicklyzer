@@ -294,7 +294,7 @@ Summary
 
 ---
 
-# 📈 Roadmap
+# Roadmap
 
 ### Completed
 
