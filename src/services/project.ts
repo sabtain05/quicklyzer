@@ -304,7 +304,7 @@ dependencyAnalysis: {
     maturity: string;
   };
   intelligence: {
-    summary: "";
+    summary: string;
     strengths: string[];
     weaknesses: string[];
   };
