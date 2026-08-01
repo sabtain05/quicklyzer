@@ -135,7 +135,7 @@ Quicklyzer performs deep analysis of software projects and provides actionable i
 
 ---
 
-## 🌐 API Intelligence
+## API Intelligence
 
 - REST endpoint discovery
 - HTTP method detection
