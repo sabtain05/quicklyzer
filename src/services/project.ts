@@ -958,7 +958,7 @@ dependencyAnalysis: {
   git: boolean;
   readme: boolean;
   license: boolean;
-}
+};
 
 
 
