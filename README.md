@@ -331,7 +331,7 @@ If you'd like to improve Quicklyzer, feel free to open an issue or submit a pull
 
 ---
 
-# 📄 License
+# License
 
 MIT License
 
