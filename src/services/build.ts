@@ -131,16 +131,6 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
 
     const productionReady = outputFolders.length>0 && minifiedFiles>0 && treeShaking;
 
-    let maturity = "Development";
-    if(score>=70)
-        maturity="Production"
-
-    if(score>=90)
-        maturity="Optimized";
-
-    if(score===100)
-        maturity="Enterprise";
-
     let score = 100;
 
     if(outputFolders.length===0)
