@@ -308,6 +308,9 @@ export function scanCommand() {
     console.log(`Ready       : ${project.build.productionReady ? "Yes" : "No"}`);
 
 
+    title("Build Maturity");
+
+
 
     // ============================================================
     // Configuration Files
