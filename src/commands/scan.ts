@@ -822,6 +822,7 @@ export function scanCommand() {
 
 
     title("AI Project Summary");
+    console.log(project.intelligence.summary);
 
 
     const update = checkForUpdates();
