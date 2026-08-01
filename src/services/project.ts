@@ -960,6 +960,9 @@ dependencyAnalysis: {
   license: boolean;
 };
 
+Project.intelligence = analyzeIntelligence(project);
+return project; 
+
 
 
   return {
