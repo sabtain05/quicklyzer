@@ -60,7 +60,7 @@ Quicklyzer performs deep analysis of software projects and provides actionable i
 
 ---
 
-## 📊 Project Statistics
+## Project Statistics
 
 - Total files
 - Source files
