@@ -710,6 +710,11 @@ export function analyzeProject(
     testing,
     api,
     build,
+    intelligence: {
+      summary: "",
+      strengths: [],
+      weaknesses: []
+    },
     scripts: scripts,
     nodeVersion: nodeVersion,
     docker: docker,
