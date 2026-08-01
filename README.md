@@ -119,7 +119,7 @@ Quicklyzer performs deep analysis of software projects and provides actionable i
 
 ---
 
-## 🧪 Testing Intelligence
+## Testing Intelligence
 
 - Test framework detection
 - Test discovery
