@@ -304,7 +304,7 @@ Summary
 - ✅ Dependency Intelligence
 - ✅ Project Statistics
 - ✅ Code Intelligence
-- ✅ Export Engine
+- Export Engine
 - Package Health
 - Project Structure
 - Developer Experience
