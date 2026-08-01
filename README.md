@@ -323,7 +323,7 @@ Summary
 
 ---
 
-# 🤝 Contributing
+# Contributing
 
 Contributions, ideas, and bug reports are welcome.
 
