@@ -833,7 +833,9 @@ export function scanCommand() {
 
     title("Weaknesses");
     if(project.intelligence.weaknesses.length){
-      for(const weakness of project.intelligence.weaknesses){}
+      for(const weakness of project.intelligence.weaknesses){
+        console.log(`• ${weakness}`);
+      }
     }
     
 
