@@ -836,6 +836,8 @@ export function scanCommand() {
       for(const weakness of project.intelligence.weaknesses){
         console.log(`• ${weakness}`);
       }
+    }else{
+      console.log("No major weaknesses detected.");
     }
     
 
