@@ -299,7 +299,7 @@ Summary
 ### Completed
 
 - ✅ Core CLI
-- ✅ Project Intelligence
+- Project Intelligence
 - Environment Intelligence
 - Dependency Intelligence
 - Project Statistics
