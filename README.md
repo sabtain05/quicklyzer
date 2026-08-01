@@ -89,7 +89,7 @@ Quicklyzer performs deep analysis of software projects and provides actionable i
 
 ---
 
-## 🏗 Architecture Intelligence
+## Architecture Intelligence
 
 - Module discovery
 - Import analysis
