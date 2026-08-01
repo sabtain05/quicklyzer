@@ -826,8 +826,10 @@ export function scanCommand() {
 
 
     title("Strengths");
-    for(const strength of project.intelligence.strengths)
-
+    for(const strength of project.intelligence.strengths){
+      console.log(`• ${strength}`);
+    }
+    
 
     const update = checkForUpdates();
     title("Quicklyzer");
