@@ -821,6 +821,9 @@ export function scanCommand() {
     }
 
 
+    title("AI Project Summary");
+
+
     const update = checkForUpdates();
     title("Quicklyzer");
     console.log(`Version : ${update.current}`);
