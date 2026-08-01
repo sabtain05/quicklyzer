@@ -179,7 +179,7 @@ Quicklyzer performs deep analysis of software projects and provides actionable i
 
 ---
 
-## 📖 Documentation Intelligence
+## Documentation Intelligence
 
 - README analysis
 - Documentation score
