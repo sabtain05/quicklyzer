@@ -1,3 +1,5 @@
 export interface IntelligenceAnalysis {
-    summary: string;   
+    summary: string;
+    
+    strengths: string[];
 }
