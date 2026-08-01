@@ -253,7 +253,7 @@ quicklyzer export
 
 ---
 
-# 📸 Example Output
+# Example Output
 
 ```text
 QUICKLYZER
