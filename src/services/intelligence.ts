@@ -32,6 +32,6 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     }
 
     if(project.packageHealth.score>=8){
-        
+        strengths.push("Package metadata is complete.");
     }
 }
