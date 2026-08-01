@@ -675,9 +675,9 @@ export function analyzeProject(
   buildToolVersion,
   dependencyCount,
   devDependencyCount,
-  totalDependencyCount: number;
-  totalFiles: number;
-  sourceFiles: number;
+  totalDependencyCount,
+  totalFiles,
+  sourceFiles,
   directories: number;
   largestDirectories: {
     path: string;
