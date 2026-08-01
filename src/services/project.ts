@@ -664,6 +664,317 @@ export function analyzeProject(
   const testing = analyzeTesting(projectPath, pkg);
   const api = analyzeApi(projectPath, pkg);
   const build = analyzeBuild(projectPath, pkg);
+  const project: ProjectInfo {
+  name,
+  version,
+  packageManager,
+  language,
+  framework,
+  frameworkVersion,
+  buildTool,
+  buildToolVersion,
+  dependencyCount,
+  devDependencyCount,
+  totalDependencyCount: number;
+  totalFiles: number;
+  sourceFiles: number;
+  directories: number;
+  largestDirectories: {
+    path: string;
+    fileCount: number;
+  }[];
+  linesOfCode: number;
+  largestFile: {
+    path: string;
+    lines: number;
+  };
+  emptyDirectories: number;
+  hiddenFiles: number;
+  projectSize: number;
+  projectTree: {
+    directories: string[];
+    files: string[];
+  };
+  entryPoint: string;
+  configFiles: string[];
+  technologyStack: string[];
+  packageHealth: {
+    score: number;
+    passed: string[];
+    missing: string[];
+  };
+  projectScore: {
+    score: number;
+    rating: string;
+  };
+  code: {
+    extensions: Record<string, number>;
+    largestFiles: {
+        path: string;
+        lines: number;
+    }[];
+    emptyFiles: number;
+    todos: {
+    todo:number;
+    fixme:number;
+    hack:number;
+    note:number;
+    };
+   duplicateFiles: Record<string,string[]>;
+
+    recentFiles:{
+    path:string;
+    modified:number;
+    }[];
+  };
+  gitBranch: string;
+  projectType: string;
+dependencyAnalysis: {
+    production: number;
+    development: number;
+    total: number;
+
+    installed: number;
+    installedSize: string;
+
+    riskScore: {
+        score: number;
+        rating: string;
+    };
+
+    largestPackages: {
+        name: string;
+        size: number;
+    }[];
+
+    unused: string[];
+    missing: string[];
+
+    duplicateVersions: string[];
+
+    packageInsights: {
+        private: boolean;
+        workspaces: boolean;
+        packageManager: string;
+    };
+};
+  documentation:{
+    readme:boolean;
+
+    changelog:boolean;
+
+    contributing:boolean;
+
+    codeOfConduct:boolean;
+
+    security:boolean;
+
+    license:boolean;
+
+    readmeSections:string[];
+
+    score:{
+      score:number;
+      rating:string;
+    };
+
+    recommendations:string[];
+
+    readmeStats: {
+        words: number;
+        headings: number;
+        codeBlocks: number;
+        links: number;
+        badges: number;
+    };
+
+    licenseType: string;
+  };
+  gitAnalysis:GitAnalysis;
+  security: {
+    envFiles: string[];
+    dangerousFiles: string[];
+    secrets: string[];
+    sensitiveFiles: string[];
+    score: {
+      score: number;
+      rating: string;
+    };
+    recommendations: string[];
+  };
+  architecture:{
+    modules:{
+      file: string;
+      imports: string[];
+    }[];
+    totalModules: number;
+    totalImports: number;
+    circularDependencies: number;
+    dependencyDepth: number;
+    publicModules: number;
+    deadModules: number;
+    layers: string[];
+    score:{
+      score: number;
+      rating: string;
+    };
+    layerSummary: {
+      name: string;
+      modules: number;
+    }[];
+    importHotspots: {
+      file: string;
+      imports: number;
+    }[];
+    recommendations: string[];
+  };
+  performance: {
+    heavyFiles: {
+      file: string;
+      size: number;
+    }[];
+    largestModules:{
+      file: string;
+      imports: number;
+    }[];
+    totalHeavyFiles: number;
+    startupCost: number;
+    heavyDependencies: number;
+    score:{
+      score: number;
+      rating: string;
+    };
+    recommendations: string[];
+    importDensity:number;
+    moduleComplexity:{
+      file: string;
+      score: number;
+    }[];
+    optimizationSummary:{
+      optimized: number;
+      needsAttention: number;
+    };
+  };
+  testing:{
+    framework: string;
+    testFiles: string[];
+    unitTests: number;
+    integrationTests: number;
+    e2eTests: number;
+    snapshots: number;
+    mocks: number;
+    coverage: boolean;
+    untestedFiles: number;
+    testRatio: number;
+    largestSuites:{
+        file: string;
+        size: number;
+    }[];
+    score: {
+        score: number;
+        rating: string;
+    };
+    recommendations: string[];
+    distribution: {
+        unit: number;
+        integration: number;
+        e2e: number;
+    };
+    coverageReadiness: {
+        ready: boolean;
+        reason: string;
+    };
+    maturity: {
+        level: string;
+    };
+    organization: string;
+  };
+  api:{
+    endpoints:{
+      method: string;
+      path: string;
+      file: string;
+    }[];
+    totalEndpoints: number;
+    graphql: boolean;
+    websocket: boolean;
+    swagger: boolean;
+    methods:{
+        GET: number;
+        POST: number;
+        PUT: number;
+        PATCH: number;
+        DELETE: number;
+    };
+    routeGroups: {
+        group: string;
+        count: number;
+    }[];
+    middleware: number;
+    version: string;
+    score:{
+        score: number;
+        rating: string;
+    };
+    recommendations: string[];
+    complexity: string;
+    maturity: string;
+  };
+  build:{
+    system: string;
+    outputFolders: string[];
+    assets: number;
+    sourceMaps: number;
+    minifiedFiles: number;
+    treeShaking: boolean;
+    codeSplitting: boolean;
+    bundles: number;
+    score:{
+      score: number;
+      rating: string;
+    };
+    recommendations: string[];
+    assetDistribution: {
+        images: number;
+        fonts: number;
+        styles: number;
+        scripts: number;
+    };
+    productionReady: boolean;
+    maturity: string;
+  };
+  intelligence: {
+    summary: string;
+    strengths: string[];
+    weaknesses: string[];
+  };
+  scripts: string[];
+  nodeVersion: string;
+  docker: boolean;
+  ci: string;
+  eslint: boolean;
+  prettier: boolean;
+  monorepo: boolean;
+  git: boolean;
+  readme: boolean;
+  license: boolean;
+}
+
+interface PackageJson {
+  name?: string;
+  version?: string;
+
+  dependencies?: Record<string, string>;
+  devDependencies?: Record<string, string>;
+
+  scripts?: Record<string, string>;
+
+  engines?: {
+    node?: string;
+  };
+
+  workspaces?: string[];
+}
 
 
 
