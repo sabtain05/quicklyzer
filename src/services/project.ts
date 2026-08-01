@@ -678,7 +678,7 @@ export function analyzeProject(
   totalDependencyCount,
   totalFiles,
   sourceFiles,
-  directories: number;
+  directories,
   largestDirectories: {
     path: string;
     fileCount: number;
