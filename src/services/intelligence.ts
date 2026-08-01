@@ -10,4 +10,6 @@ export interface IntelligenceAnalysis {
 
 export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     const strengths: string[] = [];
+
+    const weaknesses: string[] = [];
 }
