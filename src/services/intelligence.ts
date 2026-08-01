@@ -40,6 +40,6 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     const summary = `Project contains ${project.statistics.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
 
     return {
-        
+        summary,
     }
 }
