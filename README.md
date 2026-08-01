@@ -300,7 +300,7 @@ Summary
 
 - ✅ Core CLI
 - ✅ Project Intelligence
-- ✅ Environment Intelligence
+- Environment Intelligence
 - Dependency Intelligence
 - Project Statistics
 - Code Intelligence
