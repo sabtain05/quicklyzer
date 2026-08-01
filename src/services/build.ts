@@ -159,6 +159,17 @@ export function analyzeBuild(projectPath: string, packageJson: any): BuildAnalys
     if(score<60)
         rating="Poor";
 
+    let maturity = "Development";
+    if(score>=70)
+        maturity="Production"
+
+    if(score>=90)
+        maturity="Optimized";
+
+    if(score===100)
+        maturity="Enterprise";
+
+
 
     const recommendations: string[]=[];
     if(!treeShaking){recommendations.push("Enable tree Shaking.");        
