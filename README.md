@@ -225,7 +225,7 @@ npx quicklyzer scan
 
 ---
 
-# 🚀 Usage
+# Usage
 
 Analyze the current project:
 
