@@ -13,7 +13,7 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
 
     const weaknesses: string[] = [];
 
-    if(project.gitAnalysis.score.score>=90){
+    if(project.gitAnalysis.health.score>=90){
         strengths.push("Repository is well maintained");
     }else{
         weaknesses.push("Repository health needs improvement");
