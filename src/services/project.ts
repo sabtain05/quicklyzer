@@ -306,6 +306,7 @@ dependencyAnalysis: {
   intelligence: {
     summary: string;
     strengths: string[];
+    weaknesses: string[];
   }
   scripts: string[];
   nodeVersion: string;
