@@ -42,5 +42,6 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     return {
         summary,
         strengths,
-    }
+        weaknesses
+    };
 }
