@@ -825,6 +825,9 @@ export function scanCommand() {
     console.log(project.intelligence.summary);
 
 
+    title("Strengths");
+
+
     const update = checkForUpdates();
     title("Quicklyzer");
     console.log(`Version : ${update.current}`);
