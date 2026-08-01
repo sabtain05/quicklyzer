@@ -24,4 +24,8 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     }else{
         weaknesses.push("Security improvments are recommended.");
     }
+
+    if(project.documentation.score.score>=80){
+        
+    }
 }
