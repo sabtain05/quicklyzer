@@ -105,7 +105,7 @@ Quicklyzer performs deep analysis of software projects and provides actionable i
 
 ---
 
-## ⚡ Performance Intelligence
+## Performance Intelligence
 
 - Heavy file detection
 - Largest modules
