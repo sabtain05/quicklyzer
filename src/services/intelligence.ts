@@ -30,4 +30,8 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     }else{
         weaknesses.push("Documentation should be expanded.");
     }
+
+    if(project.packageHealth.score>=8){
+        
+    }
 }
