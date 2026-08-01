@@ -668,7 +668,7 @@ export function analyzeProject(
 
 
 
-  return {
+  const project: ProjectInfo = {
     name: pkg.name ?? "Unknown",
     version: pkg.version ?? "Unknown",
     packageManager: detectPackageManager(projectPath),
