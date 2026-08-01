@@ -15,5 +15,7 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
 
     if(project.gitHealth.score.score>=90){
         strengths.push("Repository is well maintained");
+    }else{
+        
     }
 }
