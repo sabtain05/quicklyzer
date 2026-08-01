@@ -1,27 +1,223 @@
-# Quicklyzer
+# 🚀 Quicklyzer
 
-<p align="center">
-  <img src="https://img.shields.io/npm/v/quicklyzer?style=for-the-badge" />
-  <img src="https://img.shields.io/npm/dm/quicklyzer?style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/sabtain05/quicklyzer?style=for-the-badge" />
-  <img src="https://img.shields.io/github/stars/sabtain05/quicklyzer?style=for-the-badge" />
-</p>
+<div align="center">
 
-<p align="center">
-A fast & intelligent CLI that understands and analyzes software projects in seconds.
-</p>
+**A fast & intelligent CLI that understands and analyzes software projects in seconds.**
+
+[![npm version](https://img.shields.io/npm/v/quicklyzer.svg)](https://www.npmjs.com/package/quicklyzer)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/Built%20With-TypeScript-blue.svg)](https://www.typescriptlang.org/)
+
+</div>
 
 ---
 
-## Installation
+# ✨ Features
 
-### Using npm
+Quicklyzer performs deep analysis of software projects and provides actionable insights.
+
+## 📦 Project Intelligence
+
+- Detects project type
+- Detects entry point
+- Project structure visualization
+- Configuration file discovery
+- Technology stack detection
+- Project summary
+
+---
+
+## 🌍 Environment Intelligence
+
+- Package manager detection
+- Programming language detection
+- Framework detection
+- Framework version
+- Build tool detection
+- Build tool version
+- Node.js version
+- Docker detection
+- CI/CD detection
+- ESLint detection
+- Prettier detection
+- Monorepo detection
+
+---
+
+## 📚 Dependency Intelligence
+
+- Dependency statistics
+- Dev dependency statistics
+- Installed packages
+- Installed package size
+- Largest packages
+- Unused dependency detection
+- Missing dependency detection
+- Duplicate dependency detection
+- Dependency risk score
+- Dependency recommendations
+
+---
+
+## 📊 Project Statistics
+
+- Total files
+- Source files
+- Directory count
+- Largest directories
+- Largest files
+- Lines of code
+- Empty directories
+- Hidden files
+- Project size
+- Scan duration
+
+---
+
+## 💻 Code Intelligence
+
+- Code analysis
+- File extensions
+- Duplicate file names
+- Code quality markers
+- TODO detection
+- FIXME detection
+- HACK detection
+- NOTE detection
+- Recent activity
+
+---
+
+## 🏗 Architecture Intelligence
+
+- Module discovery
+- Import analysis
+- Circular dependency detection
+- Dependency depth
+- Public module detection
+- Dead module detection
+- Layer detection
+- Import hotspots
+- Layer summary
+- Architecture score
+- Architecture recommendations
+
+---
+
+## ⚡ Performance Intelligence
+
+- Heavy file detection
+- Largest modules
+- Startup cost estimation
+- Heavy dependency detection
+- Import density
+- Module complexity
+- Performance score
+- Performance recommendations
+- Performance insights
+
+---
+
+## 🧪 Testing Intelligence
+
+- Test framework detection
+- Test discovery
+- Unit test detection
+- Integration test detection
+- E2E test detection
+- Snapshot detection
+- Mock detection
+- Coverage detection
+- Testing score
+- Testing maturity
+- Testing recommendations
+
+---
+
+## 🌐 API Intelligence
+
+- REST endpoint discovery
+- HTTP method detection
+- Route grouping
+- Middleware detection
+- API version detection
+- GraphQL detection
+- WebSocket detection
+- Swagger/OpenAPI detection
+- API complexity
+- API maturity
+- API score
+
+---
+
+## 🏭 Build Intelligence
+
+- Build system detection
+- Output folder detection
+- Asset analysis
+- Source map detection
+- Minification detection
+- Tree-shaking detection
+- Code splitting detection
+- Bundle analysis
+- Production readiness
+- Build maturity
+- Build score
+
+---
+
+## 🔒 Security Intelligence
+
+- Environment file detection
+- Dangerous file detection
+- Sensitive file detection
+- Secret detection
+- Security score
+- Security recommendations
+- Security health report
+
+---
+
+## 📖 Documentation Intelligence
+
+- README analysis
+- Documentation score
+- Documentation recommendations
+- README statistics
+- Missing documentation detection
+
+---
+
+## 🌿 Git Intelligence
+
+- Repository detection
+- Branch detection
+- Working tree status
+- Commit history
+- Contributor statistics
+- Tags
+- Repository health
+- Git recommendations
+
+---
+
+## 📦 Package Health
+
+- Package quality analysis
+- Metadata validation
+- Health score
+- Missing metadata detection
+
+---
+
+# 📥 Installation
 
 ```bash
 npm install -g quicklyzer
 ```
 
-### Using npx
+or
 
 ```bash
 npx quicklyzer scan
@@ -29,27 +225,27 @@ npx quicklyzer scan
 
 ---
 
-# Commands
+# 🚀 Usage
 
-## Analyze Project
+Analyze the current project:
 
 ```bash
 quicklyzer scan
 ```
 
-## About
-
-```bash
-quicklyzer about
-```
-
-## Version
+Show version:
 
 ```bash
 quicklyzer version
 ```
 
-## Export Report
+About Quicklyzer:
+
+```bash
+quicklyzer about
+```
+
+Export report:
 
 ```bash
 quicklyzer export
@@ -57,274 +253,105 @@ quicklyzer export
 
 ---
 
-# Features
+# 📸 Example Output
 
-## Project Analysis
+```text
+QUICKLYZER
+====================================
+v0.9.0
 
-- Project Information
-- Project Type Detection
-- Entry Point Detection
-- Project Structure
-- Configuration Files
-- Technology Stack
+✔ Analysis completed
 
----
+Project
+Environment
+Dependencies
+Project Statistics
+Code Analysis
+Architecture
+Performance
+Testing
+API
+Build
+Security
+Git
+Documentation
 
-## Package Health
-
-- Package Score
-- Package Validation
-- Missing Metadata
-- Package Recommendations
-
----
-
-## Environment Intelligence
-
-- Package Manager
-- Programming Language
-- Framework Detection
-- Framework Version
-- Build Tool Detection
-- Build Tool Version
-- Node.js Version
-- Docker Detection
-- CI/CD Detection
-- ESLint Detection
-- Prettier Detection
-- Monorepo Detection
-
----
-
-## Dependency Intelligence
-
-- Dependency Count
-- Dev Dependency Count
-- Installed Packages
-- Installed Size
-- Largest Packages
-- Unused Dependencies
-- Missing Dependencies
-- Duplicate Versions
-- Dependency Score
-- Dependency Recommendations
-
----
-
-## Project Statistics
-
-- Total Files
-- Source Files
-- Directories
-- Largest Directory
-- Largest File
-- Lines of Code
-- Hidden Files
-- Empty Directories
-- Project Size
-- Scan Duration
-
----
-
-## Code Intelligence
-
-- File Extensions
-- Largest Files
-- Duplicate File Names
-- TODO Detection
-- FIXME Detection
-- NOTE Detection
-- HACK Detection
-- Recent Activity
-
----
-
-## Git Intelligence
-
-- Repository Detection
-- Branch Information
-- Remote URL
-- Tags
-- Commit History
-- Contributors
-- Working Tree Status
-- Repository Health
-- Git Recommendations
-
----
-
-## Documentation Intelligence
-
-- README Analysis
-- Documentation Score
-- Documentation Health
-- README Statistics
-- Documentation Recommendations
-- License Detection
-
----
-
-## Security Intelligence
-
-- Environment File Detection
-- Dangerous File Detection
-- Sensitive File Detection
-- Secret Detection
-- Security Score
-- Security Recommendations
-- Security Health
-
----
-
-## Architecture Intelligence
-
-- Module Discovery
-- Import Graph
-- Circular Dependency Detection
-- Layer Detection
-- Public Module Detection
-- Dead Module Detection
-- Dependency Depth
-- Architecture Score
-- Import Hotspots
-- Layer Summary
-- Architecture Recommendations
-
----
-
-## Performance Intelligence
-
-- Heavy File Detection
-- Startup Cost Estimation
-- Import Density
-- Largest Modules
-- Module Complexity
-- Performance Score
-- Performance Recommendations
-- Performance Insights
-
----
-
-## Testing Intelligence
-
-- Test Framework Detection
-- Test Discovery
-- Unit Tests
-- Integration Tests
-- E2E Tests
-- Mock Detection
-- Snapshot Detection
-- Coverage Detection
-- Test Score
-- Test Distribution
-- Testing Maturity
-- Testing Health
-
----
-
-## API Intelligence
-
-- REST Endpoint Discovery
-- HTTP Method Detection
-- Route Groups
-- Middleware Detection
-- API Version Detection
-- GraphQL Detection
-- WebSocket Detection
-- OpenAPI Detection
-- Endpoint Listing
-- API Complexity
-- API Maturity
-- API Score
-- API Health
-
----
-
-# Export Formats
-
-Quicklyzer can export reports in:
-
-- JSON
-- Markdown
-
----
-
-# Example
-
-```bash
-quicklyzer scan
+Project Score
+Performance
+Summary
 ```
 
-Produces a comprehensive report including:
+---
 
-- Project
-- Structure
-- Technology Stack
-- Environment
-- Dependencies
-- Package Health
-- Statistics
-- Code Analysis
-- Git
-- Documentation
-- Security
-- Architecture
-- Performance
-- Testing
-- API
-- Overall Project Score
+# 🛠 Built With
+
+- TypeScript
+- Node.js
+- Commander
+- Chalk
+- Ora
+- Vitest
 
 ---
 
-# Requirements
+# 📈 Roadmap
 
-- Node.js 20+
-- npm
+### Completed
+
+- ✅ Core CLI
+- ✅ Project Intelligence
+- ✅ Environment Intelligence
+- ✅ Dependency Intelligence
+- ✅ Project Statistics
+- ✅ Code Intelligence
+- ✅ Export Engine
+- ✅ Package Health
+- ✅ Project Structure
+- ✅ Developer Experience
+- ✅ Documentation Intelligence
+- ✅ Git Intelligence
+- ✅ Security Intelligence
+- ✅ Architecture Intelligence
+- ✅ Performance Intelligence
+- ✅ Testing Intelligence
+- ✅ API Intelligence
+- ✅ Build Intelligence
+
+### Coming Next
+
+- 🤖 AI Project Intelligence (v1.0.0)
 
 ---
 
-# Roadmap
+# 🤝 Contributing
 
-- ✅ v0.1.0
-- ✅ v0.2.0
-- ✅ v0.3.0
-- ✅ v0.4.0
-- ✅ v0.5.0
-- ✅ v0.6.0
-- ✅ v0.7.0
-- ✅ v0.8.0
-- 🚀 v0.9.0 (Build Intelligence)
-- 🚀 v1.0.0 (AI Project Intelligence)
+Contributions, ideas, and bug reports are welcome.
+
+If you'd like to improve Quicklyzer, feel free to open an issue or submit a pull request.
 
 ---
 
-# Contributing
-
-Contributions, bug reports, and feature requests are welcome.
-
-Feel free to open an issue or submit a pull request.
-
----
-
-# License
+# 📄 License
 
 MIT License
 
 ---
 
-# Author
+# 👨‍💻 Author
 
 **Sabtain Ali**
 
-GitHub:
-https://github.com/sabtain05
-
-Repository:
-https://github.com/sabtain05/quicklyzer
+GitHub: https://github.com/sabtain05
 
 ---
 
-⭐ If you find Quicklyzer useful, consider giving the repository a star.
+<div align="center">
+
+**Made with ❤️ using TypeScript**
+
+⭐ Star the repository if you find Quicklyzer useful.
+
+</div>
 
 ---
 
