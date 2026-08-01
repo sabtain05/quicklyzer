@@ -303,6 +303,9 @@ dependencyAnalysis: {
     productionReady: boolean;
     maturity: string;
   };
+  intelligence: {
+    
+  }
   scripts: string[];
   nodeVersion: string;
   docker: boolean;
