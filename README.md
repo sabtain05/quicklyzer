@@ -337,7 +337,7 @@ MIT License
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **Sabtain Ali**
 
