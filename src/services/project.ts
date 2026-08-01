@@ -21,6 +21,7 @@ import { analyzePerformance } from "./performance.js";
 import { analyzeTesting } from "./testing.js";
 import { analyzeApi } from "./api.js";
 import { analyzeBuild } from  "./build.js";
+import { analyzeIntelligence } from "./intelligence.js";
 
 
 export interface ProjectInfo {
