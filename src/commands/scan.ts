@@ -305,6 +305,7 @@ export function scanCommand() {
 
 
     title("Production Readiness");
+    console.log(`Ready       : ${project.build.productionReady ? "Yes" : "No"}`);
 
 
 
