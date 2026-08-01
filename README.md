@@ -28,7 +28,7 @@ Quicklyzer performs deep analysis of software projects and provides actionable i
 
 ---
 
-## 🌍 Environment Intelligence
+## Environment Intelligence
 
 - Package manager detection
 - Programming language detection
