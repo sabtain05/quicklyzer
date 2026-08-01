@@ -664,7 +664,7 @@ export function analyzeProject(
   const testing = analyzeTesting(projectPath, pkg);
   const api = analyzeApi(projectPath, pkg);
   const build = analyzeBuild(projectPath, pkg);
-  const project: ProjectInfo {
+  const project: ProjectInfo ={
   name: string;
   version: string;
   packageManager: string;
@@ -960,7 +960,7 @@ dependencyAnalysis: {
   license: boolean;
 };
 
-Project.intelligence = analyzeIntelligence(project);
+project.intelligence = analyzeIntelligence(project);
 return project; 
 
 
