@@ -211,7 +211,7 @@ Quicklyzer performs deep analysis of software projects and provides actionable i
 
 ---
 
-# 📥 Installation
+# Installation
 
 ```bash
 npm install -g quicklyzer
