@@ -665,27 +665,27 @@ export function analyzeProject(
   const api = analyzeApi(projectPath, pkg);
   const build = analyzeBuild(projectPath, pkg);
   const project: ProjectInfo {
-  name,
-  version,
-  packageManager,
-  language,
-  framework,
-  frameworkVersion,
-  buildTool,
-  buildToolVersion,
-  dependencyCount,
-  devDependencyCount,
-  totalDependencyCount,
-  totalFiles,
-  sourceFiles,
-  directories,
+  name: string;
+  version: string;
+  packageManager: string;
+  language: string;
+  framework: string;
+  frameworkVersion: string;
+  buildTool: string;
+  buildToolVersion: string;
+  dependencyCount: number;
+  devDependencyCount: number;
+  totalDependencyCount: number;
+  totalFiles: number;
+  sourceFiles: number;
+  directories: number;
   largestDirectories: {
-    path,
+    path: string;
     fileCount: number;
   }[];
   linesOfCode: number;
   largestFile: {
-    path: string,
+    path: string;
     lines: number;
   };
   emptyDirectories: number;
