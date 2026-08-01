@@ -303,8 +303,8 @@ dependencyAnalysis: {
     productionReady: boolean;
     maturity: string;
   };
-  intelligence?: {
-    summary: string;
+  intelligence: {
+    summary: "";
     strengths: string[];
     weaknesses: string[];
   };
