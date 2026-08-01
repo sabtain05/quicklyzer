@@ -309,6 +309,7 @@ export function scanCommand() {
 
 
     title("Build Maturity");
+    console.log(`Level       : ${project.build.maturity}`);
 
 
 
