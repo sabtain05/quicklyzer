@@ -826,6 +826,7 @@ export function scanCommand() {
 
 
     title("Strengths");
+    for(const strength of project.intelligence.strengths)
 
 
     const update = checkForUpdates();
