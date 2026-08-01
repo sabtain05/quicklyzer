@@ -27,5 +27,7 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
 
     if(project.documentation.score.score>=80){
         strengths.push("Documentation quality is strong.");
+    }else{
+        weaknesses.push("Documentation should be expanded.");
     }
 }
