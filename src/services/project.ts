@@ -960,22 +960,6 @@ dependencyAnalysis: {
   license: boolean;
 }
 
-interface PackageJson {
-  name?: string;
-  version?: string;
-
-  dependencies?: Record<string, string>;
-  devDependencies?: Record<string, string>;
-
-  scripts?: Record<string, string>;
-
-  engines?: {
-    node?: string;
-  };
-
-  workspaces?: string[];
-}
-
 
 
   return {
