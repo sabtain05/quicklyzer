@@ -680,12 +680,12 @@ export function analyzeProject(
   sourceFiles,
   directories,
   largestDirectories: {
-    path: string;
+    path,
     fileCount: number;
   }[];
   linesOfCode: number;
   largestFile: {
-    path: string;
+    path: string,
     lines: number;
   };
   emptyDirectories: number;
