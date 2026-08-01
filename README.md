@@ -202,7 +202,7 @@ Quicklyzer performs deep analysis of software projects and provides actionable i
 
 ---
 
-## 📦 Package Health
+## Package Health
 
 - Package quality analysis
 - Metadata validation
