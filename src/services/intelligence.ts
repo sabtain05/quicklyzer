@@ -5,3 +5,9 @@ export interface IntelligenceAnalysis {
 
     weaknesses: string[];
 }
+
+
+
+export function analyzeIntelligence(project: any): IntelligenceAnalysis {
+    
+}
