@@ -151,7 +151,7 @@ Quicklyzer performs deep analysis of software projects and provides actionable i
 
 ---
 
-## 🏭 Build Intelligence
+## Build Intelligence
 
 - Build system detection
 - Output folder detection
