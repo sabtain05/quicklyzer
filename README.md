@@ -283,7 +283,7 @@ Summary
 
 ---
 
-# 🛠 Built With
+# Built With
 
 - TypeScript
 - Node.js
