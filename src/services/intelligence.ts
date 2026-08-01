@@ -37,7 +37,7 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
         weaknesses.push("Package metadata can be improved.");
     }
 
-    const summary = `Project contains ${project.statistics.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
+    const summary = `Project contains ${project.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
 
     return {
         summary,
