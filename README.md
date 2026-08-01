@@ -301,7 +301,7 @@ Summary
 - ✅ Core CLI
 - ✅ Project Intelligence
 - ✅ Environment Intelligence
-- ✅ Dependency Intelligence
+- Dependency Intelligence
 - Project Statistics
 - Code Intelligence
 - Export Engine
