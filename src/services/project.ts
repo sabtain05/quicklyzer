@@ -307,7 +307,7 @@ dependencyAnalysis: {
     summary: string;
     strengths: string[];
     weaknesses: string[];
-  }
+  };
   scripts: string[];
   nodeVersion: string;
   docker: boolean;
