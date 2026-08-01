@@ -17,7 +17,7 @@
 
 Quicklyzer performs deep analysis of software projects and provides actionable insights.
 
-## 📦 Project Intelligence
+## Project Intelligence
 
 - Detects project type
 - Detects entry point
