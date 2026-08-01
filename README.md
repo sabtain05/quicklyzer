@@ -313,7 +313,7 @@ Summary
 - ✅ Security Intelligence
 - ✅ Architecture Intelligence
 - ✅ Performance Intelligence
-- ✅ Testing Intelligence
+- Testing Intelligence
 - API Intelligence
 - Build Intelligence
 
