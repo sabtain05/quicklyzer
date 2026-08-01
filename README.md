@@ -189,7 +189,7 @@ Quicklyzer performs deep analysis of software projects and provides actionable i
 
 ---
 
-## 🌿 Git Intelligence
+## Git Intelligence
 
 - Repository detection
 - Branch detection
