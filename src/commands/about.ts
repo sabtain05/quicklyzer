@@ -10,7 +10,7 @@ export function aboutCommand() {
 A fast & Intelligent CLI that understands and analyzes software projects in seconds.
 
 Author : Sabtain Ali
-Version: 0.8.0
+Version: 0.9.0
 
 GitHub:
 https://github.com/sabtain05/quicklyzer
