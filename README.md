@@ -1,4 +1,4 @@
-# 🚀 Quicklyzer
+# Quicklyzer
 
 <div align="center">
 
