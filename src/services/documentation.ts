@@ -18,9 +18,9 @@ export interface DocumentationAnalysis {
     readmeSections:string[];
 
         score:{
-        score:number;
-        rating:string;
-    };
+            score:number;
+            rating:string;
+        };
 
     recommendations:string[];
 
