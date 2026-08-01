@@ -721,4 +721,7 @@ export function analyzeProject(
     readme: detectReadme(projectPath),
     license: detectLicense(projectPath)
   };
+
+  project.intelligence = analyzeIntelligence(project);
+  return project;
 }
