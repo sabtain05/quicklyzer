@@ -319,7 +319,7 @@ Summary
 
 ### Coming Next
 
-- 🤖 AI Project Intelligence (v1.0.0)
+- AI Project Intelligence (v1.0.0)
 
 ---
 
