@@ -314,7 +314,7 @@ Summary
 - ✅ Architecture Intelligence
 - ✅ Performance Intelligence
 - ✅ Testing Intelligence
-- ✅ API Intelligence
+- API Intelligence
 - Build Intelligence
 
 ### Coming Next
