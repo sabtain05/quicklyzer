@@ -13,7 +13,7 @@
 
 ---
 
-# ✨ Features
+#  Features
 
 Quicklyzer performs deep analysis of software projects and provides actionable insights.
 
