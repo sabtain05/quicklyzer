@@ -709,6 +709,7 @@ export function analyzeProject(
     testing,
     api,
     build,
+    intelligence,
     scripts: scripts,
     nodeVersion: nodeVersion,
     docker: docker,
