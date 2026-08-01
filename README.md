@@ -347,8 +347,6 @@ GitHub: https://github.com/sabtain05
 
 <div align="center">
 
-**Made with ❤️ using TypeScript**
-
 ⭐ Star the repository if you find Quicklyzer useful.
 
 </div>
