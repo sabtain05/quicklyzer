@@ -100,6 +100,9 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     if(maintainability<80)
         technicalDebt= "Medium";
 
+    if(maintainability<60)
+        technicalDebt= "High";
+
 
     const summary = `Project contains ${project.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
 
