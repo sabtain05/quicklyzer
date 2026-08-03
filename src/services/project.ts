@@ -744,11 +744,11 @@ export function analyzeProject(
       recommendations: [],
       grade: "",
 
-    maturity: string;
+    maturity: "",
 
-    verdict: string;
+    verdict: "",
 
-    roadmap: string[];
+    roadmap: [],
     },
     scripts: scripts,
     nodeVersion: nodeVersion,
