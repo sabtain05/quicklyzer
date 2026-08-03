@@ -48,7 +48,7 @@ function buildRating(score: number){
 
 
 function calculateGrade(score: number){
-    
+    if(score>=98) return "A+";
 }
 
 
