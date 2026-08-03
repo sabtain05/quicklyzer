@@ -166,6 +166,10 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
 
     const grade= calculateGrade(overallScore);
 
+    let maturity="Starter";
+    if(overallScore>70)
+        maturity="Growing";
+
     return {
         summary,
         strengths,
