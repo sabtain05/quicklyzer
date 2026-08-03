@@ -185,7 +185,7 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
         roadmap.push("Improve project documentation.");
     }
     if(project.testing.score.score<90){
-        roadmap.push("Expand automated test.");
+        roadmap.push("Expand automated testing.");
     }
 
     return {
