@@ -311,7 +311,6 @@ dependencyAnalysis: {
         score: number;
         rating: string;
     };
-
     scalability : {
         score: number;
         rating: string;
