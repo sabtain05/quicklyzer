@@ -4,6 +4,10 @@ export interface IntelligenceAnalysis {
     strengths: string[];
 
     weaknesses: string[];
+
+    maintainability : {
+        
+    }
 }
 
 
