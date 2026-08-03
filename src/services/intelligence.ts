@@ -25,6 +25,11 @@ export interface IntelligenceAnalysis {
 }
 
 
+function buildRating(score: number){
+    
+}
+
+
 
 export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     const strengths: string[] = [];
