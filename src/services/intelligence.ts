@@ -11,7 +11,7 @@ export interface IntelligenceAnalysis {
     };
 
     scalability : {
-        
+        score: number;
     }
 }
 
