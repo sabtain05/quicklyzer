@@ -49,7 +49,7 @@
 - Recent commits
 - Repository score
 
-### 🧪 Testing Intelligence
+### Testing Intelligence
 - Test framework detection
 - Unit / Integration / E2E tests
 - Test quality score
