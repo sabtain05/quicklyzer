@@ -35,7 +35,7 @@
 - Missing documentation detection
 - Documentation recommendations
 
-### 🔐 Security Intelligence
+### Security Intelligence
 - Secret detection
 - Environment file detection
 - Dangerous file detection
