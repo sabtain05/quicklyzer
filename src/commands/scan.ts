@@ -842,6 +842,7 @@ export function scanCommand() {
 
 
     title("AI Scores");
+    console.log(`Maintainability     : ${project.intelligence.maintainability.score}/100 (${project.intelligence.maintainability.rating})`);
     
 
     const update = checkForUpdates();
