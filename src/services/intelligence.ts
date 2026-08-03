@@ -116,7 +116,7 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     const recommendations: string[]=[];
 
     if(maintainability<90){
-        
+        recommendations.push("Improve overaal code quality.");
     }
 
 
