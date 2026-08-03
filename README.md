@@ -22,7 +22,7 @@
 - Package health
 - Project scoring
 
-### 🧠 Architecture Intelligence
+### Architecture Intelligence
 - Folder structure analysis
 - Module analysis
 - Circular dependency detection
