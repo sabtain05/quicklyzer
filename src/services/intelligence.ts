@@ -28,6 +28,8 @@ export interface IntelligenceAnalysis {
     maturity: string;
 
     verdict: string;
+
+    roadmap: string[];
 }
 
 
