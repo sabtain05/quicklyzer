@@ -320,7 +320,6 @@ dependencyAnalysis: {
     confidence: number;
     recommendations: string[];
     grade: string;
-
     maturity: string;
     verdict: string;
     roadmap: string[];
