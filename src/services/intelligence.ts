@@ -164,6 +164,8 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
 
     const overallScore=Math.round((project.projectScore.score+maintainability+scalability+project.security.score.score+project.documentation.score.score+project.testing.score.score+project.build.score.score)/7);
 
+    const grade= calculateGrade(overallScore);
+
     return {
         summary,
         strengths,
