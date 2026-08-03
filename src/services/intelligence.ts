@@ -120,7 +120,7 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     }
 
     if(project.documentation.score.score<80){
-        
+        recommendations.push("Expand project documentation.");
     }
 
 
