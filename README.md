@@ -42,7 +42,7 @@
 - Security score
 - Security recommendations
 
-### 🌿 Git Intelligence
+### Git Intelligence
 - Repository health
 - Branch information
 - Working tree status
