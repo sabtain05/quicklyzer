@@ -7,7 +7,8 @@ export interface IntelligenceAnalysis {
 
     maintainability : {
         score: number;
-    }
+        rating: string;
+    };
 }
 
 
