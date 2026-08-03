@@ -745,7 +745,6 @@ export function analyzeProject(
       grade: "",
 
     maturity: "",
-
     verdict: "",
     roadmap: [],
     },
