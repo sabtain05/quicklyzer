@@ -68,7 +68,7 @@
 - OpenAPI detection
 - API health
 
-### ⚙️ Build Intelligence
+### Build Intelligence
 - Build system detection
 - Build output analysis
 - Tree shaking detection
