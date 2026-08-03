@@ -109,6 +109,9 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     if(project.security.score.score<80)
         risk= "Medium";
 
+    if(project.security.score.score<60)
+        risk= "High";
+
 
     const summary = `Project contains ${project.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
 
