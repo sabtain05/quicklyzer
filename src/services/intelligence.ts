@@ -20,6 +20,8 @@ export interface IntelligenceAnalysis {
     risk: string;
 
     confidence: number;
+
+    recommendations: string[];
 }
 
 
