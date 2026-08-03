@@ -84,6 +84,8 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
 
     let scalability= 100;
 
+    scalability-=project.architecture.deadModules*2;
+
     const summary = `Project contains ${project.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
 
     return {
