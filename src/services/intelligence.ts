@@ -131,6 +131,10 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
         recommendations.push("Improve production build configuration.");
     }
 
+    if(recommendations.length===0){
+        recommendations.push("Project follows modern development practices");
+    }
+
 
 
     const summary = `Project contains ${project.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
