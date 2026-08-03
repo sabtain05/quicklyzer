@@ -18,6 +18,8 @@ export interface IntelligenceAnalysis {
     technicalDebt : string;
 
     risk: string;
+
+    confidence: number;
 }
 
 
