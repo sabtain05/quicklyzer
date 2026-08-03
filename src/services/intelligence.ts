@@ -216,5 +216,6 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
         grade,
         maturity,
         verdict,
+        roadmap
     };
 }
