@@ -69,6 +69,11 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
         weaknesses.push("Package metadata can be improved.");
     }
 
+
+    let maintainability= 100;
+
+    
+
     const summary = `Project contains ${project.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
 
     return {
