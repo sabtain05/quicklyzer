@@ -190,6 +190,9 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     if(project.build.score.score<90){
         roadmap.push("Optimize production build.");
     }
+    if(project.security.score.score<90){
+        roadmap.push("Strengthen security configuration.");
+    }
 
     return {
         summary,
