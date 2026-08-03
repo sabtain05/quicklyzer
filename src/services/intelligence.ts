@@ -214,5 +214,6 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
         confidence,
         recommendations,
         grade,
+        maturity,
     };
 }
