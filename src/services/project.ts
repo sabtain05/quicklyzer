@@ -324,7 +324,6 @@ dependencyAnalysis: {
     maturity: string;
 
     verdict: string;
-
     roadmap: string[];
   };
   scripts: string[];
