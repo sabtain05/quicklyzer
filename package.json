@@ -1,6 +1,6 @@
 {
   "name": "quicklyzer",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "A fast & Intelligent CLI that understands and analyzes software projects in seconds.",
   "type": "module",
   "bin": {
