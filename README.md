@@ -29,7 +29,7 @@
 - Dead module detection
 - Project complexity insights
 
-### 📚 Documentation Intelligence
+### Documentation Intelligence
 - README analysis
 - Documentation score
 - Missing documentation detection
