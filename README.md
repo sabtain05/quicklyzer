@@ -57,7 +57,7 @@
 - Testing maturity
 - Testing recommendations
 
-### 🌐 API Intelligence
+### API Intelligence
 - REST endpoint discovery
 - HTTP method detection
 - Route grouping
