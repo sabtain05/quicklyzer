@@ -91,6 +91,9 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     if(project.build.productionReady)
         scalability+=5;
 
+    if(scalability>100)
+        scalability=100;
+
 
     const summary = `Project contains ${project.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
 
