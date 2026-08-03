@@ -26,6 +26,8 @@ export interface IntelligenceAnalysis {
     grade: string;
 
     maturity: string;
+
+    verdict: string;
 }
 
 
