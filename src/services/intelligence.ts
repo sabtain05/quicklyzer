@@ -26,7 +26,8 @@ export interface IntelligenceAnalysis {
 
 
 function buildRating(score: number){
-    
+    if(score>=90)
+        return "Excellent";
 }
 
 
