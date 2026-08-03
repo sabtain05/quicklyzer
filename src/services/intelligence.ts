@@ -127,6 +127,10 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
         recommendations.push("Increase automated test coverage.");
     }
 
+    if(project.build.score.score<90){
+        recommendations.push("Improve production build configuration.");
+    }
+
 
 
     const summary = `Project contains ${project.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
