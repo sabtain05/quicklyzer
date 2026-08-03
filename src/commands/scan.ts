@@ -848,8 +848,8 @@ export function scanCommand() {
 
 
     title("Risk Assessment");
-    console.log(`Technical Debt       : ${project.intelligence.technicalDebt}`);
-    console.log(`Project Risk          : ${project.intelligence.risk}`);
+    console.log(`Technical Debt     : ${project.intelligence.technicalDebt}`);
+    console.log(`Project Risk       : ${project.intelligence.risk}`);
 
 
     title("AI Recommendations");
