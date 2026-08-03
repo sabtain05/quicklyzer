@@ -843,6 +843,7 @@ export function scanCommand() {
 
     title("AI Scores");
     console.log(`Maintainability     : ${project.intelligence.maintainability.score}/100 (${project.intelligence.maintainability.rating})`);
+    console.log(`Scalability         : ${project.intelligence.scalability.score}/100 (${project.intelligence.scalability.rating})`);
     
 
     const update = checkForUpdates();
