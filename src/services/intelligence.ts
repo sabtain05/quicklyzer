@@ -212,6 +212,7 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
         technicalDebt,
         risk,
         confidence,
-        recommendations
+        recommendations,
+        grade,
     };
 }
