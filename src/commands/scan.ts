@@ -867,6 +867,9 @@ export function scanCommand() {
     for(const item of project.intelligence.roadmap){
       console.log(`• ${item}`);
     }
+
+
+    title("AI Verdict");
     
 
     const update = checkForUpdates();
