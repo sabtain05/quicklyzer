@@ -862,6 +862,8 @@ export function scanCommand() {
     console.log(`Overall Grade    : ${project.intelligence.grade}`);
     console.log(`Maturity         : ${project.intelligence.maturity}`);
     
+
+    title("Improvement Roadmap");
     
 
     const update = checkForUpdates();
