@@ -180,6 +180,8 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     if(overallScore>=95)
         verdict = "Project demonstrates enterprise-level engineering quality.";
 
+    const roadmap: string[] = [];
+
     return {
         summary,
         strengths,
