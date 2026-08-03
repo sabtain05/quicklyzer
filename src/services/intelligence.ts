@@ -169,6 +169,8 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     let maturity="Starter";
     if(overallScore>70)
         maturity="Growing";
+    if(overallScore>85)
+        maturity="Production";
 
     return {
         summary,
