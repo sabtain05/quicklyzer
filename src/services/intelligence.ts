@@ -139,6 +139,8 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
 
     const summary = `Project contains ${project.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
 
+    const confidence=Math.min(100, Math.round((project.projectScore.score+project.security.score.score+project.gitHealth.score.score+project.documentation.score.score+project.testing.score.score+project.build.score.score)/6));
+
     return {
         summary,
         strengths,
