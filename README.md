@@ -190,20 +190,6 @@ Instead of manually checking dozens of files, Quicklyzer scans your project and 
 
 ---
 
-# Roadmap
-
-- Plugin System
-- Multi-language support
-- Configuration file
-- CI integration
-- HTML reports
-- JSON export
-- SARIF export
-- Custom rules
-- Team reports
-
----
-
 # Contributing
 
 Contributions are welcome.
