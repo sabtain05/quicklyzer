@@ -174,6 +174,10 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     if(overallScore>=95)
         maturity="Enterprise";
 
+    let verdict = "Project is ready for development.";
+    if(overallScore>=80)
+        verdict = "Project is production ready.";
+
     return {
         summary,
         strengths,
