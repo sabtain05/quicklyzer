@@ -47,6 +47,11 @@ function buildRating(score: number){
 }
 
 
+function calculateGrade(score: number){
+    
+}
+
+
 
 export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     const strengths: string[] = [];
