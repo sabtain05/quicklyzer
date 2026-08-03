@@ -12,7 +12,7 @@
 
 ## ✨ Features
 
-### 📦 Project Analysis
+### Project Analysis
 - Project structure analysis
 - Technology stack detection
 - Environment detection
