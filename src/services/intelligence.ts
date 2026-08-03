@@ -72,6 +72,8 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
 
     let maintainability= 100;
 
+    maintainability-=project.codeQuality.todo;
+
     
 
     const summary = `Project contains ${project.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
