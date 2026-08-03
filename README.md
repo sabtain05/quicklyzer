@@ -242,4 +242,4 @@ https://github.com/sabtain05
 
 ---
 
-Made with ❤️ using TypeScript.
+**A Sabtain Ali production**
