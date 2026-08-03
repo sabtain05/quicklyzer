@@ -181,6 +181,9 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
         verdict = "Project demonstrates enterprise-level engineering quality.";
 
     const roadmap: string[] = [];
+    if(project.documentation.score.score<90){
+        roadmap.push("Improve project documentation.");
+    }
 
     return {
         summary,
