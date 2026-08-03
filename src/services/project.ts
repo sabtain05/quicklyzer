@@ -319,6 +319,13 @@ dependencyAnalysis: {
     risk: string;
     confidence: number;
     recommendations: string[];
+    grade: string;
+
+    maturity: string;
+
+    verdict: string;
+
+    roadmap: string[];
   };
   scripts: string[];
   nodeVersion: string;
