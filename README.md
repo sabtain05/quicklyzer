@@ -10,7 +10,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 ### Project Analysis
 - Project structure analysis
