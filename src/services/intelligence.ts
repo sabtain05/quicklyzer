@@ -9,6 +9,10 @@ export interface IntelligenceAnalysis {
         score: number;
         rating: string;
     };
+
+    scalability : {
+        
+    }
 }
 
 
