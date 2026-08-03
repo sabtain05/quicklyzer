@@ -64,7 +64,6 @@ function calculateGrade(score: number){
 
 export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     const strengths: string[] = [];
-
     const weaknesses: string[] = [];
 
     if(project.gitAnalysis.health.score>=90){
