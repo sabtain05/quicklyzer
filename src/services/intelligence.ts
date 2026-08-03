@@ -119,6 +119,10 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
         recommendations.push("Improve overaal code quality.");
     }
 
+    if(project.documentation.score.score<80){
+        
+    }
+
 
 
     const summary = `Project contains ${project.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
