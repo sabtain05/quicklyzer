@@ -6,7 +6,7 @@ export interface IntelligenceAnalysis {
     weaknesses: string[];
 
     maintainability : {
-        
+        score: number;
     }
 }
 
