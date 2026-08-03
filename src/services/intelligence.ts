@@ -50,6 +50,14 @@ function buildRating(score: number){
 function calculateGrade(score: number){
     if(score>=98) return "A+";
     if(score>=93) return "A";
+    if(score>=88) return "A-";
+    if(score>=83) return "B+";
+    if(score>=78) return "B";
+    if(score>=73) return "B-";
+    if(score>=68) return "C+";
+    if(score>=60) return "C";
+
+    return "D";
 }
 
 
