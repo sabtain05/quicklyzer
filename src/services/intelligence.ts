@@ -22,6 +22,8 @@ export interface IntelligenceAnalysis {
     confidence: number;
 
     recommendations: string[];
+
+    grade: string;
 }
 
 
