@@ -31,6 +31,9 @@ function buildRating(score: number){
 
     if(score>=75)
         return "Good";
+
+    if(score>=60)
+        return "Fair";
 }
 
 
