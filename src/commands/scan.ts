@@ -859,6 +859,8 @@ export function scanCommand() {
 
 
     title("AI Executive Dashboard");
+    console.log(`Overall Grade    : ${project.intelligence.grade}`);
+    
     
 
     const update = checkForUpdates();
