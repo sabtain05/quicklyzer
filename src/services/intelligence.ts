@@ -162,6 +162,8 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
 
     const confidence=Math.min(100, Math.round((project.projectScore.score+project.security.score.score+project.gitAnalysis.health.score+project.documentation.score.score+project.testing.score.score+project.build.score.score)/6));
 
+    const overallScore=Math.round((project.projectScore.score+maintainability+scalability+project.security.score.score+project.documentation.score.score+project.testing.score.score+project.build.score.score)/7);
+
     return {
         summary,
         strengths,
