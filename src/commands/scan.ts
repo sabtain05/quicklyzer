@@ -860,7 +860,7 @@ export function scanCommand() {
 
     title("AI Executive Dashboard");
     console.log(`Overall Grade    : ${project.intelligence.grade}`);
-    
+    console.log(`Maturity         : ${project.intelligence.maturity}`);
     
 
     const update = checkForUpdates();
