@@ -177,6 +177,8 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     let verdict = "Project is ready for development.";
     if(overallScore>=80)
         verdict = "Project is production ready.";
+    if(overallScore>=95)
+        verdict = "Project demonstrates enterprise-level engineering quality.";
 
     return {
         summary,
