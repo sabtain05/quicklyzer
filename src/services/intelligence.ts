@@ -72,7 +72,7 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
 
     let maintainability= 100;
 
-    maintainability-=project.todos.todo;
+    maintainability-=project.code.todos.todo;
 
     maintainability-=project.todos.fixme*2;
 
