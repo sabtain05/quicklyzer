@@ -316,11 +316,8 @@ dependencyAnalysis: {
         score: number;
         rating: string;
     };
-
     technicalDebt : string;
-
     risk: string;
-
     confidence: number;
     recommendations: string[];
   };
