@@ -74,9 +74,9 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
 
     maintainability-=project.code.todos.todo;
 
-    maintainability-=project.todos.fixme*2;
+    maintainability-=project.code.todos.fixme*2;
 
-    maintainability-=project.todos.hack*3;
+    maintainability-=project.code.todos.hack*3;
 
     if(maintainability<0)
         maintainability=0;
