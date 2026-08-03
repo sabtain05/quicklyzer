@@ -113,6 +113,14 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
         risk= "High";
 
 
+    const recommendations: string[]=[];
+
+    if(maintainability<90){
+        
+    }
+
+
+
     const summary = `Project contains ${project.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
 
     return {
