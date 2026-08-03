@@ -871,7 +871,6 @@ export function scanCommand() {
 
     title("AI Verdict");
     console.log(`${project.intelligence.verdict}`);
-    console.log(`Engineering Tier    : ${project.intelligence.maturity}`)
     
 
     const update = checkForUpdates();
