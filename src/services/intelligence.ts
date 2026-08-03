@@ -144,6 +144,18 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     return {
         summary,
         strengths,
-        weaknesses
+        weaknesses,
+        maintainability: {
+            score: maintainability,
+            rating: buildRating(maintainability)
+        },
+        scalability: {
+            score: scalability,
+            rating: buildRating(scalability)
+        },
+        technicalDebt,
+        risk,
+        confidence,
+        recommendations
     };
 }
