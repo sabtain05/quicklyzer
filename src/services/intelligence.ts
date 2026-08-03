@@ -81,6 +81,9 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     if(maintainability<0)
         maintainability=0;
 
+
+    let scalability= 100;
+
     const summary = `Project contains ${project.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
 
     return {
