@@ -307,6 +307,22 @@ dependencyAnalysis: {
     summary: string;
     strengths: string[];
     weaknesses: string[];
+    maintainability : {
+        score: number;
+        rating: string;
+    };
+
+    scalability : {
+        score: number;
+        rating: string;
+    };
+
+    technicalDebt : string;
+
+    risk: string;
+
+    confidence: number;
+    recommendations: string[];
   };
   scripts: string[];
   nodeVersion: string;
