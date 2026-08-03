@@ -864,6 +864,9 @@ export function scanCommand() {
     
 
     title("Improvement Roadmap");
+    for(const item of project.intelligence.roadmap){
+      console.log(`• ${item}`);
+    }
     
 
     const update = checkForUpdates();
