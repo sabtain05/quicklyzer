@@ -856,6 +856,9 @@ export function scanCommand() {
     for(const recommendation of project.intelligence.recommendations){
       console.log(`• ${recommendation}`);
     }
+
+
+    title("AI Executive Dashboard");
     
 
     const update = checkForUpdates();
