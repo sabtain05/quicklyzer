@@ -839,6 +839,9 @@ export function scanCommand() {
     }else{
       console.log("No major weaknesses detected.");
     }
+
+
+    title("AI Scores");
     
 
     const update = checkForUpdates();
