@@ -241,5 +241,6 @@ GitHub:
 https://github.com/sabtain05
 
 ---
-
-**A Sabtain Ali production**
+<p align="center">
+<strong>A Sabtain Ali production</strong>
+</p>
