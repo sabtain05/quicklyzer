@@ -104,6 +104,9 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
         technicalDebt= "High";
 
 
+    let risk= "Low";
+
+
     const summary = `Project contains ${project.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
 
     return {
