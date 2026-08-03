@@ -725,7 +725,19 @@ export function analyzeProject(
     intelligence: {
       summary: "",
       strengths: [],
-      weaknesses: []
+      weaknesses: [],
+      maintainability: {
+        score: 0,
+        rating: "",
+      },
+      scalability: {
+        score: 0,
+        rating: "",
+      },
+      technicalDebt: "",
+      risk: "",
+      confidence: 0,
+      recommendations: [],
     },
     scripts: scripts,
     nodeVersion: nodeVersion,
