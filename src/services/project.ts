@@ -322,7 +322,6 @@ dependencyAnalysis: {
     grade: string;
 
     maturity: string;
-
     verdict: string;
     roadmap: string[];
   };
