@@ -16,6 +16,8 @@ export interface IntelligenceAnalysis {
     };
 
     technicalDebt : string;
+
+    risk: string;
 }
 
 
