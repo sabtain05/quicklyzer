@@ -12,6 +12,7 @@ export interface IntelligenceAnalysis {
 
     scalability : {
         score: number;
+        rating: string;
     }
 }
 
