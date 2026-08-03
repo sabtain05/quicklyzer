@@ -97,7 +97,8 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
 
     let technicalDebt= "LOw";
 
-    
+    if(maintainability<80)
+        technicalDebt= "Medium";
 
 
     const summary = `Project contains ${project.totalFiles} files and demonstrates a ${project.projectScore.rating.toLowerCase()} overall quality level.`;
