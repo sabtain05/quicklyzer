@@ -193,6 +193,9 @@ export function analyzeIntelligence(project: any): IntelligenceAnalysis {
     if(project.security.score.score<90){
         roadmap.push("Strengthen security configuration.");
     }
+    if(roadmap.length===0){
+        roadmap.push("Continue maintaining engineering quality.");
+    }
 
     return {
         summary,
