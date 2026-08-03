@@ -742,6 +742,13 @@ export function analyzeProject(
       risk: "",
       confidence: 0,
       recommendations: [],
+      grade: "",
+
+    maturity: string;
+
+    verdict: string;
+
+    roadmap: string[];
     },
     scripts: scripts,
     nodeVersion: nodeVersion,
