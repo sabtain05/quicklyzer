@@ -853,6 +853,9 @@ export function scanCommand() {
 
 
     title("AI Recommendations");
+    for(const recommendation of project.intelligence.recommendations){
+      
+    }
     
 
     const update = checkForUpdates();
