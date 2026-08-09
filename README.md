@@ -170,7 +170,7 @@ AI Executive Dashboard
 # Installation Verification
 
 ```bash
-quicklyzer version
+npx quicklyzer version
 ```
 
 ---
