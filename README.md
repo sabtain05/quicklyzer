@@ -96,7 +96,7 @@
 ## Global
 
 ```bash
-npm install -g quicklyzer
+npm install quicklyzer
 ```
 
 ## NPX
