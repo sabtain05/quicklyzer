@@ -138,7 +138,7 @@ quicklyzer about
 # Example
 
 ```bash
-quicklyzer scan
+npx quicklyzer scan
 ```
 
 Output:
