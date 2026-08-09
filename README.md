@@ -122,7 +122,7 @@ Analyze the current project and generate a complete engineering report.
 ## Version
 
 ```bash
-quicklyzer version
+npx quicklyzer version
 ```
 
 ---
