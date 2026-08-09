@@ -130,7 +130,7 @@ quicklyzer version
 ## About
 
 ```bash
-quicklyzer about
+nox quicklyzer about
 ```
 
 ---
