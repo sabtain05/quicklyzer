@@ -112,7 +112,7 @@ npx quicklyzer scan
 ## Scan Project
 
 ```bash
-quicklyzer scan
+npx quicklyzer scan
 ```
 
 Analyze the current project and generate a complete engineering report.
