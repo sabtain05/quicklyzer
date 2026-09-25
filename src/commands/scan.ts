@@ -6,6 +6,8 @@ import { performance } from "node:perf_hooks";
 import ora from "ora";
 import {title, error} from "../utils/ui.js";
 import { checkForUpdates } from "../services/update.js";
+import { analyzeProjectMetrics } from '../services/metrics.js';
+import { printMetricsDashboard } from '../writers/metrics.js';
 
 function shouldShow(options: any) {
   return !options.quiet;
@@ -46,11 +48,6 @@ export function scanCommand() {
     const finished = new Date();
 
     console.log();
-
-    // ============================================================
-    // Project
-    // ============================================================
-
     title("Project");
     console.log(`Name             : ${project.name}`);
     console.log(`Version          : ${project.version}`);
@@ -58,10 +55,6 @@ export function scanCommand() {
     console.log(`Entry Point      : ${project.entryPoint}`);
 
     if (shouldShow(options)) {
-      // ============================================================
-      // Project Structure
-      // ============================================================
-
       console.log();
       title("Project Structure");
 
