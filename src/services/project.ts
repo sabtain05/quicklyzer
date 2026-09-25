@@ -749,8 +749,6 @@ export function analyzeProject(
       verdict: "",
       roadmap: [],
       },
-      metrics?: CodeMetrics,
-
     scripts: scripts,
     nodeVersion: nodeVersion,
     docker: docker,
