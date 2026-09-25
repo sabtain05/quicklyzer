@@ -22,6 +22,7 @@ import { analyzeTesting } from "./testing.js";
 import { analyzeApi } from "./api.js";
 import { analyzeBuild } from  "./build.js";
 import { analyzeIntelligence } from "./intelligence.js";
+import { CodeMetrics } from "../types/metrics.js";
 
 
 export interface ProjectInfo {
@@ -747,6 +748,17 @@ export function analyzeProject(
       verdict: "",
       roadmap: [],
       },
+      metrics: {
+        totalFiles: statistics.totalFiles,
+        totalFunctions: statistics.totalFunctions,
+        totalClasses: statistics.totalClasses,
+        totalComplexity: statistics.totalComplexity,
+        averageComplexity: statistics.averageComplexity,
+        maximumComplexity: statistics.maximumComplexity,
+        averageCognitiveComplexity: statistics.averageCognitiveComplexity,
+        averageMaintainabilityIndex: statistics.averageMaintainabilityIndex
+      },
+
     scripts: scripts,
     nodeVersion: nodeVersion,
     docker: docker,
