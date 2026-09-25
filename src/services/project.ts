@@ -325,6 +325,7 @@ dependencyAnalysis: {
     verdict: string;
     roadmap: string[];
   };
+  metrics?: CodeMetrics;
   scripts: string[];
   nodeVersion: string;
   docker: boolean;
@@ -748,16 +749,7 @@ export function analyzeProject(
       verdict: "",
       roadmap: [],
       },
-      metrics: {
-        totalFiles: statistics.totalFiles,
-        totalFunctions: statistics.totalFunctions,
-        totalClasses: statistics.totalClasses,
-        totalComplexity: statistics.totalComplexity,
-        averageComplexity: statistics.averageComplexity,
-        maximumComplexity: statistics.maximumComplexity,
-        averageCognitiveComplexity: statistics.averageCognitiveComplexity,
-        averageMaintainabilityIndex: statistics.averageMaintainabilityIndex
-      },
+      metrics?: CodeMetrics,
 
     scripts: scripts,
     nodeVersion: nodeVersion,
