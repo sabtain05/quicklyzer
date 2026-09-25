@@ -2,13 +2,23 @@
 
 All notable changes to Quicklyzer will be documented in this file.
 
-This project follows semantic versioning.
+---
+
+# v1.2.0
+
+- Code Metrics Intelligence
+- Cyclomatic Complexity Calculation
+- Cognitive Complexity Calculation
+- Maintainability Index Evaluation
+- Long Method Detection
+- God Class Detection
+- Long Parameter List Detection
+- File Complexity Ranking
+- Code Health Dashboard
 
 ---
 
 # v1.0.0
-
-## Added
 
 - AI Project Intelligence
 - Executive Dashboard
@@ -24,8 +34,6 @@ This project follows semantic versioning.
 
 # v0.9.0
 
-## Added
-
 - Build Intelligence
 - Build Output Analysis
 - Tree Shaking Detection
@@ -38,8 +46,6 @@ This project follows semantic versioning.
 ---
 
 # v0.8.0
-
-## Added
 
 - API Intelligence
 - REST Endpoint Discovery
@@ -56,8 +62,6 @@ This project follows semantic versioning.
 
 # v0.7.0
 
-## Added
-
 - Testing Intelligence
 - Test Framework Detection
 - Coverage Readiness Analysis
@@ -69,8 +73,6 @@ This project follows semantic versioning.
 
 # v0.6.0
 
-## Added
-
 - Documentation Intelligence
 - README Analysis
 - Documentation Health
@@ -79,8 +81,6 @@ This project follows semantic versioning.
 ---
 
 # v0.5.0
-
-## Added
 
 - Git Intelligence
 - Repository Health
@@ -92,8 +92,6 @@ This project follows semantic versioning.
 
 # v0.4.0
 
-## Added
-
 - Security Intelligence
 - Secret Detection
 - Environment File Detection
@@ -103,8 +101,6 @@ This project follows semantic versioning.
 ---
 
 # v0.3.0
-
-## Added
 
 - Dependency Intelligence
 - Package Health Analysis
@@ -116,8 +112,6 @@ This project follows semantic versioning.
 
 # v0.2.0
 
-## Added
-
 - Technology Stack Detection
 - Configuration File Detection
 - Environment Analysis
@@ -127,8 +121,6 @@ This project follows semantic versioning.
 ---
 
 # v0.1.0
-
-## Added
 
 - Project Structure Analysis
 - Source File Discovery
@@ -140,16 +132,12 @@ This project follows semantic versioning.
 
 # v0.0.9
 
-## Added
-
 - Performance improvements
 - Scan output refinements
 
 ---
 
 # v0.0.8
-
-## Added
 
 - Project statistics enhancements
 - Improved dependency reporting
@@ -158,16 +146,12 @@ This project follows semantic versioning.
 
 # v0.0.7
 
-## Added
-
 - Code quality metrics
 - Large file detection
 
 ---
 
 # v0.0.6
-
-## Added
 
 - Project size calculation
 - File and directory analysis
@@ -176,16 +160,12 @@ This project follows semantic versioning.
 
 # v0.0.5
 
-## Added
-
 - Repository metadata detection
 - Script analysis improvements
 
 ---
 
 # v0.0.4
-
-## Added
 
 - Dependency counting
 - Package information improvements
@@ -194,8 +174,6 @@ This project follows semantic versioning.
 
 # v0.0.3
 
-## Added
-
 - Environment analysis
 - Project language detection
 - Framework detection
@@ -203,8 +181,6 @@ This project follows semantic versioning.
 ---
 
 # v0.0.2
-
-## Added
 
 - Improved project scanning
 - Better CLI output formatting

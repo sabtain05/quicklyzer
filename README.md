@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Analyze any JavaScript or TypeScript project and get detailed insights into architecture, dependencies, security, testing, documentation, Git health, build quality, APIs, and AI-powered project intelligence.
+  Analyze any JavaScript or TypeScript project and get detailed insights into architecture, dependencies, security, testing, documentation, Git health, build quality, APIs, Code Metrics, and AI-powered project intelligence.
 </p>
 
 ---
@@ -28,6 +28,16 @@
 - Circular dependency detection
 - Dead module detection
 - Project complexity insights
+
+### Code Metrics
+- Cyclomatic complexity calculation
+- Cognitive complexity calculation
+- Maintainability index evaluation
+- Long method detection
+- God class detection
+- Long parameter list detection
+- File complexity ranking
+- Code health dashboard
 
 ### Documentation Intelligence
 - README analysis
@@ -97,12 +107,14 @@
 
 ```bash
 npm install quicklyzer
+
 ```
 
 ## NPX
 
 ```bash
 npx quicklyzer scan
+
 ```
 
 ---
@@ -113,6 +125,7 @@ npx quicklyzer scan
 
 ```bash
 npx quicklyzer scan
+
 ```
 
 Analyze the current project and generate a complete engineering report.
@@ -123,6 +136,7 @@ Analyze the current project and generate a complete engineering report.
 
 ```bash
 npx quicklyzer version
+
 ```
 
 ---
@@ -131,6 +145,7 @@ npx quicklyzer version
 
 ```bash
 npx quicklyzer about
+
 ```
 
 ---
@@ -139,6 +154,7 @@ npx quicklyzer about
 
 ```bash
 npx quicklyzer scan
+
 ```
 
 Output:
@@ -155,15 +171,17 @@ Build
 Security
 Git
 Documentation
+Code Metrics
 AI Executive Dashboard
+
 ```
 
 ---
 
 # Requirements
 
-- Node.js >= 20
-- npm
+* Node.js >= 20
+* npm
 
 ---
 
@@ -171,6 +189,7 @@ AI Executive Dashboard
 
 ```bash
 npx quicklyzer version
+
 ```
 
 ---
@@ -181,12 +200,13 @@ Quicklyzer helps developers understand a project instantly.
 
 Instead of manually checking dozens of files, Quicklyzer scans your project and provides:
 
-- Engineering insights
-- Security analysis
-- Testing analysis
-- Build analysis
-- Git health
-- AI-powered project assessment
+* Engineering insights
+* Code structure & complexity metrics
+* Security analysis
+* Testing analysis
+* Build analysis
+* Git health
+* AI-powered project assessment
 
 ---
 
@@ -196,8 +216,8 @@ Contributions are welcome.
 
 Please read:
 
-- CONTRIBUTING.md
-- CODE_OF_CONDUCT.md
+* CONTRIBUTING.md
+* CODE_OF_CONDUCT.md
 
 ---
 
