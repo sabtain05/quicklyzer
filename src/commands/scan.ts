@@ -42,6 +42,7 @@ export function scanCommand() {
     spinner.start();
 
     const project = analyzeProject(process.cwd(), { ignore: options.ignore ?? [] });
+    project.metrics = analyzeProjectMetrics(project.projectTree.files);
     spinner.succeed("Analysis completed");
 
     const endTime = performance.now();
@@ -864,6 +865,11 @@ export function scanCommand() {
 
     title("AI Verdict");
     console.log(`${project.intelligence.verdict}`);
+
+
+    if (project.metrics) {
+      printMetricsDashboard(project.metrics);
+    }
     
 
     const update = checkForUpdates();
