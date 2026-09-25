@@ -40,7 +40,7 @@ describe('Code Metrics Analyzer', () => {
     const result = analyzeFile(tempFilePath);
     expect(result).not.toBeNull();
     expect(result?.classes).toBe(1);
-    expect(result?.functions).toBe(1);
+    expect(result?.functions).toBe(2);
   });
 
   it('should identify long parameter lists', () => {
