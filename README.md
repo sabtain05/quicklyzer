@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Analyze any JavaScript or TypeScript project and get detailed insights into architecture, dependencies, security, testing, documentation, Git health, build quality, APIs, Code Metrics, and AI-powered project intelligence.
+  Analyze any JavaScript or TypeScript project and get detailed insights into architecture, dependencies, security, testing, documentation, Git health, build quality, APIs, Code Metrics, CI/CD pipelines, and AI-powered project intelligence.
 </p>
 
 ---
@@ -38,6 +38,13 @@
 - Long parameter list detection
 - File complexity ranking
 - Code health dashboard
+
+### CI/CD Intelligence
+- CI/CD provider detection (GitHub Actions, GitLab CI, CircleCI, Azure Pipelines, Jenkins)
+- Workflow capability analysis (Caching, Tests, Linting, Security, Deployment)
+- Workflow quality score
+- CI health evaluation
+- CI/CD recommendations
 
 ### Documentation Intelligence
 - README analysis
@@ -172,6 +179,7 @@ Security
 Git
 Documentation
 Code Metrics
+CI/CD Intelligence
 AI Executive Dashboard
 
 ```
@@ -205,6 +213,7 @@ Instead of manually checking dozens of files, Quicklyzer scans your project and 
 * Security analysis
 * Testing analysis
 * Build analysis
+* CI/CD pipeline health
 * Git health
 * AI-powered project assessment
 
