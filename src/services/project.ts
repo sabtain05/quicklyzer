@@ -23,6 +23,7 @@ import { analyzeApi } from "./api.js";
 import { analyzeBuild } from  "./build.js";
 import { analyzeIntelligence } from "./intelligence.js";
 import { CodeMetrics } from "../types/metrics.js";
+import { CICDIntelligence } from './cicd.js';
 
 
 export interface ProjectInfo {
@@ -326,6 +327,7 @@ dependencyAnalysis: {
     roadmap: string[];
   };
   metrics?: CodeMetrics;
+  cicd?: CICDIntelligence;
   scripts: string[];
   nodeVersion: string;
   docker: boolean;
