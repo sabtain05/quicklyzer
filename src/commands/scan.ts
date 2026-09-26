@@ -8,6 +8,8 @@ import {title, error} from "../utils/ui.js";
 import { checkForUpdates } from "../services/update.js";
 import { analyzeProjectMetrics } from '../services/metrics.js';
 import { printMetricsDashboard } from '../writers/metrics.js';
+import { analyzeCICD } from '../services/cicd.js';
+import { printCICDDashboard } from '../writers/cicd.js';
 
 function shouldShow(options: any) {
   return !options.quiet;
@@ -43,6 +45,7 @@ export function scanCommand() {
 
     const project = analyzeProject(process.cwd(), { ignore: options.ignore ?? [] });
     project.metrics = analyzeProjectMetrics(project.projectTree.files);
+    project.cicd = analyzeCICD(process.cwd());
     spinner.succeed("Analysis completed");
 
     const endTime = performance.now();
@@ -869,6 +872,10 @@ export function scanCommand() {
 
     if (project.metrics) {
       printMetricsDashboard(project.metrics);
+    }
+
+    if (project.cicd) {
+      printCICDDashboard(project.cicd);
     }
     
 
