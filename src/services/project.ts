@@ -23,7 +23,7 @@ import { analyzeApi } from "./api.js";
 import { analyzeBuild } from  "./build.js";
 import { analyzeIntelligence } from "./intelligence.js";
 import { CodeMetrics } from "../types/metrics.js";
-import { CICDIntelligence } from './cicd.js';
+import { CICDIntelligence } from "../types/cicd.js";
 
 
 export interface ProjectInfo {
