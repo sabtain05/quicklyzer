@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Analyze any JavaScript or TypeScript project and get detailed insights into architecture, dependencies, security, testing, documentation, Git health, build quality, APIs, Code Metrics, CI/CD pipelines, and AI-powered project intelligence.
+  Analyze any JavaScript or TypeScript project and get detailed insights into architecture, dependencies, security, testing, documentation, Git health, build quality, APIs, Code Metrics, CI/CD pipelines, Docker containers, and AI-powered project intelligence.
 </p>
 
 ---
@@ -45,6 +45,15 @@
 - Workflow quality score
 - CI health evaluation
 - CI/CD recommendations
+
+### Docker & Container Intelligence
+- Dockerfile analysis (Base images, exposed ports, volumes)
+- Multi-stage build detection
+- Container security checks (Non-root user detection, HEALTHCHECK)
+- Docker Compose analysis (Services, networks, volumes)
+- Kubernetes manifest detection
+- Container health score
+- Container recommendations
 
 ### Documentation Intelligence
 - README analysis
@@ -180,6 +189,7 @@ Git
 Documentation
 Code Metrics
 CI/CD Intelligence
+Docker & Container Intelligence
 AI Executive Dashboard
 
 ```
@@ -214,6 +224,7 @@ Instead of manually checking dozens of files, Quicklyzer scans your project and 
 * Testing analysis
 * Build analysis
 * CI/CD pipeline health
+* Docker & container security insights
 * Git health
 * AI-powered project assessment
 
@@ -256,6 +267,7 @@ GitHub:
 https://github.com/sabtain05
 
 ---
+
 <p align="center">
 <strong>A Sabtain Ali production</strong>
 </p>

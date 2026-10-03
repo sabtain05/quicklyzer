@@ -10,6 +10,8 @@ import { analyzeProjectMetrics } from '../services/metrics.js';
 import { printMetricsDashboard } from '../writers/metrics.js';
 import { analyzeCICD } from '../services/cicd.js';
 import { printCICDDashboard } from '../writers/cicd.js';
+import { analyzeDocker } from '../services/docker.js';
+import { printDockerDashboard } from '../writers/docker.js';
 
 function shouldShow(options: any) {
   return !options.quiet;
@@ -46,6 +48,7 @@ export function scanCommand() {
     const project = analyzeProject(process.cwd(), { ignore: options.ignore ?? [] });
     project.metrics = analyzeProjectMetrics(project.projectTree.files);
     project.cicd = analyzeCICD(process.cwd());
+    project.docker = analyzeDocker(project.projectTree.files);
     spinner.succeed("Analysis completed");
 
     const endTime = performance.now();
@@ -877,7 +880,10 @@ export function scanCommand() {
     if (project.cicd) {
       printCICDDashboard(project.cicd);
     }
-    
+
+    if (project.docker && typeof project.docker !== "boolean") {
+      printDockerDashboard(project.docker);
+    }
 
     const update = checkForUpdates();
     title("Quicklyzer");

@@ -24,6 +24,7 @@ import { analyzeBuild } from  "./build.js";
 import { analyzeIntelligence } from "./intelligence.js";
 import { CodeMetrics } from "../types/metrics.js";
 import { CICDIntelligence } from "../types/cicd.js";
+import { DockerIntelligence } from "../types/docker.js";
 
 
 export interface ProjectInfo {
@@ -328,9 +329,10 @@ dependencyAnalysis: {
   };
   metrics?: CodeMetrics;
   cicd?: CICDIntelligence;
+  dockerIntelligence?: DockerIntelligence;
   scripts: string[];
   nodeVersion: string;
-  docker: boolean;
+  docker: boolean | DockerIntelligence;
   ci: string;
   eslint: boolean;
   prettier: boolean;

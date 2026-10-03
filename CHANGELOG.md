@@ -6,6 +6,21 @@ This project follows semantic versioning.
 
 ---
 
+# v1.6.0
+
+## Added
+
+- Docker & Container Intelligence
+- Dockerfile Analysis (Base images, exposed ports, volumes)
+- Multi-stage Build Detection
+- Container Security Checks (Non-root user detection, HEALTHCHECK)
+- Docker Compose Analysis (Services, networks, volumes)
+- Kubernetes Manifest Detection
+- Container Health Score
+- Container Recommendations Dashboard
+
+---
+
 # v1.5.0
 
 ## Added
