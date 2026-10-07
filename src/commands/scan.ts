@@ -12,6 +12,8 @@ import { analyzeCICD } from '../services/cicd.js';
 import { printCICDDashboard } from '../writers/cicd.js';
 import { analyzeDocker } from '../services/docker.js';
 import { printDockerDashboard } from '../writers/docker.js';
+import { runPlugins } from '../services/plugin.js';
+import { printPluginDashboard } from '../writers/plugin.js';
 
 function shouldShow(options: any) {
   return !options.quiet;
@@ -37,7 +39,7 @@ export function scanCommand() {
       },
       []
     )
-    .action((options)=> {
+    .action(async (options)=> {
   const startTime = performance.now();
   const spinner = ora("Analyzing project...");
   const started = new Date();
@@ -49,6 +51,7 @@ export function scanCommand() {
     project.metrics = analyzeProjectMetrics(project.projectTree.files);
     project.cicd = analyzeCICD(process.cwd());
     project.docker = analyzeDocker(project.projectTree.files);
+    project.plugins = await runPlugins(process.cwd(), project.projectTree.files);
     spinner.succeed("Analysis completed");
 
     const endTime = performance.now();
@@ -883,6 +886,10 @@ export function scanCommand() {
 
     if (project.docker && typeof project.docker !== "boolean") {
       printDockerDashboard(project.docker);
+    }
+
+    if (project.plugins) {
+      printPluginDashboard(project.plugins);
     }
 
     const update = checkForUpdates();
