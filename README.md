@@ -55,6 +55,12 @@
 - Container health score
 - Container recommendations
 
+### Plugin System (v1.9.0)
+- Dynamic configuration discovery
+- Plugin lifecycle hooks (`onStart`, `onFile`, `onFinish`)
+- Custom analyzer execution
+- Custom metric and warning injection
+
 ### Documentation Intelligence
 - README analysis
 - Documentation score
@@ -190,6 +196,7 @@ Documentation
 Code Metrics
 CI/CD Intelligence
 Docker & Container Intelligence
+Plugin System
 AI Executive Dashboard
 
 ```
@@ -225,6 +232,7 @@ Instead of manually checking dozens of files, Quicklyzer scans your project and 
 * Build analysis
 * CI/CD pipeline health
 * Docker & container security insights
+* Extensible plugin support
 * Git health
 * AI-powered project assessment
 

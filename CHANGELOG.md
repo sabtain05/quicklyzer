@@ -6,6 +6,19 @@ This project follows semantic versioning.
 
 ---
 
+# v1.9.0
+
+## Added
+
+- Plugin System Architecture
+- Dynamic configuration discovery (`quicklyzer.config.js` / `.mjs` / `.cjs`)
+- Plugin lifecycle hooks (`onStart`, `onFile`, `onFinish`)
+- Custom metric, warning, and error reporting for plugins
+- Isolated plugin execution context
+- Plugin System Dashboard
+
+---
+
 # v1.6.0
 
 ## Added
