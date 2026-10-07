@@ -15,3 +15,18 @@ export interface QuicklyzerPlugin {
     onFile?: (filePath: string, content: string, context: PluginContext) => void | Promise<void>;
     onFinish?: (context: PluginContext) => void | Promise<void>;
 }
+
+export interface PluginExecutionResult {
+    name: string;
+    version: string;
+    executionTimeMs: number;
+    errors: string[];
+    warnings: string[];
+    metrics: Record<string, string | number>;
+}
+
+export interface PluginIntelligence {
+    hasPlugins: boolean;
+    loadedCount: number;
+    results: PluginExecutionResult[];
+}
