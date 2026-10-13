@@ -26,6 +26,7 @@ import { CodeMetrics } from "../types/metrics.js";
 import { CICDIntelligence } from "../types/cicd.js";
 import { DockerIntelligence } from "../types/docker.js";
 import { PluginIntelligence } from "../types/plugin.js";
+import { CloudIntelligence } from "../types/cloud.js";
 
 
 export interface ProjectInfo {
@@ -332,6 +333,7 @@ dependencyAnalysis: {
   cicd?: CICDIntelligence;
   dockerIntelligence?: DockerIntelligence;
   plugins?: PluginIntelligence;
+  cloud?: CloudIntelligence;
   scripts: string[];
   nodeVersion: string;
   docker: boolean | DockerIntelligence;

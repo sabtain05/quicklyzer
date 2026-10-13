@@ -14,6 +14,8 @@ import { analyzeDocker } from '../services/docker.js';
 import { printDockerDashboard } from '../writers/docker.js';
 import { runPlugins } from '../services/plugin.js';
 import { printPluginDashboard } from '../writers/plugin.js';
+import { analyzeCloud } from '../services/cloud.js';
+import { printCloudDashboard } from '../writers/cloud.js';
 
 function shouldShow(options: any) {
   return !options.quiet;
@@ -52,6 +54,7 @@ export function scanCommand() {
     project.cicd = analyzeCICD(process.cwd());
     project.docker = analyzeDocker(project.projectTree.files);
     project.plugins = await runPlugins(process.cwd(), project.projectTree.files);
+    project.cloud = analyzeCloud(project.projectTree.files);
     spinner.succeed("Analysis completed");
 
     const endTime = performance.now();
@@ -890,6 +893,10 @@ export function scanCommand() {
 
     if (project.plugins) {
       printPluginDashboard(project.plugins);
+    }
+
+    if (project.cloud) {
+      printCloudDashboard(project.cloud);
     }
 
     const update = checkForUpdates();

@@ -6,6 +6,19 @@ This project follows semantic versioning.
 
 ---
 
+# v2.1.0
+
+## Added
+
+- Cloud Deployment Intelligence
+- Cloud Provider Detection (Vercel, Netlify, AWS, Firebase, Google Cloud, Azure, Heroku, Cloudflare)
+- Infrastructure as Code (IaC) Detection (Terraform, Pulumi)
+- Serverless Framework Detection (Serverless, AWS SAM)
+- Deployment Readiness Score
+- Cloud Recommendations Dashboard
+
+---
+
 # v1.9.0
 
 ## Added

@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Analyze any JavaScript or TypeScript project and get detailed insights into architecture, dependencies, security, testing, documentation, Git health, build quality, APIs, Code Metrics, CI/CD pipelines, Docker containers, and AI-powered project intelligence.
+  Analyze any JavaScript or TypeScript project and get detailed insights into architecture, dependencies, security, testing, documentation, Git health, build quality, APIs, Code Metrics, CI/CD pipelines, Docker containers, Cloud deployments, and AI-powered project intelligence.
 </p>
 
 ---
@@ -39,6 +39,13 @@
 - File complexity ranking
 - Code health dashboard
 
+### Cloud & Deployment Intelligence
+- Cloud provider detection (Vercel, Netlify, AWS, Firebase, Google Cloud, Azure, Heroku, Cloudflare)
+- Infrastructure as Code (IaC) detection (Terraform, Pulumi)
+- Serverless framework detection (Serverless, AWS SAM)
+- Deployment readiness score
+- Cloud recommendations
+
 ### CI/CD Intelligence
 - CI/CD provider detection (GitHub Actions, GitLab CI, CircleCI, Azure Pipelines, Jenkins)
 - Workflow capability analysis (Caching, Tests, Linting, Security, Deployment)
@@ -55,7 +62,7 @@
 - Container health score
 - Container recommendations
 
-### Plugin System (v1.9.0)
+### Plugin System
 - Dynamic configuration discovery
 - Plugin lifecycle hooks (`onStart`, `onFile`, `onFinish`)
 - Custom analyzer execution
@@ -196,6 +203,7 @@ Documentation
 Code Metrics
 CI/CD Intelligence
 Docker & Container Intelligence
+Cloud & Deployment Intelligence
 Plugin System
 AI Executive Dashboard
 
@@ -232,6 +240,7 @@ Instead of manually checking dozens of files, Quicklyzer scans your project and 
 * Build analysis
 * CI/CD pipeline health
 * Docker & container security insights
+* Cloud deployment readiness
 * Extensible plugin support
 * Git health
 * AI-powered project assessment
@@ -273,7 +282,6 @@ MIT License
 
 GitHub:
 https://github.com/sabtain05
-
 ---
 
 <p align="center">
