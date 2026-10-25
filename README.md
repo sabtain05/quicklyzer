@@ -1,7 +1,7 @@
 # Quicklyzer
 
 <p align="center">
-  <strong>A fast & intelligent CLI that understands and analyzes software projects in seconds.</strong>
+  <strong>CLI that understands and analyzes software projects in seconds.</strong>
 </p>
 
 <p align="center">
