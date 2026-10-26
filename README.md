@@ -1,7 +1,7 @@
 # Quicklyzer
 
 <p align="center">
-  <strong>Lightweight CLI that understands and analyzes software projects in seconds.</strong>
+  <strong>Light-weight toCLI that understands and analyzes software projects in seconds.</strong>
 </p>
 
 <p align="center">
