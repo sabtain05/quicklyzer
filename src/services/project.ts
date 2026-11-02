@@ -27,6 +27,7 @@ import { CICDIntelligence } from "../types/cicd.js";
 import { DockerIntelligence } from "../types/docker.js";
 import { PluginIntelligence } from "../types/plugin.js";
 import { CloudIntelligence } from "../types/cloud.js";
+import { RefactorIntelligence } from '../types/refactor.js';
 
 
 export interface ProjectInfo {
@@ -334,6 +335,7 @@ dependencyAnalysis: {
   dockerIntelligence?: DockerIntelligence;
   plugins?: PluginIntelligence;
   cloud?: CloudIntelligence;
+  refactor?: RefactorIntelligence;
   scripts: string[];
   nodeVersion: string;
   docker: boolean | DockerIntelligence;
