@@ -1,11 +1,11 @@
 # Quicklyzer
 
 <p align="center">
-  <strong>Light-weight toCLI that understands and analyzes software projects in seconds.</strong>
+  <strong>A fast & lightweight CLI that understands and analyzes software projects in seconds.</strong>
 </p>
 
 <p align="center">
-  Analyze any JavaScript or TypeScript project and get detailed insights into architecture, dependencies, security, testing, documentation, Git health, build quality, APIs, Code Metrics, CI/CD pipelines, Docker containers, Cloud deployments, and AI-powered project intelligence.
+  Analyze any JavaScript or TypeScript project and get detailed insights into architecture, dependencies, security, testing, documentation, Git health, build quality, APIs, Code Metrics, CI/CD pipelines, Docker containers, Cloud deployments, AI Refactoring, and AI-powered project intelligence.
 </p>
 
 ---
@@ -38,6 +38,14 @@
 - Long parameter list detection
 - File complexity ranking
 - Code health dashboard
+
+### AI-Assisted Refactoring Suggestions
+- Refactor urgency scoring based on impact
+- Dangerous React pattern detection (`dangerouslySetInnerHTML`)
+- Potential malicious execution detection (`eval()`)
+- Performance bottleneck detection (e.g., `await` inside loops)
+- Technical debt detection (`var`, `any`, `@ts-ignore`)
+- Estimated debugging/scaling time savings
 
 ### Cloud & Deployment Intelligence
 - Cloud provider detection (Vercel, Netlify, AWS, Firebase, Google Cloud, Azure, Heroku, Cloudflare)
@@ -205,6 +213,7 @@ CI/CD Intelligence
 Docker & Container Intelligence
 Cloud & Deployment Intelligence
 Plugin System
+AI-Assisted Refactoring Suggestions
 AI Executive Dashboard
 
 ```
@@ -241,6 +250,7 @@ Instead of manually checking dozens of files, Quicklyzer scans your project and 
 * CI/CD pipeline health
 * Docker & container security insights
 * Cloud deployment readiness
+* AI-driven refactoring suggestions
 * Extensible plugin support
 * Git health
 * AI-powered project assessment
@@ -282,6 +292,7 @@ MIT License
 
 GitHub:
 https://github.com/sabtain05
+
 ---
 
 <p align="center">

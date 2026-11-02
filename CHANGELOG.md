@@ -6,6 +6,21 @@ This project follows semantic versioning.
 
 ---
 
+# v2.5.0
+
+## Added
+
+- AI-Assisted Refactoring Suggestions
+- Refactor urgency scoring based on impact
+- Detection of dangerous React patterns (`dangerouslySetInnerHTML`)
+- Detection of potential malicious execution (`eval()`)
+- Performance bottleneck detection (e.g., `await` inside loops)
+- Technical debt detection (`var` usage, excessive `any`, `@ts-ignore`)
+- Estimated debugging/scaling time savings
+- Refactoring Suggestions Dashboard
+
+---
+
 # v2.1.0
 
 ## Added
