@@ -16,6 +16,8 @@ import { runPlugins } from '../services/plugin.js';
 import { printPluginDashboard } from '../writers/plugin.js';
 import { analyzeCloud } from '../services/cloud.js';
 import { printCloudDashboard } from '../writers/cloud.js';
+import { analyzeRefactoring } from '../services/refactor.js';
+import { printRefactorDashboard } from '../writers/refactor.js';
 
 function shouldShow(options: any) {
   return !options.quiet;
@@ -55,6 +57,7 @@ export function scanCommand() {
     project.docker = analyzeDocker(project.projectTree.files);
     project.plugins = await runPlugins(process.cwd(), project.projectTree.files);
     project.cloud = analyzeCloud(project.projectTree.files);
+    project.refactor = analyzeRefactoring(project.projectTree.files);
     spinner.succeed("Analysis completed");
 
     const endTime = performance.now();
@@ -897,6 +900,10 @@ export function scanCommand() {
 
     if (project.cloud) {
       printCloudDashboard(project.cloud);
+    }
+
+    if (project.refactor) {
+      printRefactorDashboard(project.refactor);
     }
 
     const update = checkForUpdates();
