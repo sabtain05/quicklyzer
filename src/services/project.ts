@@ -28,15 +28,14 @@ import { DockerIntelligence } from "../types/docker.js";
 import { PluginIntelligence } from "../types/plugin.js";
 import { CloudIntelligence } from "../types/cloud.js";
 import { RefactorIntelligence } from '../types/refactor.js';
-import { EcosystemIntelligence } from './ecosystem.js';
-import { LanguageIntelligence } from './language.js';
+import { EcosystemIntelligence } from '../types/ecosystem.js';
+import { LanguageIntelligence } from '../types/language.js';
 
 
 export interface ProjectInfo {
   name: string;
   version: string;
   packageManager: string;
-  language: string;
   framework: string;
   frameworkVersion: string;
   buildTool: string;
@@ -339,7 +338,7 @@ dependencyAnalysis: {
   cloud?: CloudIntelligence;
   refactor?: RefactorIntelligence;
   ecosystem?: EcosystemIntelligence;
-  language?: LanguageIntelligence;
+  language?: string;
   scripts: string[];
   nodeVersion: string;
   docker: boolean | DockerIntelligence;

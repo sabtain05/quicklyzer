@@ -10,5 +10,5 @@ export interface EcosystemIntelligence {
   tool: MonorepoTool[];
   packages: WorkspacePackage[];
   packageCount: number;
-  ecosystemHealth: 'Excellent' | 'Good' | 'Fair' | 'Poor';
+  ecosystemHealth: 'Excellent' | 'Good' | 'Fair' | 'Poor' | 'None';
 }

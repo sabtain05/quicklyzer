@@ -8,5 +8,5 @@ export interface LanguageIntelligence {
   isMultiLanguage: boolean;
   primaryLanguage: string;
   languages: LanguageStat[];
-  detectedLanguages: string[];
+  detectedFrameWorks: string[];
 }
