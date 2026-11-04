@@ -1,4 +1,3 @@
-// src/writers/language.ts
 import chalk from 'chalk';
 import { LanguageIntelligence } from '../types/language.js';
 
