@@ -1,43 +1,28 @@
 # Quicklyzer
 
 <p align="center">
-  <strong>A fast & lightweight CLI that understands and analyzes software projects in seconds.</strong>
+  <strong>A fast & intelligent CLI that understands and analyzes software projects in seconds.</strong>
 </p>
 
 <p align="center">
-  Analyze any JavaScript or TypeScript project and get detailed insights into architecture, dependencies, security, testing, documentation, Git health, build quality, APIs, Code Metrics, CI/CD pipelines, Docker containers, Cloud deployments, AI Refactoring, and AI-powered project intelligence.
+  Analyze any software project and get detailed insights into architecture, dependencies, security, testing, documentation, Git health, build quality, APIs, Code Metrics, CI/CD pipelines, Docker containers, Cloud deployments, Monorepo ecosystems, Cross-Language composition, and AI-powered project intelligence.
 </p>
 
 ---
 
 ## Features
 
-### Project Analysis
-- Project structure analysis
-- Technology stack detection
-- Environment detection
-- Configuration file discovery
-- Project statistics
-- Dependency analysis
-- Package health
-- Project scoring
+### Cross-Language & Framework Intelligence (v3.0.0)
+- Polyglot analysis supporting JavaScript, TypeScript, Python, Go, Rust, Java, .NET, PHP, C++, C, Ruby, Swift, Kotlin, Dart, and more
+- File extension mapping and percentage composition
+- Mobile framework detection (Flutter, React Native, iOS Native, Android Native)
+- Backend ecosystem detection (Django, Spring Boot, Ruby on Rails, Laravel)
 
-### Architecture Intelligence
-- Folder structure analysis
-- Module analysis
-- Circular dependency detection
-- Dead module detection
-- Project complexity insights
-
-### Code Metrics
-- Cyclomatic complexity calculation
-- Cognitive complexity calculation
-- Maintainability index evaluation
-- Long method detection
-- God class detection
-- Long parameter list detection
-- File complexity ranking
-- Code health dashboard
+### Ecosystem & Monorepo Intelligence (v2.9.0)
+- Monorepo tool detection (Lerna, Nx, Turborepo)
+- Workspace resolution (Yarn, npm, pnpm Workspaces)
+- Cross-package mapping and package discovery
+- Ecosystem health evaluation
 
 ### AI-Assisted Refactoring Suggestions
 - Refactor urgency scoring based on impact
@@ -76,65 +61,44 @@
 - Custom analyzer execution
 - Custom metric and warning injection
 
-### Documentation Intelligence
-- README analysis
-- Documentation score
-- Missing documentation detection
-- Documentation recommendations
+### Project Analysis & Architecture
+- Project structure and technology stack detection
+- Configuration file discovery
+- Circular dependency & dead module detection
+- Project complexity insights
+
+### Code Metrics
+- Cyclomatic and Cognitive complexity calculation
+- Maintainability index evaluation
+- Long method, God class, and Long parameter list detection
+- File complexity ranking
+- Code health dashboard
 
 ### Security Intelligence
-- Secret detection
-- Environment file detection
+- Secret detection and environment file detection
 - Dangerous file detection
-- Security score
-- Security recommendations
+- Security score and recommendations
 
 ### Git Intelligence
-- Repository health
-- Branch information
-- Working tree status
-- Recent commits
-- Repository score
+- Repository health and working tree status
+- Recent commits and repository score
 
-### Testing Intelligence
-- Test framework detection
-- Unit / Integration / E2E tests
-- Test quality score
-- Coverage readiness
-- Testing maturity
-- Testing recommendations
-
-### API Intelligence
-- REST endpoint discovery
-- HTTP method detection
-- Route grouping
-- Middleware detection
-- API version detection
-- GraphQL detection
-- WebSocket detection
-- OpenAPI detection
-- API health
+### Testing & API Intelligence
+- Test framework detection and coverage readiness
+- REST endpoint, GraphQL, WebSocket, and OpenAPI detection
+- API routing and middleware analysis
 
 ### Build Intelligence
-- Build system detection
-- Build output analysis
-- Tree shaking detection
-- Code splitting detection
-- Bundle analysis
+- Build system detection and output analysis
+- Tree shaking, code splitting, and bundle analysis
 - Production readiness
-- Build maturity
 
 ### AI Project Intelligence
 - Executive project summary
-- Strength analysis
-- Weakness analysis
-- Maintainability score
-- Scalability score
-- Technical debt estimation
-- Risk assessment
-- Improvement roadmap
-- AI grade
-- AI executive report
+- Strength and weakness analysis
+- Maintainability and Scalability scores
+- Technical debt estimation and risk assessment
+- Improvement roadmap and AI grade
 
 ---
 
@@ -213,6 +177,8 @@ CI/CD Intelligence
 Docker & Container Intelligence
 Cloud & Deployment Intelligence
 Plugin System
+Ecosystem & Monorepo Intelligence
+Cross-Language & Framework Intelligence
 AI-Assisted Refactoring Suggestions
 AI Executive Dashboard
 
@@ -242,14 +208,11 @@ Quicklyzer helps developers understand a project instantly.
 
 Instead of manually checking dozens of files, Quicklyzer scans your project and provides:
 
-* Engineering insights
+* Engineering insights across multiple languages
 * Code structure & complexity metrics
 * Security analysis
-* Testing analysis
-* Build analysis
-* CI/CD pipeline health
-* Docker & container security insights
-* Cloud deployment readiness
+* CI/CD, Docker, and Cloud deployment readiness
+* Monorepo workspace mapping
 * AI-driven refactoring suggestions
 * Extensible plugin support
 * Git health

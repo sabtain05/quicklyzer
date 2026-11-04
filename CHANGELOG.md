@@ -6,6 +6,32 @@ This project follows semantic versioning.
 
 ---
 
+# v3.0.0
+
+## Added
+
+- Cross-Language Project Intelligence Platform
+- Polyglot analysis (Python, Go, Rust, Java, .NET, PHP, C++, Ruby, Swift, Kotlin, Dart, HTML, CSS, etc.)
+- Language composition analysis (file counts and percentage breakdown)
+- Mobile framework detection (Flutter, React Native, Native iOS/Android)
+- Backend ecosystem detection (Django, Spring Boot, Ruby on Rails, Laravel)
+- Cross-Language Dashboard with visual percentage bars
+
+---
+
+# v2.9.0
+
+## Added
+
+- Full Ecosystem Support
+- Monorepo tool detection (Lerna, Nx, Turborepo)
+- Workspace resolution (Yarn Workspaces, npm Workspaces, pnpm Workspaces)
+- Cross-package mapping and discovery
+- Workspace health evaluation
+- Ecosystem & Monorepo Intelligence Dashboard
+
+---
+
 # v2.5.0
 
 ## Added
