@@ -18,6 +18,10 @@ import { analyzeCloud } from '../services/cloud.js';
 import { printCloudDashboard } from '../writers/cloud.js';
 import { analyzeRefactoring } from '../services/refactor.js';
 import { printRefactorDashboard } from '../writers/refactor.js';
+import { analyzeEcosystem } from '../services/ecosystem.js';
+import { analyzeLanguages } from '../services/language.js';
+import { printEcosystemDashboard } from '../writers/ecosystem.js';
+import { printLanguageDashboard } from '../writers/language.js';
 
 function shouldShow(options: any) {
   return !options.quiet;
@@ -58,6 +62,8 @@ export function scanCommand() {
     project.plugins = await runPlugins(process.cwd(), project.projectTree.files);
     project.cloud = analyzeCloud(project.projectTree.files);
     project.refactor = analyzeRefactoring(project.projectTree.files);
+    project.ecosystem = analyzeEcosystem(project.projectTree.files, process.cwd());
+    const languageIntelligence = analyzeLanguages(project.projectTree.files);
     spinner.succeed("Analysis completed");
 
     const endTime = performance.now();
@@ -827,6 +833,14 @@ export function scanCommand() {
       console.log("Recommendation   : Improve documentation and project structure.");
     } else {
       console.log("Recommendation   : Significant improvements recommended.");
+    }
+
+    if (project.ecosystem) {
+      printEcosystemDashboard(project.ecosystem);
+    }
+
+    if (languageIntelligence) {
+      printLanguageDashboard(languageIntelligence);
     }
 
 
